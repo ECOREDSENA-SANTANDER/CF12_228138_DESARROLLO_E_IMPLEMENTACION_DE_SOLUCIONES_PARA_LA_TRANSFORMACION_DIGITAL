@@ -17,7 +17,10 @@
             p.mb-0 La migración de información a la nube, como se ha visto anteriormente, es un paso obligado para particulares y para empresas que se encuentren dotadas a nivel de infraestructura, con equipos de servidores, aplicaciones, redes, etc. Todo esto implica un largo, y a veces complejo proceso de migración. 
       p.mb-5 Este proceso de migración, #[b consiste en una serie de actividades para lograr una identificación, planificación, ejecución y evaluación de migración de servicios de TI locales a servicios en la nube dentro de una organización.]
       
-      h3.mb-3 concepto
+    .mb-4.d-flex
+      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Concepto
+        img.clase2.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
 
     .row.align-items-center.justify-content-center.mb-2(data-aos="zoom-in-left")
       .col-lg-8.my-4
@@ -31,7 +34,7 @@
     .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
-          h5 Figura 8.
+          h5 Figura 9.
           span Las 6 Rs de #[em AWS] para migración a la nube
         img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='')
   
@@ -41,169 +44,254 @@
     .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
-          h5 Figura 8.
-          span Las 6 Rs de #[em AWS] para migración a la nube
+          h5 Figura 10.
+          span Estrategias de migracion
         img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/fig9.png', alt='')
     
-    h3.mb-3 Tipos y
+
+    .mb-4.d-flex
+      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Tipos y caracteristicas
+        img.clase1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
+    
 
     .row.align-items-center.justify-content.mb-0(data-aos="zoom-in-left")
-      .col-lg-8.my-0.mx-0
-        p.mb-0 Como se estudió anteriormente, existe la técnica de las 6 Rs, que permite la identificación de estrategias para la migración de información a la nube. Estas estrategias corresponden con unos tipos y características particulares, de acuerdo con los costes que implica:
-      .row
-      .col-sm-6.col-lg-2.mb-0.mb-lg-0
-        .tarjeta--boton.color-primario.p-2
-          .row.justify-content-center.mb-5
-            .col-5
-              figure
-                img(src='@/assets/curso/temas/tema5/traslado.svg', alt='Texto que describa la imagen')
-          p.text-center El traslado
-      .col-sm-6.col-lg-2.mb-2.mb-lg-0
-        .tarjeta--boton.color-primario.p-2
-          .row.justify-content-center.mb-4
-            .col-5
-              figure
-                img(src='@/assets/curso/temas/tema5/necesidad.svg', alt='Texto que describa la imagen')
-          p.text-center Las necesidades de la organización
-      .col-sm-6.col-lg-2.mb-2.mb-lg-0
-        .tarjeta--boton.color-primario.p-1
-          .row.justify-content-center.mb-0
-            .col-5
-              figure
-                img(src='@/assets/curso/temas/tema5/tiempo.svg', alt='Texto que describa la imagen')
-          p.text-center El tiempo permitido o posible para llevarlo a cabo
-      .col-sm-2.col-lg-2.mb-4.mb-lg-0
-        .tarjeta--boton.color-primario.p-1
-          .row.justify-content-center.mb-4
-            .col-5
-              figure
-                img(src='@/assets/curso/temas/tema5/misma.svg', alt='Texto que describa la imagen')
-          p.text-center La misma estrategia de negocio  
-
-      .col-lg-4.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/tema5/img4.png', alt='') 
+      .col-lg-8.my-3.mx-0
+        p.mb-3 Como se estudió anteriormente, existe la técnica de las 6 Rs, que permite la #[b identificación de estrategias para la migración de información a la nube.] Estas estrategias corresponden con unos tipos y características particulares, de acuerdo con los costes que implica:
     
-    p.mb-3 En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
-    
-    
-    
-
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        LineaTiempoD.color-secundario
-          p(numero="1" titulo="(R)ehosting") Refiere a la estrategia de lift-and-shift, en donde se trasladan las aplicaciones a la nube sin rediseño de ningún tipo (a veces de forma literal), podría decirse que como una copia bit a bit.<br>De esta forma no hay grandes beneficios a corto plazo, sin embargo, posibilita una migración relativamente rápida (hay automatizaciones al respecto), y se espera que un posible rediseño posterior sea más sencillo una vez las aplicaciones se encuentren ya en la nube.
-          p(numero="2" titulo="(R)eplatforming") Corresponde con el escenario lift-tinker-and-shift, es decir, el medio del artículo anterior, donde no se cambia de forma fundamental la arquitectura de la aplicación, pero se introduce alguna pequeña mejora.
-          p(numero="3" titulo="(R)epurchasing") Es una estrategia totalmente diferente, pues ya no se trata de migrar la aplicación existente, sino de adoptar una nueva aplicación que se encuentre en la nube. Por ejemplo, podríamos abandonar nuestro CRM legado y migrar hacia Salesforce. Si bien es cierto, no existe una migración de aplicación propiamente dicha, son necesarias las acciones como migrar datos, rediseñar interfaces, etc.
-          p(numero="4" titulo="(R)efactoring / (R)-arquitecting") Esta estrategia consiste en hacer un rediseño profundo de la aplicación que sea realmente cloud nativa. Se considera la llamada “reingeniería” (cambios profundos en la aplicación), como se indica, semejante al desarrollo de cloud nativo, que consiste en la construcción desde cero.
-          p(numero="5" titulo="(R)etire ") Esta estrategia, realmente no se trata de una migración, sino más bien de aprovechar el esfuerzo y análisis de la realidad de sistemas disponibles para prescindir de alguno que realmente no aporte valor o que su funcionalidad permite ser absorbida por otro. Es idóneo para simplificar el mapa de sistemas, permitiendo ahorro en el costo, aporte en agilidad y mayor facilidad en la gestión.
-          p(numero="6" titulo="(R)etain ") En realidad es una no migración, es decir, es una decisión consciente de no migrar una aplicación a la nube.
-      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/temas/tema5/img5.png")  
+        .row.align-items-center.justify-content-center
+          .col-sm-6.col-lg-3.mb-4.mb-lg-4
+            .tarjeta--boton.color-primario.bg111111.p-3
+              .row.justify-content-center.mb-3
+                .col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema5/traslado.svg', alt='Texto que describa la imagen')
+              p.text-center El traslado
       
+          .col-sm-6.col-lg-3.mb-4.mb-lg-4
+            .tarjeta--boton.color-primario.bg111111.p-3
+              .row.justify-content-center.mb-3
+                .col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema5/necesidad.svg', alt='Texto que describa la imagen')
+              p.text-center Las necesidades de la organización
+
+          .col-sm-6.col-lg-3.mb-4.mb-lg-4
+            .tarjeta--boton.color-primario.bg111111.p-3
+              .row.justify-content-center.mb-3
+                .col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema5/tiempo.svg', alt='Texto que describa la imagen') 
+              p.text-center El tiempo permitido o posible para llevarlo a cabo
+    
+          .col-sm-6.col-lg-3.mb-4.mb-lg-4
+            .tarjeta--boton.color-primario.bg111111.p-3
+              .row.justify-content-center.mb-3
+                .col-6
+                  figure
+                    img(src='@/assets/curso/temas/tema5/misma.svg', alt='Texto que describa la imagen')
+              p.text-center  La misma estrategia de negocio
+    
+      .col-lg-4
+        img.my-3.mt-0(src='@/assets/curso/temas/tema5/img4.png', alt='') 
+    
+    p.mb-4 En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
+    
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-lg-7.md-lg-10.col-12
+        LineaTiempoD.color-secundario
+          .row(numero="1" titulo= "<em>(R)ehosting</em>")
+            .col-md-12.mb-2.mb-md-0.mx-0
+              p  Refiere a la estrategia de #[em lift-and-shift], en donde se trasladan las aplicaciones a la nube sin rediseño de ningún tipo (a veces de forma literal), podría decirse que como una copia bit a bit.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t.mb-4.mx-2(src='@/assets/curso/temas/tema5/cincoo.svg', alt='')
+                p De esta forma no hay grandes beneficios a corto plazo, sin embargo, posibilita una migración relativamente rápida (hay automatizaciones al respecto), y se espera que un posible rediseño posterior sea más sencillo una vez las aplicaciones se encuentren ya en la nube.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/unooo.svg', alt='')
+          
+          .row(numero="2" titulo="<em>(R)eplatforming</em>")
+            .col-md-12.mb-4.mb-md-0
+              p  Corresponde con el escenario #[em lift-tinker-and-shift,] es decir, el medio del artículo anterior, donde no se cambia de forma fundamental la arquitectura de la aplicación, pero se introduce alguna pequeña mejora.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/dosss.svg', alt='')
+          
+          .row(numero="3" titulo= "<em>(R)epurchasing</em>")
+            .col-md-12.mb-2.mb-md-0.mx-0
+              p Es una estrategia totalmente diferente, pues ya no se trata de migrar la aplicación existente, sino de adoptar una nueva aplicación que se encuentre en la nube. Por ejemplo, podríamos abandonar nuestro CRM legado y migrar hacia #[em Salesforce]. Si bien es cierto, no existe una migración de aplicación propiamente dicha, son necesarias las acciones como migrar datos, rediseñar interfaces, etc.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/tresss.svg', alt='')
+          
+          .row(numero="4" titulo= "<em>(R)efactoring / (R)-arquitecting</em>")
+            .col-md-12.mb-2.mb-md-0.mx-0
+              p Esta estrategia consiste en hacer un rediseño profundo de la aplicación que sea realmente #[em cloud] nativa. Se considera la llamada “reingeniería” (cambios profundos en la aplicación), como se indica, semejante al desarrollo de #[em cloud] nativo, que consiste en la construcción desde cero.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/cuatrooo.svg', alt='')
+          
+          .row(numero="5" titulo= "<em>(R)etire</em>")
+            .col-md-12.mb-2.mb-md-0.mx-0
+              p Esta estrategia, realmente no se trata de una migración, sino más bien de aprovechar el esfuerzo y análisis de la realidad de sistemas disponibles para prescindir de alguno que realmente no aporte valor o que su funcionalidad permite ser absorbida por otro. Es idóneo para simplificar el mapa de sistemas, permitiendo ahorro en el costo, aporte en agilidad y mayor facilidad en la gestión.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/cincooo.svg', alt='')
+          
+          .row(numero="6" titulo= "<em>(R)etain</em>")
+            .col-md-12.mb-2.mb-md-0.mx-0
+              p En realidad es una no migración, es decir, es una decisión consciente de no migrar una aplicación a la nube.
+            .col-md-12.mb-2.mb-md-0.mx-0
+              .d-flex.align-items-center.justify-content-center
+                img.img-a.img-t(src='@/assets/curso/temas/tema5/seisss.svg', alt='')
+      
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        img.img-a.img-t(src="@/assets/curso/temas/tema5/img5.png")  
+  
     p.mb-3 Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, veamos: 
       
-    .row.mb-2
-      .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
+    .row.justify-content-center.align-items-center.mb-2
+      .col-lg-12-sm-12.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Tabla 1.
           span Estrategias de migracion
-    .tabla-b.color-primario
-      .tabla-b__header
-        h4.mb-0 Definición
-        
-      table
-        tr
-          th #[b Re-hospedaje (“lift and shift”)] 
-          td Esta estrategia es una de las más comunes y sencilla de implementar, aunque también se considera que presenta muchas más probabilidades de generar problemas, incrementar los costes y alinear los stakeholders clave. El re-hospedaje, consiste en replicar un sistema existente en una infraestructura cloud.<br><br>Su implementación es rápida y práctica, pero hereda las debilidades y fallas de los sistemas originarios hacia la nube. 
-        tr
-          th Re-Plataforma 
-          td Estrategia que implica análisis de negocio para identificación de procesos y servicios que puedan ser excluidos de la migración, requiere un conocimiento de la arquitectura originaria y procesos para la toma de decisiones. 
-        tr
-          th Re-compra 
-          td Estrategia asociada a la recompra de versiones SaaS de una aplicación utilizada por la organización, por ejemplo:  Microsoft Exchange migrar a Office 365 obteniendo las funcionalidades y beneficios de un producto novedoso y seguro.<br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición. 
-        tr
-          th Re-diseño 
-          td Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología Cloud. <br><br>Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura cloud. 
-        tr
-          th Retención 
-          td Esta estrategia considera la posibilidad de no tener que migrar hacia la nube toda una infraestructura. Ya sea por costos, restricciones de licenciamiento o compatibilidad. <br><br>Para este caso, se conserva la aplicación o algún componente de la misma en el entorno original, identificando que, en algunas ocasiones, no todo puede ser llevado hacia la nube. 
-        tr
-          th Retirada 
-          td Busca retirar de la arquitectura cloud, aquellos componentes que ya no se utilizan y que generan carga o costo operativo. 
-    Separador
+    .row.justify-content-center.align-items-center  
+      .col-lg-12.col-md-10.col-12
+        .tabla-b
+            tr
+              th.h4.titu.text-white.text-center Estrategia
+              td.h4.titu.text-white.text-center Definición
+            tr
+              th.h4.blanco #[em Re-hospedaje (“lift&nbsp;and&nbsp;shift”)]  
+              td.blanco Esta estrategia es una de las más comunes y sencilla de implementar, aunque también se considera que presenta muchas más probabilidades de generar problemas, incrementar los costes y alinear los #[em stakeholders] clave. El re-hospedaje, consiste en replicar un sistema existente en una infraestructura #[em cloud.]<br><br> Su implementación es rápida y práctica, pero hereda las debilidades y fallas de los sistemas originarios hacia la nube. 
+            tr
+              th.h4.rosa.text-center Re-Plataforma  
+              td.rosa Estrategia que implica análisis de negocio para identificación de procesos y servicios que puedan ser excluidos de la migración, requiere un conocimiento de la arquitectura originaria y procesos para la toma de decisiones. 
+            tr
+              th.h4.blanco.text-center Re-compra  
+              td.blanco Estrategia asociada a la recompra de versiones SaaS de una aplicación utilizada por la organización, por ejemplo:  #[em Microsoft Exchange] migrar a #[em Office] 365 obteniendo las funcionalidades y beneficios de un producto novedoso y seguro. <br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición.  
+            tr
+              th.h4.rosa.text-center Re-diseño  
+              td.rosa Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología #[em Cloud.]<br><br>Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura <i> cloud.</i>  
+            tr
+              th.h4.blanco.text-center Retención  
+              td.blanco Esta estrategia considera la posibilidad de no tener que migrar hacia la nube toda una infraestructura. Ya sea por costos, restricciones de licenciamiento o compatibilidad.<br><br>Para este caso, se conserva la aplicación o algún componente de la misma en el entorno original, identificando que, en algunas ocasiones, no todo puede ser llevado hacia la nube. 
+            tr
+              th.h4.rosa.text-center Retirada  
+              td.rosa Busca retirar de la arquitectura #[em cloud,] aquellos componentes que ya no se utilizan y que generan carga o costo operativo. 
+
+      Separador
     #t_5_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.1  Motivaciones
     
     p.mb-3  Entre las principales motivaciones  para que una empresa migre a la nube, se tienen: 
     
     .row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.bg1444
-        .row 
-          .col-sm-12.col-md-8
-            ul.lista-ul--color.mx-4.my-4
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Generación de nuevas condiciones que agreguen valor al negocio.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Las decisiones se basan en los análisis de las nuevas ventajas y oportunidades que se puedan generar.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Empleando nuevas tecnologías o migrando los servicios a la nube. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Determinar planes específicos del negocio tales como mejorar ventas, experiencias de clientes, mejora y control de procesos.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Ahorrar costos a mediano y largo plazo, optimizar recursos.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Resolver preguntas del negocio para tomar decisiones.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Cada negocio tiene su naturaleza, característica y tamaño.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p La solución en la nube de una organización no necesariamente es igual para otra, así se le parezca
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Nivel de innovación de la organización y lo que mejora.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Estrategia del área TI.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Tener un  plan estratégico que involucre planes de inversión.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Aplicar gestión del cambio a toda la empresa.
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Tener el conocimiento técnico.
-          .col-sm-12.col-md-4.pt-5 
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img6.png', alt='')
+      .col-sm-12.col-md-12
+        .bgonza
+          .row 
+            .col-sm-12.col-md-8
+              ul.lista-ul--color.mx-4.my-4
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Generación de nuevas condiciones que agreguen valor al negocio.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Las decisiones se basan en los análisis de las nuevas ventajas y oportunidades que se puedan generar.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Empleando nuevas tecnologías o migrando los servicios a la nube. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Determinar planes específicos del negocio tales como mejorar ventas, experiencias de clientes, mejora y control de procesos.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Ahorrar costos a mediano y largo plazo, optimizar recursos.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Resolver preguntas del negocio para tomar decisiones.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Cada negocio tiene su naturaleza, característica y tamaño.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 La solución en la nube de una organización no necesariamente es igual para otra, así se le parezca
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Nivel de innovación de la organización y lo que mejora.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Estrategia del área TI.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Tener un  plan estratégico que involucre planes de inversión.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Aplicar gestión del cambio a toda la empresa.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Tener el conocimiento técnico.
+            .col-sm-12.col-md-4.pt-5 
+              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img6.png', alt='')
     p.mb-5(data-aos="zoom-in-left") #[b A continuación, se detallan las razones para que una organización migre sus soluciones tecnológicas a la nube:  ]
+
+
+    .row
+      .col-lg-3.md-lg-10.col-12
+        .cajonu 
+          .col-lg-3.md-lg-10.col-12 
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/ab.png',)
+            p.mb-1.mx-2.p-3 La arquitectura 
+      
+      .col-lg-3.md-lg-10.col-12
+        .cajonu 
+          .col-lg-3.md-lg-10.col-12 
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/cd.png',)
+          .col-lg-3.md-lg-10.col-12 
+            p.mb-1.mx-2.p-3 La arqu    
+
+      .col-lg-3.md-lg-10.col-12
+        .cajonu 
+          .col-lg-3.md-lg-10.col-12 
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/ef.png',)
+            p.mb-1.mx-2.p-3 La arqu 
+
+      .col-lg-3.md-lg-10.col-12
+        .cajonu 
+          .col-lg-3.md-lg-10.col-12 
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/gh.png',)
+            p.mb-1.mx-2.p-3 La arqu 
+
+
+
+
 
 
 
     p.mb-5(data-aos="zoom-in-left") #[b Beneficios de la computación en la nube ]
     p.mb-5 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
     
-    .row.mb-2
+    .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 11.
           span Beneficios generales de migrar a la nube
         img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='')
 
-    p.mb-5(data-aos="zoom-in-left") #[b Motivadores para migrar a la nube ]
+    h4.mb-4 Motivadores para migrar a la nube
 
-    .row.d-flex.align-items-center.justify-content(data-aos="zoom-in-left").mx-5
-        .col-lg-4.he-7-cus
-          img.img-a.img-t(src='@/assets/curso/temas/tema5/img8.png', alt='')
-        .col-lg-8.bg19.he-7-cus.ml-neg-cus.align-items-center.justify-content-center.my-3
-          p(data-aos="zoom-in-left").mb-5.align-items-center.justify-content-center.img-center-cus La nube presenta grandes ventajas, los proveedores actuales ofrecen plataformas muy bien estructuradas, seguras y sugieren metodologías a las organizaciones para que su migración sea exitosa. De acuerdo a las posibilidades y tamaños empresariales, podría ser importante contar con asesorías de expertos como partners o consultorías de transformación digital.
-    p.mb-5 La migración a la nube, implica descubrir y aprovechar muchas oportunidades que estarán allí a la mano para las organizaciones, de la siguiente manera:
+    .row.justify-content-center.mb-4(data-aos="zoom-in")
+      .col-lg-12.col-md-lg-10.col-12
+        .cajobb
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-4
+              img(alt="" src="@/assets/curso/temas/tema5/img8.png")
+            .col-lg-8.col-md-lg-10.col-12.p-4
+              p.text-white.mx-3  La nube presenta grandes ventajas, los proveedores actuales ofrecen plataformas muy bien estructuradas, seguras y sugieren metodologías a las organizaciones para que su migración sea exitosa. De acuerdo a las posibilidades y tamaños empresariales, podría ser importante contar con asesorías de expertos como #[em partners] o consultorías de transformación digital.
+
+    p.mb-4 La migración a la nube, implica descubrir y aprovechar muchas oportunidades que estarán allí a la mano para las organizaciones, de la siguiente manera:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-left")
@@ -347,30 +435,31 @@
         .col-lg-6.sm-8.col-md-4.lg-8.pt-8 
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
       
-    p.mb-5 Monitorizar la migración de datos a Cloud con filtros URL y herramientas Data Loss Prevention. En las implementaciones de Cloud públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
+    p.mb-4 Monitorizar la migración de datos a Cloud con filtros URL y herramientas Data Loss Prevention. En las implementaciones de Cloud públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
 
     .row.justify-content.align-items-center.mb-0
-      .col-sm-12.col-md-8.bg10
-          .mb-0.p-0.mt-3.mx-2.fw-bold.mb-2 
-          ul.lista-ul--color.mx-3
-            li.mb-0.pb-0 
-              i.fas.fa-chevron-right
-              p Los datos moviéndose desde la infraestructura tradicional a los proveedores. 
-            li.mb-0.pb-0 
-              i.fas.fa-chevron-right
-              p Cloud, incluyendo público/privado, interior/exterior y otras combinaciones.
-            li.mb-0.pb-0 
-              i.fas.fa-chevron-right
-              p Los datos migrando entre los proveedores de Cloud. 
-            li.mb-0.pb-0 
-              i.fas.fa-chevron-right
-              p Los datos moviéndose entre instancias (u otros componentes) en un Cloud determinado. Hay tres opciones.
-      .col-lg-8.order-lg-12.order-12.mx-0
-        LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Cifrado cliente/aplicación") Los datos son cifrados en el extremo o en el servidor antes de enviarse por la red o ya están almacenados en un formato de cifrado adecuado. Esto incluye el cifrado en cliente local (basado en agente), por ejemplo, para archivos almacenados, o el cifrado integrado en aplicaciones.
-          p(numero="2" titulo="Cifrado enlace/red") Técnicas de cifrado de red estándar incluyendo SSL21, VPNs22, y SSH23. Puede ser hardware o software. Es preferible extremo a extremo, pero puede no ser viable en todas las arquitecturas.
-          p(numero="3" titulo="Cifrado basado en proxy") Los datos son transmitidos a un servidor dedicado o servidor proxy, el cual los cifra antes de enviarlos por la red. Es la opción escogida frecuentemente para la integración con aplicaciones legacy pero no es generalmente recomendable.
-      .col-lg-4.col-12.order-lg-2.mb-lg-0.mb-8(data-aos="fade-left")
+      .col-lg-8.col-md-8
+        .bg10
+          .p-3.mb-4 
+            ul.lista-ul--color.mx-2
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p.mb-0 Los datos moviéndose desde la infraestructura tradicional a los proveedores. 
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p.mb-0 #[em Cloud], incluyendo público/privado, interior/exterior y otras combinaciones.
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p.mb-0 Los datos migrando entre los proveedores de #[em Cloud]. 
+              li.mb-0.pb-0 
+                i.fas.fa-chevron-right
+                p.mb-0 Los datos moviéndose entre instancias (u otros componentes) en un #[em Cloud] determinado. Hay tres opciones.
+        .col-lg-12.order-lg-12.order-12.mx-0
+          LineaTiempoD.color-acento-botones
+            p(numero="1" titulo="Cifrado cliente/aplicación") Los datos son cifrados en el extremo o en el servidor antes de enviarse por la red o ya están almacenados en un formato de cifrado adecuado. Esto incluye el cifrado en cliente local (basado en agente), por ejemplo, para archivos almacenados, o el cifrado integrado en aplicaciones.
+            p(numero="2" titulo="Cifrado enlace/red") Técnicas de cifrado de red estándar incluyendo SSL21, VPNs22, y SSH23. Puede ser #[em hardware o software.] Es preferible extremo a extremo, pero puede no ser viable en todas las arquitecturas.
+            p(numero="3" titulo="Cifrado basado en proxy") Los datos son transmitidos a un servidor dedicado o servidor #[em proxy,] el cual los cifra antes de enviarlos por la red. Es la opción escogida frecuentemente para la integración con aplicaciones #[em legacy] pero no es generalmente recomendable.
+      .col-lg-4.col-md-10.col-12.order-lg-2.mb-lg-0.mb-8(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema5/img15.png") 
 
 

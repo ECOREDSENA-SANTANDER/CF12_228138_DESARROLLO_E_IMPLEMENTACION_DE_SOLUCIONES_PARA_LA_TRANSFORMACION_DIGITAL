@@ -2,13 +2,8 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-sexto.colo-acento-contenido.mb-4(data-aos="zoom-in-left")
-      h5 Desarrollo e Implementación de Soluciones para la Transformación Digital
-        span
-          | 
-    figure.mt-4.mb-5(data-aos="zoom-in-left")
-
-  
+    .titulo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+      
         .col-12.my-3
           
             p.mb-3 Los servicios en la  nube son infraestructuras, plataformas o sistemas de software que alojan los proveedores externos y que se ponen a disposición de los usuarios a través de Internet. Facilitan el flujo de datos de los usuarios a través de Internet, referenciando lo anterior la migración de los diferentes servicios requiere de diferentes formas de almacenamiento, metodologías o estrategias de migración y monitorización. 

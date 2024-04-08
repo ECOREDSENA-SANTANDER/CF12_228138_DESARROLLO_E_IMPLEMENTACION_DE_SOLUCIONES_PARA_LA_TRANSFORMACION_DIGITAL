@@ -6,11 +6,11 @@
       .titulo-principal__numero
         span 1
       h1 Descripción general del servicio de computación en nube, gestión de uso y escenarios de aplicación
-
+      
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.my-3
+      .col-lg-4.col-md-10.col-12.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema1/img1.png', alt='')
-      .col-lg-8.my-3
+      .col-lg-8.col-md-10.col-12.my-3
         p La computación en la nube #[em #[b (Computing cloud)]] corresponde a  los servicios o recursos computacionales que se distribuyen y consumen por medio de una red. 
         p Las aplicaciones, datos y comandos que se ejecutan por un usuario dependen de las contraseñas de la computadora o dispositivo que el usuario emplee.
         .d-flex.align-items-center.justify-content-center
@@ -24,16 +24,23 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Referente histórico
     
-    p.mb-5(data-aos="zoom-in-left") La computación en la nube empezó a hacerse popular desde el año 2006 (por supuesto, con antecedentes anteriores); pero a partir de esta época ya existían recursos tecnológicos avanzados, se empieza a desarrollar aún más las posibilidades de Internet, nuevas y grandes compañías también inician a fundarse y crecer, como se muestra en la siguiente figura:
-    .row.mb-5
+    p.mb-4(data-aos="zoom-in-left") La computación en la nube empezó a hacerse popular desde el año 2006 (por supuesto, con antecedentes anteriores); pero a partir de esta época ya existían recursos tecnológicos avanzados, se empieza a desarrollar aún más las posibilidades de Internet, nuevas y grandes compañías también inician a fundarse y crecer, como se muestra en la siguiente figura:
+    .row.mb-4
       .col-sm-12.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-left")
           h5 Figura 1.
           span Antecedentes de la computacion en la nube
-    .row.d-flex.align-items-center.justify-content-center.mb-2(data-aos="zoom-in-left")
-        .col-lg-12.md-8.my-5
-          img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt='')
     
+    .row.d-flex.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
+      .col-lg-12.col-md-10.col-12
+        .bag14
+          .row.d-flex.align-items-center.justify-content-center.mb-2
+            .col-lg-9.col-md-10.col-12.my-5
+              img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt='')
+            .row 
+              .col-lg-auto.col-md-10.col-12.pabg.mb-3.mx-3
+                p.mb-2.my-2 Nota. Adaptación tomada de, Entendiendo a la nube informática. #[em (Cloud computing.Blog,] 2016)
+
     p.mb-5 #[b Para llegar  a lo que son hoy los servicios en la nube, se debió pasar por los siguientes precedentes:]
     
     SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
@@ -92,24 +99,23 @@
       h2 1.2 Uso y escenarios de aplicación
       
     .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-8.my-3
-        p.mb-5 Existen distintas formas de la nube, el concepto básico por el que se hace la entrega de servicios informáticos a clientes o usuarios por medio de una red. Los servicios en línea gestionan las peticiones recibidas y se caracterizan por tener flexibilidad y adaptabilidad de recursos según la demanda; estos escalamientos son transparentes para los usuarios. 
-        .bloque-texto-c.bg13.p-4.mb-5
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p <br>Existen tres tipos de servicios en la nube, según la ubicación de los servidores: nube pública, nube privada y nube híbrida.
-            h5.d-flex.justify-content-end <br>(Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
-              i.fas.fa-quote-right
-        p.mb-0 Los proveedores de computing cloud se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores web, o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la #[b figura 2 se ilustra la arquitectura de la computación en la nube: ]
+      .col-lg-8
+        p.mb-3 Existen distintas formas de la nube, el concepto básico por el que se hace la entrega de servicios informáticos a clientes o usuarios por medio de una red. Los servicios en línea gestionan las peticiones recibidas y se caracterizan por tener flexibilidad y adaptabilidad de recursos según la demanda; estos escalamientos son transparentes para los usuarios. 
+        .bloque-texto-d.bg13.p-1.mb-3
+          i.fas.fa-quote-left.my-1
+          p.mx-3 Existen tres tipos de servicios en la nube, según la ubicación de los servidores: nube pública, nube privada y nube híbrida.
+          h5.d-flex.justify-content-end (Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
+            i.fas.fa-quote-right
+        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores web, o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la#[.b figura 2 se ilustra la arquitectura de la computación en la nube: ]
       .col-lg-4.my-0
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img5.png', alt='')
 
     .row.mb-4
-      .col-lg-10-sm-10.col-md-12.col-lg-10.m-auto    
+      .col-lg-10.col-md-10.col-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 2.
           span Arquitectura computacion en la nube
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img6.png', alt='')
+        img.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img6.png', alt='')
   
     p.mb-5 En términos generales, emplear computación en la nube en vez de usar infraestructura local tiene ventajas como las que se muestran a continuación:
 
@@ -123,63 +129,80 @@
     p.mb-5 A continuación se detallarán algunos servicios Multicloud y características de los recursos propios y alojados en la nube.
     
     .row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12.bg14
-        .row 
-          .col-sm-12.col-md-8
-            p.mb-0.mb-3.p-2.mt-4.mx-4.fw-bold Multi cloud
-            p.mb-3.mx-4.fw-bold Cuando la organización implementa servicios en la nube con diferentes proveedores, se define el multi-cloud, esta característica se presenta por diferentes circunstancias, como las siguientes:
-            ul.lista-ul--color.mx-4
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Las empresas, en especial las pymes, no tienen un plan concreto a mediano o largo plazo en la implementación de tecnología, por lo que van adquiriendo servicios en el camino según lo van necesitando, resultando al final complicando la administración de servicios y proveedores por tener sistemas dispersos. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Las empresas contratan analistas diferentes que utilizan a un proveedor o el otro según los servicios que requieren, es decir, para las bases de datos podrían usar servicios de Google, pero para administrar las aplicaciones usan Azure. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Los proveedores y herramientas en la nube se pueden conversar unas con otras independiente de su marca (podrían presentarse algunas restricciones). 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Por los precios, seleccionan de cada proveedor el servicio que mejor le convenga para ahorrar y optimizar recursos. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Aumentan la garantía de seguridad en la información usando respaldos en otros proveedores. En especial como medida de protección contra ataques cibernéticos, secuestro de datos u otras circunstancias. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Un proveedor fuerte en servidores y disponibilidad de máquinas para montar bases de datos, aplicaciones web, soluciones propias, etc. y contar con los servicios de marcas con todo un ecosistema de productividad para apoyar las labores del negocio tales como Microsoft o Google. 
-              li.mb-0.pb-0 
-                i.fas.fa-chevron-right
-                p Para emplear la computación en la nube con varios proveedores, lo más importante al momento de elegir un ecosistema de productividad digital son: sus condiciones de uso y garantías, asistencia técnica, servicios que ofrece, disponibilidad, precios, habilidad en el manejo de herramientas, entre otros aspectos. 
-          .col-sm-12.col-md-4.pt-5 
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img7.png', alt='')
-    p.mb-5(data-aos="zoom-in-left")  #[b Recursos tecnológicos propios o “arrendados”]
+      .col-lg-12.md-lg-10.col-12
+        .bg14
+          .row 
+            .col-lg-8.md-lg-10.col-12
+              p.mb-0.mb-3.p-2.mt-4.mx-3.fw-bold Multi cloud
+              p.mb-4.mx-4 Cuando la organización implementa servicios en la nube con diferentes proveedores, se define el multi-cloud, esta característica se presenta por diferentes circunstancias, como las siguientes:
+              ul.lista-ul--color.mx-3
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Las empresas, en especial las pymes, no tienen un plan concreto a mediano o largo plazo en la implementación de tecnología, por lo que van adquiriendo servicios en el camino según lo van necesitando, resultando al final complicando la administración de servicios y proveedores por tener sistemas dispersos. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Las empresas contratan analistas diferentes que utilizan a un proveedor o el otro según los servicios que requieren, es decir, para las bases de datos podrían usar servicios de Google, pero para administrar las aplicaciones usan Azure. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Los proveedores y herramientas en la nube se pueden conversar unas con otras independiente de su marca (podrían presentarse algunas restricciones). 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Por los precios, seleccionan de cada proveedor el servicio que mejor le convenga para ahorrar y optimizar recursos. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Aumentan la garantía de seguridad en la información usando respaldos en otros proveedores. En especial como medida de protección contra ataques cibernéticos, secuestro de datos u otras circunstancias. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Un proveedor fuerte en servidores y disponibilidad de máquinas para montar bases de datos, aplicaciones web, soluciones propias, etc. y contar con los servicios de marcas con todo un ecosistema de productividad para apoyar las labores del negocio tales como Microsoft o Google. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Para emplear la computación en la nube con varios proveedores, lo más importante al momento de elegir un ecosistema de productividad digital son: sus condiciones de uso y garantías, asistencia técnica, servicios que ofrece, disponibilidad, precios, habilidad en el manejo de herramientas, entre otros aspectos. 
+            .col-sm-12.col-md-4.pt-5 
+              img.img-a.img-t.my-5(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img7.png', alt='')
+    
+    h4.mb-4(data-aos="zoom-in-left") Recursos tecnológicos propios o “arrendados”
     
     p.mb-0(data-aos="zoom-in-left") Los paradigmas que la nube, ha impulsado durante los últimos años y que continúa evolucionando, ha cambiado los planes y enfoques de inversión de las organizaciones respecto a la tecnología. Por lo que ya las empresas tienen la opción de elegir uno de los modelos, los principales son:
-    .row.d-flex.justify-content-between
-      .col-sm-12.col-md-6.mt-5
-        .bg14.my-4.he-4-cus.px-4.pt-3
-          img.w-auto-cus.mt-5(src='@/assets/curso/temas/tema1/img8.svg', alt='')
-          h4.mb-2.mt-5 On-premise 
-          p (En local), significa que el recurso informático, ya sea |, software, comunicación, etc., se encuentra en la empresa, es propiedad de ella misma.Por lo general, los planes de compra se ejecutan bajo un presupuesto de inversión inicial alto.Los equipos, servidores o aplicaciones hacen parte de los activos corporativos, pero en adelante no tendrá que pagar por el uso de estos recursos.Su dominio es total, al igual que su operación y mantenimiento, se podría configurar una nube privada.
-      .col-sm-12.col-md-6.mt-5
-        .bg14.my-4.he-4-cus.px-4.pt-3
-          img.w-auto-cus.mt-5(src='@/assets/curso/temas/tema1/img8.1.svg', alt='')
-          h4.mb-2.mt-5 IaaS (Infraestructura como servicio)
-          p En términos generales, se refiere a la contratación de máquinas (hardware).Se contratan por lo general, equipos servidores, o si es política de la empresa, asignarle a cada empleado su computadora donde trabajará y guardará su información. La infraestructura incluye máquinas de comunicación como routers, firewall, servidores y computadoras personales. Se tiene la opción de elegir las características hardware de los dispositivos. 
-    p.mb-5 Es un servicio que, entre otras ventajas, permite escalar características de los equipos según la necesidad.
-
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-6.my-3
-        .bloque-texto-c.bg13.p-4.mb-5
-          .bloque-texto-b__texto
-            i.fas.fa-quote-left
-            p <br>PaaS (Plataformas como Servicio): está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura PaaS los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
-            h5.d-flex.justify-content-end <br>(Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
-              i.fas.fa-quote-right
-      .col-lg-6.my-4
-            img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img9.png', alt='')
     
-    p.mb-5 #[em SaaS] #[b (Software como Servicio):]son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el #[em Office,] si bien por ejemplo #[emWord] podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
+    .row 
+      .col-lg-12.md-lg-10.col.lg-12
+        .row.d-flex.justify-content-between
+          .col-lg-6.col-md-10.col-12.mt-2
+            .tarje.color-primario.my-4.he-4-cus.px-4.pt-4
+              img.w-auto-cus(src='@/assets/curso/temas/tema1/img8.svg', alt='')
+              h4.mb-3.mt-4 #[.ir On-premise]
+              p.mb-0.text-white (En local), significa que el recurso informático, ya sea |, #[em software,] comunicación, etc., se encuentra en la empresa, es propiedad de ella misma.
+              p.mb-0.text-white Por lo general, los planes de compra se ejecutan bajo un presupuesto de inversión inicial alto.
+              p.mb-0.text-white Los equipos, servidores o aplicaciones hacen parte de los activos corporativos, pero en adelante no tendrá que pagar por el uso de estos recursos.
+              p.mb-0.text-white Su dominio es total, al igual que su operación y mantenimiento, se podría configurar una nube privada.
+              .d-flex.justify-content
+                img.ittt.my-5(src="@/assets/curso/temas/tema1/imggggg.svg")
+      
+          .col-lg-6.col-md-10.col-12.mt-2
+            .tarje.color-primario.my-4.he-4-cus.px-4.pt-3
+              img.w-auto-cus.mt-2(src='@/assets/curso/temas/tema1/img8.1.svg', alt='')
+              h4.mb-3.mt-4 #[.ir #[em IaaS ](Infraestructura como servicio)]
+              p.mb-4.text-white En términos generales, se refiere a la contratación de máquinas #[em (hardware)].
+              p.mb-0.text-white Se contratan por lo general, equipos servidores, o si es política de la empresa, asignarle a cada empleado su computadora donde trabajará y guardará su información. 
+              p.mb-0.text-white La infraestructura incluye máquinas de comunicación como #[em routers, firewall,] servidores y computadoras personales.
+              p.mb-0.text-white Se tiene la opción de elegir las características #[em hardware] de los dispositivos. 
+                .d-flex.justify-content-center
+                  img.itt.my-5(src="@/assets/curso/temas/tema1/imggggg.svg")
+
+    .mb-4
+    p.mb-4 Es un servicio que, entre otras ventajas, permite escalar características de los equipos según la necesidad.
+    
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
+      .col-lg-6
+        .bloque-texto-d.bg13.p-3.mb-2.my-4
+          i.fas.fa-quote-left.mb-3
+          p.mb-3.mx-3 #[b #[em PaaS ](Plataformas como Servicio):] está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura PaaS los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
+          h5.d-flex.justify-content-end (Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
+            i.fas.fa-quote-right
+      .col-lg-6.mb-2
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img9.png', alt='')
+    
+    p.mb-5 #[em SaaS] #[b (Software como Servicio):] son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el #[em Office,] si bien por ejemplo #[emWord] podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
     
     .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
@@ -190,7 +213,7 @@
   
     p.mb-5 Cuando no se hacen planes de inversión para adquirir recursos TI, los servicios se pagan mensual o anual, a un tercero según las necesidades de la organización. En la mayoría de los casos existen grandes prestadores de soluciones tecnológicas con infraestructuras de gran tamaño e inversión para la transformación digital, que cubren múltiples servicios.
     
-    h5.d-flex.justify-content Los gigantes de la nube
+    h4.d-flex.justify-content Los gigantes de la nube
 
     p.mb-5 Los gigantes de la nube están expandiendo rápidamente sus operaciones para capitalizar el crecimiento de demanda que acompañará a la aceleración de la transformación digital. Los más populares y líderes en el mercado so n los siguientes:
     TabsA.color-acento-botones.mb-5
@@ -223,6 +246,7 @@
         .col-lg-11 Adicionalmente, es importante aclarar que los anteriores no son los únicos proveedores, si bien son los más populares y líderes en el mercado existen cientos de compañías especializadas en soluciones en la nube. Hay compañías especializadas en inteligencia de negocios, otras en #[em big data,] otras en infraestructura #[em hardware,] como #[em IBM, Qlic Sense, Oracle,] entre otras.
 
 
+    
 </template>
 <script>
 export default {

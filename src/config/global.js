@@ -88,9 +88,9 @@ export default {
             hash: 't_3_2',
           },
           {
-            numero: '3.2',
+            numero: '3.3',
             titulo: ' Características',
-            hash: 't_3_2',
+            hash: 't_3_3',
           },
         ],
       },
@@ -250,92 +250,92 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Firewall </em>',
+      termino: '<em>Firewall</em>',
       significado:
         'DDispositivo físico o virtual de red, que se emplea para proteger a las redes locales y privadas para evitar intrusiones, virus y otras seguridades de los sistemas de información. ',
     },
     {
-      termino: '<em>Malware </em>',
+      termino: '<em>Malware</em>',
       significado:
         'Término para referirse a software malintencionado, que se diseña para dañar sistemas de información, desconfigurarlos o simplemente hacer acciones no deseadas. ',
     },
     {
-      termino: '<em>Open source </em>',
+      termino: '<em>Open source</em>',
       significado:
         '(Código abierto). Aplicaciones bajo un licenciamiento donde el código fuente se encuentra disponible para que cualquier persona con conocimientos técnicos contribuya a la construcción y mejoramiento del programa. Su uso es libre. ',
     },
     {
-      termino: '<em>Partner </em>',
+      termino: '<em>Partner</em>',
       significado:
         'Bajo el contexto empresarial, se considera un proveedor de servicios, en términos tecnológicos, por lo general, son intermediarios entre las grandes marcas y las organizaciones que desean adoptar estas marcas tecnológicas en sus empresas ',
     },
     {
-      termino: '<em>Protocolo FTP </em>',
+      termino: '<em>Protocolo FTP</em>',
       significado:
         'Protocolo de transferencia de archivos; un cliente se conecta a través de este protocolo a un servidor para transferir, transportar y gestionar archivos. ',
     },
     {
-      termino: '<em>Ransomware </em>',
+      termino: '<em>Ransomware</em>',
       significado:
         'Se trata del código malicioso (malware) cuya característica es que impide a los usuarios acceder a sus recursos informáticos, archivos o sistemas. ',
     },
     {
-      termino: '<em>Streamings </em>',
+      termino: '<em>Streamings</em>',
       significado:
         'Contenido en video o audio que puede ser transmitido a través de una plataforma, esta transmisión puede ser en vivo o grabado. Son usados para programas de TV, videoclips musicales, entre otros. ',
     },
     {
-      termino: 'Web 2.0 ',
+      termino: 'Web 2.0',
       significado:
         'Concepto que nace a partir del surgimiento de un conjunto de tecnologías que facilitó, como nunca antes, la publicación y colaboración de usuarios en Internet. (redes sociales, streamings, Blogs, Wikis, Podcast, etc.). ',
     },
     {
-      termino: 'SSD ',
+      termino: 'SSD',
       significado:
         '(Solid State Drive), dispositivo de almacenamiento denominado unidad de estado sólido. ',
     },
     {
-      termino: 'Routers ',
+      termino: 'Routers',
       significado:
         'Dispositivo de la capa 3 (de red) que permite conexión y retransmitirla a otros nodos de la red. Esta retransmisión y enrutado de los datos pueden ser por cable o inalámbrico. ',
     },
     {
-      termino: 'Nodo ',
+      termino: 'Nodo',
       significado:
         'En redes, son todos aquellos puntos de conexión que impliquen dispositivos de capa 3 en adelante (router, computadores, impresoras, teléfono IP, puntos de acceso, etc.) Estos dispositivos también pueden ser virtuales como por ejemplo Teléfonos IP y otros dispositivos virtualizados',
     },
     {
-      termino: 'HDD ',
+      termino: 'HDD',
       significado:
         '(Hard Drive Disk), Unidad de almacenamiento tipo Disco Duro. ',
     },
     {
-      termino: 'Hardware x86 ',
+      termino: 'Hardware x86',
       significado:
         'Se refiere a la arquitectura hardware compleja y reducida, se fundamenta en la Unidad Central de Procesamiento CPU, y sus componentes. La primera arquitectura de computadores personales comercial exitosa fue el Intel 80286 en 1982. ',
     },
     {
-      termino: 'Contenedores ',
+      termino: 'Contenedores',
       significado:
         'En el sector del transporte se usan contenedores físicos para aislar diferentes cargas (por ejemplo, para el transporte en buques y en trenes), las tecnologías de desarrollo de software usan cada vez más un método denominado contenerización. ',
     },
     {
-      termino: 'CEO ',
+      termino: 'CEO',
       significado:
         '(chief executive officer), director ejecutivo, es la persona con mayor responsabilidad sobre una empresa. ',
     },
     {
-      termino: 'Capas ',
+      termino: 'Capas',
       significado:
         'Se refiere al nivel técnico del hardware y red. En HW hay bajo nivel (nivel de máquina), nivel de sistema operativo. En redes es más usual el término de capas, se plantean desde la física de transmisión de datos, redirección, red hasta la capa de aplicación. ',
     },
     {
-      termino: 'Caja negra ',
+      termino: 'Caja negra',
       significado:
         'Término que se usa para referirse a lo que hay detrás de un proceso. Ejemplo, un algoritmo de caja negra es aquel código que no se puede ver la manera en cómo funciona internamente. ',
     },
     {
-      termino: 'Active directory ',
+      termino: 'Active directory',
       significado:
         'Active Directory (AD) es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo. ',
     },
