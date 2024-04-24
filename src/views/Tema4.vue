@@ -103,19 +103,19 @@
         p.mb-3 Hay similitudes y diferencias entre la forma en cómo estas dos tecnologías facilitan el proceso de virtualización de aplicaciones, razón por la cual es más conveniente una u otra dependiendo del contexto particular y las necesidades establecidas por la organización. 
         .row.justify-content-center.align-items-center
           .col-lg-12
-            .tarjeta.bg14.p-3.mb-4
+            .tarjeta.bg14.p-3.mb-3
               .row.justify-content-around.align-items-center
                 .col-sm-12.col-md-12
                   .row.justify-content-between.align-items-center
                     .col.mb-2.mb-sm-0
                       p.mb-1.my-3 En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
       .col-sm-12.col-md-12.col-lg-4.col-9
-        img.img-a.img-t.mb-4(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
+        img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
               .col-lg-12
-                p.mb-2.mb-4 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con #[em Visual Studio] .Net es necesario también montar en la máquina virtual el sistema operativo #[em Windows], si la aplicación a ejecutar en la máquina virtual fue construida en #[em Swift] requiere entonces la instalación del sistema operativo #[em MacOS] y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
+                p.mb-2.mb-3 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con #[em Visual Studio] .Net es necesario también montar en la máquina virtual el sistema operativo #[em Windows], si la aplicación a ejecutar en la máquina virtual fue construida en #[em Swift] requiere entonces la instalación del sistema operativo #[em MacOS] y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
                 .align-self-end 
                   img.deree.img-t.img-a.mx-5(src='@/assets/curso/temas/tema4/puntos.svg', alt='')
     
