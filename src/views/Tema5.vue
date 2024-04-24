@@ -26,7 +26,7 @@
       .col-lg-8.my-4
         p.bg10.p-4.mb-3 #[b Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración] la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/tema5/img2.svg', alt='')
+          img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema5/img2.svg', alt='')
           p.ml-1-custom.mt-2 No obstante, una de las ventajas de la infraestructura #[em cloud ]es permitir combinar servicios que consoliden las necesidades de la organización. En el #[em cloud computing] se suele utilizar la fórmula de ‘las 6 Rs’ para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.
       .col-lg-4.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema5/img2.1.png', alt='')
@@ -55,7 +55,7 @@
         img.clase1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
     
 
-    .row.align-items-center.justify-content.mb-0(data-aos="zoom-in-left")
+    .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
       .col-lg-8.my-3.mx-0
         p.mb-3 Como se estudió anteriormente, existe la técnica de las 6 Rs, que permite la #[b identificación de estrategias para la migración de información a la nube.] Estas estrategias corresponden con unos tipos y características particulares, de acuerdo con los costes que implica:
     
@@ -65,7 +65,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   figure
-                    img(src='@/assets/curso/temas/tema5/traslado.svg', alt='Texto que describa la imagen')
+                    img.img-a.img-t(src='@/assets/curso/temas/tema5/traslado.svg', alt='Texto que describa la imagen')
               p.text-center El traslado
       
           .col-sm-6.col-lg-3.mb-4.mb-lg-4
@@ -73,7 +73,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   figure
-                    img(src='@/assets/curso/temas/tema5/necesidad.svg', alt='Texto que describa la imagen')
+                    img.img-a.img-t(src='@/assets/curso/temas/tema5/necesidad.svg', alt='Texto que describa la imagen')
               p.text-center Las necesidades de la organización
 
           .col-sm-6.col-lg-3.mb-4.mb-lg-4
@@ -81,7 +81,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   figure
-                    img(src='@/assets/curso/temas/tema5/tiempo.svg', alt='Texto que describa la imagen') 
+                    img.img-a.img-t(src='@/assets/curso/temas/tema5/tiempo.svg', alt='Texto que describa la imagen') 
               p.text-center El tiempo permitido o posible para llevarlo a cabo
     
           .col-sm-6.col-lg-3.mb-4.mb-lg-4
@@ -89,10 +89,10 @@
               .row.justify-content-center.mb-3
                 .col-6
                   figure
-                    img(src='@/assets/curso/temas/tema5/misma.svg', alt='Texto que describa la imagen')
+                    img.img-a.img-t(src='@/assets/curso/temas/tema5/misma.svg', alt='Texto que describa la imagen')
               p.text-center  La misma estrategia de negocio
     
-      .col-lg-4
+      .col-lg-4.col-md-9.col-9
         img.my-3.mt-0(src='@/assets/curso/temas/tema5/img4.png', alt='') 
     
     p.mb-4 En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
@@ -148,7 +148,7 @@
                 img.img-a.img-t(src='@/assets/curso/temas/tema5/seisss.svg', alt='')
       
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img.img-a.img-t(src="@/assets/curso/temas/tema5/img5.png")  
+        img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema5/img5.png")  
   
     p.mb-3 Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, veamos: 
       
@@ -189,10 +189,10 @@
     p.mb-3  Entre las principales motivaciones  para que una empresa migre a la nube, se tienen: 
     
     .row.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-12
+      .col-sm-12.col-md-12.col-lg-12
         .bgonza
           .row 
-            .col-sm-12.col-md-8
+            .col-sm-12.col-md-12.col-lg-8
               ul.lista-ul--color.mx-4.my-4
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
@@ -234,44 +234,38 @@
                   i.fas.fa-chevron-right
                   p.mb-1 Tener el conocimiento técnico.
             .col-sm-12.col-md-4.pt-5 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img6.png', alt='')
+              img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img6.png', alt='')
+    
+    
     p.mb-5(data-aos="zoom-in-left") #[b A continuación, se detallan las razones para que una organización migre sus soluciones tecnológicas a la nube:  ]
-
-
-    .row
-      .col-lg-3.md-lg-10.col-12
-        .cajonu 
-          .col-lg-3.md-lg-10.col-12 
-            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/ab.png',)
-            p.mb-1.mx-2.p-3 La arquitectura 
+    
+    .row.justify-content-center.mb-4
       
-      .col-lg-3.md-lg-10.col-12
-        .cajonu 
-          .col-lg-3.md-lg-10.col-12 
-            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/cd.png',)
-          .col-lg-3.md-lg-10.col-12 
-            p.mb-1.mx-2.p-3 La arqu    
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+        .cajonu
+          img.img-a.img-t(src='@/assets/curso/temas/tema5/ab.png',)
+          h4.p-3.text-white.text-center Transformar la experiencia de usuario 
+      
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+        .cajonu
+          img(src='@/assets/curso/temas/tema5/cd.png',)
+          h4.p-3.text-white.text-center.my-2 Toma de decisiones   
 
-      .col-lg-3.md-lg-10.col-12
-        .cajonu 
-          .col-lg-3.md-lg-10.col-12 
-            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/ef.png',)
-            p.mb-1.mx-2.p-3 La arqu 
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+        .cajonu
+          img(src='@/assets/curso/temas/tema5/ef.png',)
+          h4.p-3.text-white.text-center.my-2 Mejorar operaciones
 
-      .col-lg-3.md-lg-10.col-12
-        .cajonu 
-          .col-lg-3.md-lg-10.col-12 
-            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/gh.png',)
-            p.mb-1.mx-2.p-3 La arqu 
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+        .cajonu
+          img(src='@/assets/curso/temas/tema5/gh.png',)
+          h4.p-3.text-white.text-center.my-3 Nuevos servicios 
 
-
-
-
-
-
-
-    p.mb-5(data-aos="zoom-in-left") #[b Beneficios de la computación en la nube ]
-    p.mb-5 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
+    
+    .row 
+      .col-lg-12
+        h4.mb-4.my-5.mt-5  Beneficios de la computación en la nube 
+        p.mb-5 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
     
     .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
@@ -313,7 +307,7 @@
             .col-10.my-2.mx-2
           .bg-white-r.mb-0.p-2.mt-0.mx-0.fw-bold 
             p.mb-1 Sin tecnología y sin transformación digital, sus organizaciones seguirán como de costumbre, igual que debió pasarles a muchos empresarios a inicios del siglo XX, donde opinaron que sin energía podrían trabar como siempre. Según la Unión Sindical de CCOO (2016).
-      .col-lg-4.my-3
+      .col-lg-4.col-9.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema5/img9.png', alt='')
     
     h3.mb-3 #[b Algunas cifras]
@@ -403,30 +397,30 @@
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.3 Seguridad en la nube 
     
-    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-lg-8
-        .tarjeta.color-primario.px-3.py-3.mb-0
+        .tarjeta.color-primario.px-2.py-2.mb-4
           .row.justify-content-around.align-items-center
             .col-2.col-sm-2.col-lg-2
-              img(src="@/assets/curso/temas/tema4/docker.svg")
+              img.img-a.img-t(src="@/assets/curso/temas/tema4/docker.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-2.mb-2.sm-mx-0.my-0
                   h3.mb-2 Seguridad en la Nube 
-                  p.mb-0 Para este componente es necesario para la seguridad en la nube adoptar los puntos 11, 11.1, 11.1.1, 11.1.2, 11.2, 11.3, 11.4, 11.5 de la guía 12 del modelo MSPI del ministerio TIC, “5482_G12- Seguridad en la nube, el cual puede consultar en el enlace: 
+                  p.mb-0.peque Para este componente es necesario para la seguridad en la nube adoptar los puntos 11, 11.1, 11.1.1, 11.1.2, 11.2, 11.3, 11.4, 11.5 de la guía 12 del modelo MSPI del ministerio TIC, “5482_G12- Seguridad en la nube, el cual puede consultar en el enlace: 
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
-        p.my-3 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en Cloud, migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
+        p.my-3.mb-2 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en Cloud, migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
         .d-flex.align-items-center.justify-content-center
-            img.img-a.img-t(src='@/assets/curso/temas/tema5/puntos.svg', alt='')
+            img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema5/puntos.svg', alt='')
             p.ml-1-custom.mt-3.mb-3 Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios Cloud, que podrá consultarse al desplegar el siguiente recurso, veamos:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-4.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema5/img13.png") 
 
     .row.justify-content-center.align-items-center.mb-0.mb-5(data-aos="zoom-in-left")
-      .col-sm-12.col-md-10.bg1404
+      .col-sm-12.col-lg-10.col-md-12.bg1404
         .row 
           .col-sm-12.col-md-12
             .bg-whit-r.mb-3.p-3.mt-4.mx-4.fw-bold.mb-0 
@@ -437,8 +431,8 @@
       
     p.mb-4 Monitorizar la migración de datos a Cloud con filtros URL y herramientas Data Loss Prevention. En las implementaciones de Cloud públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
 
-    .row.justify-content.align-items-center.mb-0
-      .col-lg-8.col-md-8
+    .row.justify-content-center.align-items-center.mb-0
+      .col-sm-12.col-lg-8.col-md-12
         .bg10
           .p-3.mb-4 
             ul.lista-ul--color.mx-2
@@ -459,8 +453,8 @@
             p(numero="1" titulo="Cifrado cliente/aplicación") Los datos son cifrados en el extremo o en el servidor antes de enviarse por la red o ya están almacenados en un formato de cifrado adecuado. Esto incluye el cifrado en cliente local (basado en agente), por ejemplo, para archivos almacenados, o el cifrado integrado en aplicaciones.
             p(numero="2" titulo="Cifrado enlace/red") Técnicas de cifrado de red estándar incluyendo SSL21, VPNs22, y SSH23. Puede ser #[em hardware o software.] Es preferible extremo a extremo, pero puede no ser viable en todas las arquitecturas.
             p(numero="3" titulo="Cifrado basado en proxy") Los datos son transmitidos a un servidor dedicado o servidor #[em proxy,] el cual los cifra antes de enviarlos por la red. Es la opción escogida frecuentemente para la integración con aplicaciones #[em legacy] pero no es generalmente recomendable.
-      .col-lg-4.col-md-10.col-12.order-lg-2.mb-lg-0.mb-8(data-aos="fade-left")
-        img(src="@/assets/curso/temas/tema5/img15.png") 
+      .col-lg-4.col-md-12.col-9.order-lg-2.mb-lg-0.mb-8(data-aos="fade-left")
+        img.img-a.img-t(src="@/assets/curso/temas/tema5/img15.png") 
 
 
 

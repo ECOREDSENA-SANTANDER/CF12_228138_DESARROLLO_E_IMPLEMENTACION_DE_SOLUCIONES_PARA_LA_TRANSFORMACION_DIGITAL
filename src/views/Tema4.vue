@@ -7,8 +7,8 @@
         span 4
       h1 Contenedores
     
-    .row(data-aos="zoom-in-left")
-      .col-lg-4
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+      .col-lg-4.col-9
         img.img-t.img-a.mb-2(src='@/assets/curso/temas/tema4/img1.png', alt='Actividades del plan de gestión de servicios TI')
       .col-lg-8
         .row.justify-content-center.align-items-center
@@ -16,7 +16,7 @@
             .tarjeta.bg13.p-3.mb-3.align-items-center.justify-content-center.my-3
               .row.justify-content-around.align-items-center
                 .col-lg-2.w-img-cus-2
-                  img(src="@/assets/curso/temas/tema4/img1.1.svg")
+                  img.img-a.img-t.mb-2(src="@/assets/curso/temas/tema4/img1.1.svg")
                 .col-lg-10
                   .row.justify-content-between.align-items-center
                     .col-auto
@@ -30,19 +30,20 @@
     
     p.mb-5 El término de contenedores se ha vuelto muy común en la jerga actual asociada a la administración de servicios de infraestructura, pero en esencia hace referencia a un modelo de virtualización repasado en el componente anterior, específicamente la virtualización a nivel de sistema operativo.
     
-    .row.mb-5(data-aos="zoom-in-left") 
+    .row.mb-4(data-aos="zoom-in-left") 
       .col-lg-6 
-        img.img-t(src='@/assets/curso/temas/tema4/img2.png', alt='Actividades del plan de gestión de servicios TI')
+        img.img-t.img-a.my-4(src='@/assets/curso/temas/tema4/img2.png', alt='Actividades del plan de gestión de servicios TI')
       .col-lg-6
-        .bloque-texto-c.color-primari.bg14.p-4.mb-5
-          i.fas.fa-quote-left
-          span.mb-5.my-5  En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host.]
-            h5.d-flex.justify-content-end López (2018)
-    
+        .bg14.p-5.mb-3
+          img.img-a.img-t.faschek.d-none.d-lg-block(src="@/assets/curso/temas/tema4/fas.svg")
+          p.mb-5
+          p.mb-0 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host.]
+            h5.d-flex.justify-content-end.my-2 López (2018)
+              .bloque-texto-c.color-primari
     .bg188.p-4.mb-3(data-aos="fade-left") 
       .row.d-flex
         .col-lg-1
-          img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema4/img3.svg', alt='')
+          img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/temas/tema4/img3.svg', alt='')
         .col-lg-11 Los contenedores encapsulan únicamente el software específico de la aplicación que se ejecuta dentro de él junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar logrando entonces una portabilidad real ya que es posible predecir el comportamiento de un software cuando este se mueve desde un servidor a otro.
     
     h3.mb-5 Ventajas 
@@ -55,61 +56,61 @@
           p(numero="3" titulo="Funcionamiento coherente") Siempre se ejecutan de la misma manera independientemente del lugar donde se implementen. 
           p(numero="4" titulo="Mayor eficiencia") Permiten la implementación de modificaciones y/o escalamiento de funcionalidades con mayor rapidez. 
           p(numero="5" titulo="Mejor desarrollo de aplicaciones") Este modelo de virtualización se alinea perfectamente con las metodologías ágiles y enfoques de #[em DevOps] de la industria actual para acelerar el proceso de construcción de #[em software.] 
-      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-md-9.col-9.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema4/img4.png")  
       
 
     h4.mb-4 Mayor uso 
 
     .row
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+      .col-sm-6.col-lg-4.col-md-4.mb-4.mb-lg-4
         .tarjeta--boton.color-primario.bg111110.p-4
           .row.justify-content.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/1.svg', alt='Texto que describa la imagen')
           p Migración y/o refactorización de aplicaciones existentes a entornos más modernos.
           .d-flex.justify-content-center
-            img.ittpun.mb-lg-0.mb-3.mx-5.my-5(src="@/assets/curso/temas/tema4/imp.svg")
+            img.ittpun.mb-lg-0.mb-3.mx-5.my-5.d-none.d-lg-block(src="@/assets/curso/temas/tema4/imp.svg")
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+      .col-sm-6.col-lg-4.col-md-4.mb-4.mb-lg-4
         .tarjeta--boton.color-primario.bg111110.p-4
           .row.justify-content.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/2.svg', alt='Texto que describa la imagen')
           p Aplicaciones distribuidas y arquitecturas de microservicios.
           .d-flex.justify-content-center
-            img.ittpun.mb-lg-0.mb-3.mx-5.my-5(src="@/assets/curso/temas/tema4/imp.svg")
+            img.ittpun.mb-lg-0.mb-3.mx-5.my-5.d-none.d-lg-block(src="@/assets/curso/temas/tema4/imp.svg")
 
-      .col-sm-6.col-lg-4.mb-4.mb-lg-4
+      .col-sm-6.col-lg-4.col-md-4.mb-4.mb-lg-4
         .tarjeta--boton.color-primario.bg111110.p-4
           .row.justify-content.mb-4
-            .col-4
+            .col-lg-4.col-6
               figure
                 img(src='@/assets/curso/temas/tema4/3.svg', alt='Texto que describa la imagen')
           p Implementación de prácticas de integración y despliegue continuo.
           .d-flex.justify-content-center
-            img.ittpun.mb-lg-0.mb-3.mx-5.my-5(src="@/assets/curso/temas/tema4/imp.svg")
+            img.ittpun.mb-lg-0.mb-3.mx-5.my-5.d-none.d-lg-block(src="@/assets/curso/temas/tema4/imp.svg")
 
     Separador
 
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 4.2 Hipervisor vs contenedores
     
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-4
         p.mb-3 Hay similitudes y diferencias entre la forma en cómo estas dos tecnologías facilitan el proceso de virtualización de aplicaciones, razón por la cual es más conveniente una u otra dependiendo del contexto particular y las necesidades establecidas por la organización. 
         .row.justify-content-center.align-items-center
           .col-lg-12
-            .tarjeta.bg14.p-3
+            .tarjeta.bg14.p-3.mb-4
               .row.justify-content-around.align-items-center
                 .col-sm-12.col-md-12
                   .row.justify-content-between.align-items-center
                     .col.mb-2.mb-sm-0
                       p.mb-1.my-3 En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
-      .col-sm-12.col-md-12.col-lg-4
-        img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
+      .col-sm-12.col-md-12.col-lg-4.col-9
+        img.img-a.img-t.mb-4(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
@@ -144,7 +145,7 @@
                     span Ir al sitio
                     i.fas.fa-link
         .d-flex.align-items-center.justify-content-center
-            img.img-a.img-t(src='@/assets/curso/temas/tema4/img6.1.svg', alt='')
+            img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema4/img6.1.svg', alt='')
             p.ml-1-custom.mt-3 En el enlace anterior podrá encontrar el enlace acceso directo al proceso de descarga y también encontrará una descripción de los requerimientos específicos del sistema respecto a versiones de sistema operativo, memoria RAM mínima, procesadores compatibles entre otros requerimientos.
         p.mb-3 En el siguiente recurso, podrá observar las características del Docker, veamos:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-4.mb-4(data-aos="fade-left")
@@ -158,7 +159,7 @@
           figcaption Video. Description
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
-      .col-lg-6.md-lg-10.col-12
+      .col-lg-6.md-lg-10.col-12.mb-4
         .tarjeta.color-primario.px-3.py-3.mb-0
           .row.justify-content-around.align-items-center
             .col-2.col-sm-2.col-lg-2
@@ -172,7 +173,7 @@
                     span Ir al sitio
                     i.fas.fa-link
     
-      .col-lg-6.md-lg-10.col-12
+      .col-lg-6.md-lg-10.col-12.mb-4
         .tarjeta.color-primario.px-3.py-3.mb-0
           .row.justify-content-around.align-items-center
             .col-2.col-sm-2.col-lg-2

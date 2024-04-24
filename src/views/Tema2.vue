@@ -40,7 +40,7 @@
                   i.fas.fa-chevron-right.mx-2
                   p.mb-3 Actualmente, las unidades de almacenamiento de estado sólido (a veces mal llamados como discos de estado sólido) han sido la evolución y mejoramiento de la tecnología inventada por Masuoka. Actualmente es la unidad de almacenamiento más eficiente.
             .col-sm-12.col-md-4.pt-5 
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img1.png', alt='')
+              img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img1.png', alt='')
     p.mb-5(data-aos="zoom-in-left") #[b A continuación se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los Cluster de almacenamiento. ]
     
     h4.mb-5(data-aos="zoom-in-left") Clúster de almacenamiento 
@@ -100,29 +100,29 @@
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.1 Volumen elástico
 
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-4
         p.mb-3 El almacenamiento elástico es la característica que permite adaptarse y escalar según las necesidades especificadas por quien configura el sistema o por el mismo sistema según los requerimientos de uso.
         .row.justify-content-center.align-items-center
           .col-lg-12
-            .tarjeta.bg14.p-3.mb-5.mt-2
+            .tarjeta.bg14.p-3.mb-4.mt-2
               .row.d-flex.justify-content-around.align-items-center
-                .col-sm-2.col-md-2
-                  img.arribaa.img-a.img-t(src="@/assets/curso/temas/tema2/img5.svg")
-                .col-sm-12.col-md-10
+                .col-sm-auto
+                  img.arribaa.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema2/img5.svg")
+                .col-sm-12.col-lg-10
                   .row.justify-content-between.align-items-center
-                    .col.mb-3.mb-sm-0
-                      p.mb-0.my-2 La elasticidad es un concepto que se aplica a varios servicios en la nube, principalmente para el procesador, memoria RAM, tipo de almacenamiento (HDD o SSD), alta o media disponibilidad, entre otros.
+                    .col-sm-12.col-md-12.col-lg-12.mb-0
+                      p.mb-0.my-2.mx-2 La elasticidad es un concepto que se aplica a varios servicios en la nube, principalmente para el procesador, memoria RAM, tipo de almacenamiento (HDD o SSD), alta o media disponibilidad, entre otros.
+      .col-md-9.col-lg-4.col-9
+        img.img-a.img-t.mb-4(src="@/assets/curso/temas/tema2/img5.1.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
-        img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema2/img5.1.png", alt="alt").img100.m-auto
-      .col-sm-12.col-md-12.col-lg-4
-        .bg100.p-4.mb-1(data-aos="fade-left") 
-            .row
+        .bg100.p-4.mb-4(data-aos="fade-left") 
+            .row.d-flex
               .col-lg-12
-                p.mb-1.my-2 Desde el punto de vista de Hardware, las marcas han desarrollado dispositivos que gestionan estas asignaciones de almacenamiento, es decir, si una empresa decide implementar su propia nube, es relativamente fácil implementar esta característica a los recursos de sus usuarios o servicios. 
+                p.mb-1.my-2.d-flex Desde el punto de vista de Hardware, las marcas han desarrollado dispositivos que gestionan estas asignaciones de almacenamiento, es decir, si una empresa decide implementar su propia nube, es relativamente fácil implementar esta característica a los recursos de sus usuarios o servicios. 
                 .row.justify-content.align-items
                   .col-sm-4.col-md-3.my-2
-                    img.end(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
+                    img.end.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
 
 
     p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación en la figura 5 se puede ver un ejemplo de un sistema de almacenamiento elástico creado por #[em IBM:]
@@ -137,16 +137,16 @@
         .caja 
           .row.align-items-center.justify-content-center
             .col-lg-2.md-lg-10.col-12   
-              img.my-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/serv.png', alt='')
+              img.my-4.img-a.img-t(src='@/assets/curso/temas/tema2/serv.png', alt='')
           .row.align-items-center.justify-content-center 
             .col-lg-auto.md-lg-10.col-12 
-              p Nota. https://www.ibm.com/products/elastic-storage-system
+              p.mx-3 Nota. https://www.ibm.com/products/elastic-storage-system
     Separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 2.2 Copia de seguridad
     
-    .row.align-items-center.justify-content.mb-4
-      .col-lg-3.my-3
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-3.col-md-9.col-9.my-3
         img.img-a.img-t(src='@/assets/curso/temas/tema2/img7.png', alt='')
       .col-lg-9.my-3
         p.mb-0(data-aos="zoom-in-left") Una de las ventajas de la computación en la nube, ha sido la seguridad, se presentan riesgos que deben gestionarse, las organizaciones pueden advertir riesgos en los datos y tener control físico de los datos.
@@ -156,7 +156,7 @@
           .row.d-flex.align-items-center.justify-content
             .col-lg-12 Para realizar los respaldos existen dos opciones elementales: utilizar un proveedor en la nube con las instancias para este fin o realizar desde la empresa misma una copia de seguridad y disponerla en una ubicación fuera de las instalaciones.
         .d-flex.align-items-center.justify-content-center
-            img.img-a.img-t(src='@/assets/curso/temas/tema2/img7.1.svg', alt='')
+            img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img7.1.svg', alt='')
             p.ml-1-custom.mt-3 Como todo en la nube, existen proveedores especializados en la gestión de copias de seguridad; las empresas prometen las siguientes ventajas:
     
     .row
@@ -240,7 +240,10 @@
     
       .col-lg-6.md-lg-10.col-12
         .cajon 
-          p.mb-1.mx-2.p-3 La arquitectura anterior es un ejemplo implementado por #[em Oracle] con su servicio #[em Oracle Cloud Infrastructure]. Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
+          p.mb-1.mx-2.p-3 La arquitectura anterior 
+            span.blanco es un ejemplo implementado por #[em Oracle] con su servicio #[em Oracle Cloud Infrastructure].
+            | Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este 
+            span.blanco caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
           p.mb-2.mx-4 Luego se encuentra el almacenamiento de objetos, corresponde a la plataforma de almacenamiento de alto rendimiento con características elásticas. Cuenta con gestión de identidad y acceso que controla el ingreso a los recursos #[em cloud]. Controla niveles de accesos según permisos asignados a los usuarios.  
           p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de #[em Oracle cloud], la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. #[em (Oracle, s.f.)]  
             .col-lg-6.md-lg-10.col-12 
@@ -261,13 +264,13 @@
     p.mb-4 La recuperación de datos podría explicarse como regresar en el tiempo y restaurar las cosas tal como estaban en un momento dado cuando se toma la foto de los datos para guardar #[b #[em “snapshot”.]]
           
     .row.mb-5(data-aos="zoom-in-left")
-      .col-lg-12.col-md-10.col-12
+      .col-sm-12.col-md-12.col-lg-12
         .bgonza
           .row.mx-2 
-            .col-lg-12.col-md-10.col-12.my-2
+            .col-sm-12.col-md-12.col-lg-12.my-2
               .bg-whiter-r.mb-4.p-3.mt-4.mx-4.mb-0 
                 p.mb-0.mx-1 Los snapshots (foto o imagen en inglés) son instantáneas del estado actual de un Servidor #[em Cloud] y sirven como punto de restauración de una máquina virtual en un momento dado.
-            .col-lg-8.col-md-10.col-12
+            .col-sm-12.col-md-12.col-lg-8
               ul.lista-ul--color.mx-4
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
@@ -306,13 +309,13 @@
                   i.fas.fa-chevron-right
                   p.mb-4 Los #[em snapshot] pueden recuperar máquinas virtuales completas o archivos individuales. 
             .col-lg-4.col-md-10.col-12.pt-2 
-              img.img-a.img-t.my-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img12.png', alt='')
+              img.img-a.img-t.my-0.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img12.png', alt='')
 
 
     p.mb-3 #[b ¿Qué elegir para recuperar el sistema ante caídas o pérdidas, #[em snapshot o backup?]]
     p.mb-3 Se tiene en cuenta que los snapshots no son verdaderas copias de seguridad, pero son eficientes y funcionales para algunos casos. Por ejemplo, una imagen se puede usar como una protección rápida en caso de necesitar revertir una actualización, una prueba o cualquier operación que pueda considerarse riesgosa.
     
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-4
         .row.justify-content-center.align-items-center
           .col-lg-12
@@ -322,10 +325,10 @@
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-5
                       p.mb-0 Ahora bien, los backup, por otro lado, al hacer la recuperación a partir de copias de seguridad pierden parte de la inmediatez de la restauración, pues suelen ser procesos más robustos en términos de almacenamiento, es ideal para esquemas de almacenamiento de archivos a largo plazo. Además, según el tipo de medio utilizado como destino, las copias de seguridad permiten dividir y catalogar los datos de los respaldos de los eventos de tiempo de ejecución. Esto actúa como una capa adicional de protección y aislamiento de algunas amenazas de malware en el mundo actual. (Demlow, 2020)
-      .col-sm-12.col-md-12.col-lg-4
+      .col-sm-12.col-md-12.col-lg-4.col-9
         img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema2/img13.1.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
-        .bg14.p-4.mb-1(data-aos="fade-left") 
+        .bg14.p-4.mb-4(data-aos="fade-left") 
             .row
               .col-lg-12
                 p.mb-1 En conclusión, si bien los Snapshot son más rápidos y ocupan menos recursos, los backups no deberían de dejarse de implementar, en caso de presentarse un incidente, depende de la gravedad, es posible que las imágenes disponibles no logren recuperar algunos daños o pérdidas de datos; en caso tal de que no se tengan los resultados esperados, el Backup es la segunda opción, es más robusto, pero más seguro. Cada organización puede elegir una de las dos opciones de restauración, o si desea mayor respaldo pueden implementar las dos formas para recuperar sistemas e información, pues ambas conviven sin interferencia. 

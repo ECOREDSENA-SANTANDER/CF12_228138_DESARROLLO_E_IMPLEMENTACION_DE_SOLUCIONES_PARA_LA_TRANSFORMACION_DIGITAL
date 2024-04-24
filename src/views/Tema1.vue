@@ -7,16 +7,20 @@
         span 1
       h1 Descripción general del servicio de computación en nube, gestión de uso y escenarios de aplicación
       
-    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
-      .col-lg-4.col-md-10.col-12.my-3
-        img.img-a.img-t(src='@/assets/curso/temas/tema1/img1.png', alt='')
-      .col-lg-8.col-md-10.col-12.my-3
-        p La computación en la nube #[em #[b (Computing cloud)]] corresponde a  los servicios o recursos computacionales que se distribuyen y consumen por medio de una red. 
+    .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
+      .col-lg-4.col-md-10.col-9.my-3
+        img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema1/img1.png', alt='')
+      .col-lg-8.col-md-12.col-12.my-3
+        p La computación en la nube 
+          strong.resaltado #[em #[b (Computing cloud)  ]]  
+          | corresponde a  los servicios o recursos computacionales que se distribuyen y consumen por medio de una red. 
         p Las aplicaciones, datos y comandos que se ejecutan por un usuario dependen de las contraseñas de la computadora o dispositivo que el usuario emplee.
         .d-flex.align-items-center.justify-content-center
-          img.img-a.img-t(src='@/assets/curso/temas/tema1/img2.png', alt='')
-          .bg13.p-4.mb-1.mx-3   El término estricto de computing cloud siempre estuvo presente desde los inicios de Internet, estas limitaciones estaban por debajo del rendimiento comparado con una máquina local; pues trabajar en máquinas locales era mucho más rápido, mejor rendimiento y contaba con más capacidad de almacenamiento.
-        p.ml-1-custom.mt-2 Para comprender el computing cloud, es preciso conocer un poco sobre las arquitecturas de los diferentes componentes de la computación y sus capas, es decir entender sobre arquitectura de hardware, de redes, sistemas operativos y por supuesto aplicaciones. Cada elemento mencionado es un mundo técnico al que por años han evolucionado, cada uno tiene sus desarrollos y especialistas específicos.
+          img.img-a.img-t.d-none.d-lg-block.mb-2(src='@/assets/curso/temas/tema1/img2.png', alt='')
+          .bg13.p-4.mb-2.mx-3   El término estricto de 
+            strong.colored #[em computing cloud ]
+            | siempre estuvo presente desde los inicios de Internet, estas limitaciones estaban por debajo del rendimiento comparado con una máquina local; pues trabajar en máquinas locales era mucho más rápido, mejor rendimiento y contaba con más capacidad de almacenamiento.
+        p.mt-2 Para comprender el #[em computing cloud,] es preciso conocer un poco sobre las arquitecturas de los diferentes componentes de la computación y sus capas, es decir entender sobre arquitectura de hardware, de redes, sistemas operativos y por supuesto aplicaciones. Cada elemento mencionado es un mundo técnico al que por años han evolucionado, cada uno tiene sus desarrollos y especialistas específicos.
     
 
 
@@ -24,7 +28,8 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 1.1 Referente histórico
     
-    p.mb-4(data-aos="zoom-in-left") La computación en la nube empezó a hacerse popular desde el año 2006 (por supuesto, con antecedentes anteriores); pero a partir de esta época ya existían recursos tecnológicos avanzados, se empieza a desarrollar aún más las posibilidades de Internet, nuevas y grandes compañías también inician a fundarse y crecer, como se muestra en la siguiente figura:
+    p.mb-4(data-aos="zoom-in-left") La computación en la nube empezó a hacerse popular desde el año 2006 (por supuesto, con antecedentes anteriores); pero a partir de esta época ya existían recursos tecnológicos avanzados, se empieza a desarrollar aún más las posibilidades de Internet, nuevas y grandes compañías también inician a fundarse y crecer, 
+      strong.colored como se muestra en la siguiente figura:
     .row.mb-4
       .col-sm-12.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-left")
@@ -36,9 +41,9 @@
         .bag14
           .row.d-flex.align-items-center.justify-content-center.mb-2
             .col-lg-9.col-md-10.col-12.my-5
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt='')
+              img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt=' La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
             .row 
-              .col-lg-auto.col-md-10.col-12.pabg.mb-3.mx-3
+              .col-lg-auto.col-md-10.col-11.pabg.mb-3.mx-3
                 p.mb-2.my-2 Nota. Adaptación tomada de, Entendiendo a la nube informática. #[em (Cloud computing.Blog,] 2016)
 
     p.mb-5 #[b Para llegar  a lo que son hoy los servicios en la nube, se debió pasar por los siguientes precedentes:]
@@ -104,10 +109,11 @@
         .bloque-texto-d.bg13.p-1.mb-3
           i.fas.fa-quote-left.my-1
           p.mx-3 Existen tres tipos de servicios en la nube, según la ubicación de los servidores: nube pública, nube privada y nube híbrida.
-          h5.d-flex.justify-content-end (Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
+          h5.d-flex.justify-content-end.mx-3 (Olivares, Caparrós Ramírez, & Cubero Luque, 2019).
             i.fas.fa-quote-right
-        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores web, o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la#[.b figura 2 se ilustra la arquitectura de la computación en la nube: ]
-      .col-lg-4.my-0
+        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores web, o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la 
+          strong.colored figura 2 se ilustra la arquitectura de la computación en la nube:
+      .col-lg-4.col-md-9.col-9.my-0
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img5.png', alt='')
 
     .row.mb-4
@@ -133,7 +139,8 @@
         .bg14
           .row 
             .col-lg-8.md-lg-10.col-12
-              p.mb-0.mb-3.p-2.mt-4.mx-3.fw-bold Multi cloud
+              p.mb-0.mb-3.p-2.mt-4.mx-3.fw-bold
+                strong.resaltado2.p-2 #[b Multi cloud]
               p.mb-4.mx-4 Cuando la organización implementa servicios en la nube con diferentes proveedores, se define el multi-cloud, esta característica se presenta por diferentes circunstancias, como las siguientes:
               ul.lista-ul--color.mx-3
                 li.mb-0.pb-0 
@@ -158,7 +165,7 @@
                   i.fas.fa-chevron-right
                   p.mb-0 Para emplear la computación en la nube con varios proveedores, lo más importante al momento de elegir un ecosistema de productividad digital son: sus condiciones de uso y garantías, asistencia técnica, servicios que ofrece, disponibilidad, precios, habilidad en el manejo de herramientas, entre otros aspectos. 
             .col-sm-12.col-md-4.pt-5 
-              img.img-a.img-t.my-5(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img7.png', alt='')
+              img.img-a.img-t.my-5.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img7.png', alt='')
     
     h4.mb-4(data-aos="zoom-in-left") Recursos tecnológicos propios o “arrendados”
     
@@ -167,8 +174,8 @@
     .row 
       .col-lg-12.md-lg-10.col.lg-12
         .row.d-flex.justify-content-between
-          .col-lg-6.col-md-10.col-12.mt-2
-            .tarje.color-primario.my-4.he-4-cus.px-4.pt-4
+          .col-lg-6.col-md-12.col-12.mt-2
+            .tarje.color-primario.my-4.he-4-cus.px-4.pt-4.mb-4
               img.w-auto-cus(src='@/assets/curso/temas/tema1/img8.svg', alt='')
               h4.mb-3.mt-4 #[.ir On-premise]
               p.mb-0.text-white (En local), significa que el recurso informático, ya sea |, #[em software,] comunicación, etc., se encuentra en la empresa, es propiedad de ella misma.
@@ -178,8 +185,8 @@
               .d-flex.justify-content
                 img.ittt.my-5(src="@/assets/curso/temas/tema1/imggggg.svg")
       
-          .col-lg-6.col-md-10.col-12.mt-2
-            .tarje.color-primario.my-4.he-4-cus.px-4.pt-3
+          .col-lg-6.col-md-12.col-12.mt-2
+            .tarje.color-primario.my-4.he-4-cus.px-4.pt-3.mb-4
               img.w-auto-cus.mt-2(src='@/assets/curso/temas/tema1/img8.1.svg', alt='')
               h4.mb-3.mt-4 #[.ir #[em IaaS ](Infraestructura como servicio)]
               p.mb-4.text-white En términos generales, se refiere a la contratación de máquinas #[em (hardware)].
