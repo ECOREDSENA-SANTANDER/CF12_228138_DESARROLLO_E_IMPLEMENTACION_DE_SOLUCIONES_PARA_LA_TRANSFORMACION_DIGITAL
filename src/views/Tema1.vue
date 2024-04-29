@@ -9,7 +9,7 @@
       
     .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
       .col-lg-4.col-md-10.col-9.my-3
-        img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema1/img1.png', alt='')
+        img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema1/img1.png', alt='tema1')
       .col-lg-8.col-md-12.col-12.my-3
         p La computación en la nube 
           strong.resaltado #[em #[b (Computing cloud)  ]]  
@@ -41,7 +41,8 @@
         .bag14
           .row.d-flex.align-items-center.justify-content-center.mb-2
             .col-lg-9.col-md-10.col-12.my-5
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt=' La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
+              img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
+              img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.11.png', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
             .row 
               .col-lg-auto.col-md-10.col-11.pabg.mb-3.mx-3
                 p.mb-2.my-2 Nota. Adaptación tomada de, Entendiendo a la nube informática. #[em (Cloud computing.Blog,] 2016)
@@ -121,8 +122,10 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 2.
           span Arquitectura computacion en la nube
-        img.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img6.png', alt='')
-  
+        img.mb-4.d-none.lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img6.png', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
+        img.mb-4.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img6.11.png', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
+        
+        
     p.mb-5 En términos generales, emplear computación en la nube en vez de usar infraestructura local tiene ventajas como las que se muestran a continuación:
 
     .row.justify-content-center.align-items-center.mb-5
@@ -216,8 +219,9 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 3.
           span Modelo De servicios en la nube
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.png', alt='')
-  
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.png', alt='La figura representa un modelo de servicios en la nube a través de una pirámide. En la base se encuentran los modelos IaaS (Infraestructura como Servicio). En el siguiente pilar se encuentra PaaS (Plataforma como Servicio). Y en la cúspide de la pirámide se encuentra SaaS (Software como Servicio).')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.11.png', alt='La figura representa un modelo de servicios en la nube a través de una pirámide. En la base se encuentran los modelos IaaS (Infraestructura como Servicio). En el siguiente pilar se encuentra PaaS (Plataforma como Servicio). Y en la cúspide de la pirámide se encuentra SaaS (Software como Servicio).')
+        
     p.mb-5 Cuando no se hacen planes de inversión para adquirir recursos TI, los servicios se pagan mensual o anual, a un tercero según las necesidades de la organización. En la mayoría de los casos existen grandes prestadores de soluciones tecnológicas con infraestructuras de gran tamaño e inversión para la transformación digital, que cubren múltiples servicios.
     
     h4.d-flex.justify-content Los gigantes de la nube

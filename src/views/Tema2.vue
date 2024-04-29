@@ -61,7 +61,7 @@
           .row(titulo="Arreglos de servidores de almacenamiento")
             .col-12.ps-6
               p.mb-0 Son nodos responsables de guardar y tramitar los datos físicamente.
-          .row(titulo="volúmenes gigantes en <em>terabytes</em> (TB) o <em>petabytes</em> (PB)")
+          .row(titulo="Volúmenes gigantes en <em>terabytes</em> (TB) o <em>petabytes</em> (PB)")
             .col-12.ps-6
               p.mb-0 Hemos trabajado con una unidad de almacenamiento en la computadora, sin embargo, los clusters, los cuales están en centros de datos de las compañías alrededor del mundo con muchas máquinas, cada una con muchas unidades de almacenamiento comportándose como una sola unidad de almacenamiento.
           .row(titulo="Nodos de datos")
@@ -78,7 +78,8 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 4.
           span Ejemplo Arquitectura de clúster e interactividad con los demás sistemas
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.png', alt='')
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.png', alt='La figura representa un ejemplo de arquitectura de clúster e interactividad con los demás sistemas. Inicia con los servidores de servicio, que son los recursos computacionales. Estos están conectados mediante un bus de comunicaciones que pasan los datos por el Nodo administrador de almacenamiento, que se dividen en tres servidores de almacenamiento, cada uno con sus respectivos clúster. Posteriormente, atraviesan el nodo de gestión y autenticación etapa conocida como “Frontend” para legar a una conexión segura hacia los usuarios finales.')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.12.png', alt='La figura representa un ejemplo de arquitectura de clúster e interactividad con los demás sistemas. Inicia con los servidores de servicio, que son los recursos computacionales. Estos están conectados mediante un bus de comunicaciones que pasan los datos por el Nodo administrador de almacenamiento, que se dividen en tres servidores de almacenamiento, cada uno con sus respectivos clúster. Posteriormente, atraviesan el nodo de gestión y autenticación etapa conocida como “Frontend” para legar a una conexión segura hacia los usuarios finales.')
   
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-10
@@ -137,7 +138,7 @@
         .caja 
           .row.align-items-center.justify-content-center
             .col-lg-2.md-lg-10.col-12   
-              img.my-4.img-a.img-t(src='@/assets/curso/temas/tema2/serv.png', alt='')
+              img.my-4.img-a.img-t(src='@/assets/curso/temas/tema2/serv.png', alt='La imagen representa  un dispositivo de hardware que le permite implementar IBM Storage Scale  en miles de nodos con un rendimiento de TB/s, baja latencia y decenas de millones de IOP por nodo.')
           .row.align-items-center.justify-content-center 
             .col-lg-auto.md-lg-10.col-12 
               p.mx-3 Nota. https://www.ibm.com/products/elastic-storage-system
@@ -236,7 +237,7 @@
           span Arquitectura de referencia copias de respaldo
     .row
       .col-lg-6.md-lg-10.col-12
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/fig6.png',)
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/fig6.png' ,alt='La figura representa la arquitectura de referencia para copias de respaldo. Inicia con "Customer Premises" y pasa por "SAN" y "NAS". Luego, va hacia "Third Party Backup", "Oracle Storage Gateway" y la Base de Datos. Posteriormente, se conecta a través de "Public Internet" y "FastConnect”, y finalmente entra en el "Cloud" (nube) para almacenar copias de respaldo utilizando "Public Object Storage" y "Access Management" (gestión de acceso).')
     
       .col-lg-6.md-lg-10.col-12
         .cajon 

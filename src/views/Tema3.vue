@@ -36,7 +36,8 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 7.
           span Esquema de virtualizacion
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.png', alt='')
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.png', alt='La figura representa el esquema de virtualización, a través de una infraestructura, el hipervisor crea máquinas virtuales. Estas máquinas virtuales pueden contener tanto el sistema operativo (SO) como las aplicaciones (APP).')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.13.png', alt='La figura representa el esquema de virtualización, a través de una infraestructura, el hipervisor crea máquinas virtuales. Estas máquinas virtuales pueden contener tanto el sistema operativo (SO) como las aplicaciones (APP).')
 
     Separador
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -121,7 +122,7 @@
                   p.mb-1 En este tipo de virtualización se usa el hipervisor, el cual es un #[em software] que se encarga de la supervisión y gestión de los recursos físicos y de adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente lo que puede afectar el rendimiento general del servidor.
                     .d-flex.justify-content-center
                       .col-lg-8
-                        img.my-4.img-t.img-a.mb-5(src="@/assets/curso/temas/tema3/img7.png")
+                        img.my-4.img-t.img-a.mb-5(src="@/assets/curso/temas/tema3/img7.png",alt='El esquema representa la virtualización completa a través de Apps, Guest OS y Mgmt. Se utiliza un hipervisor y un hardware para este proceso.')
       
               .col-lg-6.col-md-12.col-12.mt-2
                 .tarjetassss.my-4.he-4-cuii.px-4.pt-2
@@ -129,7 +130,7 @@
                   p.mb-3 En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y en algunos casos se pueden presentar problemas de compatibilidad de #[em hardware.]
                     .d-flex.justify-content-center
                       .col-lg-8
-                        img.img-t.img-a.mb-5(src="@/assets/curso/temas/tema3/img7.1.png")
+                        img.img-t.img-a.mb-5(src="@/assets/curso/temas/tema3/img7.1.png",alt='El esquema representa la paravirtualización a través de Apps, Modified Guest OS y Mgmt. Se utiliza un hipervisor y un hardware para este proceso.')
     
         h3.mb-4 Virtualización a nivel de sistema operativo o basada en contenedores
     
@@ -383,7 +384,7 @@
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-left")
               h5 Figura 8.
               span Funcionamiento de una maquina virtual
-            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img13.1.png', alt='')
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img13.1.png', alt='La figura representa el funcionamiento de una máquina virtual a través de aplicaciones 1 y 2, y 3 bibliotecas y sistemas. El proceso pasa por el hipervisor, el sistema operativo host y el hardware.')
 
     Separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")

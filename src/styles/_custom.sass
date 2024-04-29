@@ -9,7 +9,7 @@
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 21%
-    right: 3%
+    right: 10%
 
 @keyframes float1
   0%
@@ -24,29 +24,18 @@
 
 	100%
 		transform: rotate(-180deg) translateX(10px) rotate(180deg)
-.banner-principal .tarjeta figure, .banner-principal .tarjeta picture, .banner-principal .tarjeta img, .banner-principal .tarjeta svg 
-    margin: 0;
-    width: 71%;
-    left: 22%;
-.banner-principal .tarjeta 
-    background-color: #083142;
-    background-size: cover;
-    background-position: right;
+
 
 
 .banner-principal .tarjeta 
   img, svg 
-    display: block;
+    display: auto;
     border-style: hidden;
+
   figure, picture, img, svg 
     margin: 0;
-    width: 84%;
-    left: 10%
-  
-.banner-principal .tarjeta 
-  background-color: #083142;
-  background-size: cover;
-  background-position: right;
+    width: 71%;
+    
     
 .banner-principal__componente 
   margin-bottom: 50px
@@ -95,6 +84,16 @@
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
     margin-inline: -1.4rem   
+
+@media only screen and (max-width: 768px) 
+  .imagen-mobile 
+    display: block;
+@media only screen and (min-width: 769px) 
+  .imagen-mobile 
+    display: none;
+
+.cajj
+  background-color: #F6F6F6
 
 .ittpun
   width: 100px
@@ -209,6 +208,7 @@
 
 .b 
   color: red
+
 
 .bg1404
   background-color: #F6F6F6
@@ -375,7 +375,7 @@
   background-color: #083142
 
 .bg188
-  background-color: #FFC8BF
+  background-color: #FFD8D2
 
 .bg11
   background-color: #FFECDC

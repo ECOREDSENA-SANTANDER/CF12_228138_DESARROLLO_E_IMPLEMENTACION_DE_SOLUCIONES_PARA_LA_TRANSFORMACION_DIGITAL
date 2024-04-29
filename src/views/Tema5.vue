@@ -36,7 +36,8 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 9.
           span Las 6 Rs de #[em AWS] para migración a la nube
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='')
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.15.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
     .mb-5 #[b De forma simplificada, puede explicarse cada una de las estrategias que involucran la migración a la nube en la siguiente imagen.]
     
@@ -46,7 +47,7 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 10.
           span Estrategias de migracion
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/fig9.png', alt='')
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/fig9.png', alt='La figura representa las estrategias de migración. Inicia con el rehospedaje, la replataforma, la recompra, el rediseño, la retención y la retirada.')
     
 
     .mb-4.d-flex
@@ -272,7 +273,9 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 11.
           span Beneficios generales de migrar a la nube
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='')
+        .cajj.p-4
+          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='La figura representa los beneficios de migrar los servicios a la nube. Entre ellos están la velocidad, la elasticidad, la innovación, el pago por uso y el autoservicio.')
+          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.13.jpg', alt='La figura representa los beneficios de migrar los servicios a la nube. Entre ellos están la velocidad, la elasticidad, la innovación, el pago por uso y el autoservicio.')
 
     h4.mb-4 Motivadores para migrar a la nube
 
@@ -303,7 +306,9 @@
         p(data-aos="zoom-in-left") Todo cambio implica pasar por una serie de obstáculos que en términos humanos y organizacionales son complejos y motivo de crisis, sería extraño lo contrario; el reto elemental de toda empresa es continuar en el mercado de manera exitosa y en ese sentido, las organizaciones, de todos los tamaños enfrentan grandes desafíos comerciales, incluso de su existencia misma en el tiempo.
         .bg13.p-4.mb-2 
           .row.d-flex.align-items-center.justify-content-center
-            .col-lg-12 Si bien, el enfoque de este material de estudio es técnico, no se puede dejar de lado las circunstancias mundiales, tales como la inestabilidad económica, crisis geopolítica, rezagos de la pandemia COVID-19 y otros componentes globales y nacionales que impactan a las organizaciones de todos los tamaños. Uno de esos componentes fuertes de inestabilidad, es el tránsito actual que el mundo productivo, económico y social está atravesando hacia la cuarta revolución industrial. Aun así, muchos empresarios, tienen la opinión de que ..
+            .col-lg-12 
+              p.mb-4.text-center.b #[b “Crecer duele, pero es necesario”]
+              P.mb-0 Si bien, el enfoque de este material de estudio es técnico, no se puede dejar de lado las circunstancias mundiales, tales como la inestabilidad económica, crisis geopolítica, rezagos de la pandemia COVID-19 y otros componentes globales y nacionales que impactan a las organizaciones de todos los tamaños. Uno de esos componentes fuertes de inestabilidad, es el tránsito actual que el mundo productivo, económico y social está atravesando hacia la cuarta revolución industrial. Aun así, muchos empresarios, tienen la opinión de que ..
             .col-10.my-2.mx-2
           .bg-white-r.mb-0.p-2.mt-0.mx-0.fw-bold 
             p.mb-1 Sin tecnología y sin transformación digital, sus organizaciones seguirán como de costumbre, igual que debió pasarles a muchos empresarios a inicios del siglo XX, donde opinaron que sin energía podrían trabar como siempre. Según la Unión Sindical de CCOO (2016).
@@ -316,10 +321,10 @@
     .row.mb-5
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
-          h5 Figura 11.
+          h5 Figura 12
           span Cifras, Beneficios de la migracion hacia servicios cloud
         .col-lg-8-sm-10.col-md-8.col-lg-8.m-auto
-          img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img10.png', alt='')
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img10.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
     p.mb-5 #[b Retos tecnológicos al migrar a la nube]
 
@@ -427,7 +432,8 @@
               p.mb-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos (DAM - Database Activity Monitoring) y de monitorización de actividad en archivos (FAM - File Activity Monitoring).
             
         .col-lg-6.sm-8.col-md-4.lg-8.pt-8 
-        img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
+        img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
+        img.img-a.img-t.imagen-mobile.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.13.jpg', alt='')
       
     p.mb-4 Monitorizar la migración de datos a Cloud con filtros URL y herramientas Data Loss Prevention. En las implementaciones de Cloud públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
 
