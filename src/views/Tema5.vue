@@ -326,12 +326,15 @@
         .col-lg-8-sm-10.col-md-8.col-lg-8.m-auto
           img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img10.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
-    p.mb-5 #[b Retos tecnológicos al migrar a la nube]
-
-    p.mb-3 Los responsables de TI de las organizaciones que dan el paso hacia la modernización y transformación digital asumen retos que deben gestionar y sortear, por ello es importante estudiar y documentarse previamente ante los retos que se sortean en el desarrollo del plan de migración, entre ellos se encuentran:
-    
     h3.mb-5 Retos tecnológicos al migrar a la Nube
-    
+
+    p.mb-5 Los responsables de TI de las organizaciones que dan el paso hacia la modernización y transformación digital asumen retos que deben gestionar y sortear, por ello es importante estudiar y documentarse previamente ante los retos que se sortean en el desarrollo del plan de migración, entre ellos se encuentran:
+  
+  
+    .mb-5.d-flex.justify-content-center
+      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-bluess
+        h4.col.px-4.mb-0(data-aos="fade-right") Retos tecnológicos al migrar a la Nube
+
     .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-0
       .col-lg-6
         .tarjeta-avatar-b.mb-5
