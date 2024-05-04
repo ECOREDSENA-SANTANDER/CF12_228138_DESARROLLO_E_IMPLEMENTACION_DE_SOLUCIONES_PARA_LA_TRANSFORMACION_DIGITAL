@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="102" height="102" viewBox="0 0 102 102">
+  <g id="Query_Language" transform="translate(-9 -9)">
+    <circle id="back_x5F_circle_38_" cx="50" cy="50" r="50" transform="translate(10 10)" fill="#f0f0f0" stroke="#777" stroke-linecap="square" stroke-width="2" stroke-dasharray="1 4"/>
+    <g id="pic_30_">
+      <path id="Trazado_817516" data-name="Trazado 817516" d="M100,92H20a4.012,4.012,0,0,1-4-4V32a4.012,4.012,0,0,1,4-4h80a4.012,4.012,0,0,1,4,4V88A4.012,4.012,0,0,1,100,92Z" fill="#eee" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_817517" data-name="Trazado 817517" d="M43,92H20a4.012,4.012,0,0,1-4-4V40H43Z" fill="#78909c" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_817518" data-name="Trazado 817518" d="M104,40H16V32a4.012,4.012,0,0,1,4-4h80a4.012,4.012,0,0,1,4,4Z" fill="#bdbdbd" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Elipse_9259" data-name="Elipse 9259" cx="3" cy="3" r="3" transform="translate(95 31)" fill="#ef5350" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Elipse_9260" data-name="Elipse 9260" cx="3" cy="3" r="3" transform="translate(85 31)" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <circle id="Elipse_9261" data-name="Elipse 9261" cx="3" cy="3" r="3" transform="translate(75 31)" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Trazado_817519" data-name="Trazado 817519" d="M21,46H38M21,50H38M21,54H38M21,58H38M21,62H38M21,66H38M21,70H38M21,74H38M21,86H38" fill="none" stroke="#cfd8dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g id="scroll_1_">
+        <path id="Trazado_817520" data-name="Trazado 817520" d="M76,66.7h0L65.4,57l-5.8,3.2a5.8,5.8,0,1,0-11.6.4,6.472,6.472,0,0,0,2.1,4.7L61,75.2l-1,10,15-8.6h0a6.012,6.012,0,0,0,3-5.3A6.334,6.334,0,0,0,76,66.7Z" fill="#f9a825" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <path id="Trazado_817521" data-name="Trazado 817521" d="M60.3,74.7l-8.8,5v.2a5.807,5.807,0,1,0,11.6,0A6.651,6.651,0,0,0,60.3,74.7Z" fill="#f57c00" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Trazado_817522" data-name="Trazado 817522" d="M51,55.3Z" fill="#fff" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+        <path id="Trazado_817523" data-name="Trazado 817523" d="M68.8,46a6.007,6.007,0,0,0-2.7.7h0l-15,8.5a4.953,4.953,0,0,1,2.7-.7,5.938,5.938,0,0,1,5.8,6.1v.5l6.5-3.7,8.5-4.9V52A5.979,5.979,0,0,0,68.8,46Z" fill="#fbc02d" stroke="#212121" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+      <path id="Trazado_817524" data-name="Trazado 817524" d="M76,58l4-4V48H99V64H80V58Z" fill="#9c80ba" stroke="#212121" stroke-linecap="square" stroke-width="1.5"/>
+      <circle id="Elipse_9262" data-name="Elipse 9262" cx="1.5" cy="1.5" r="1.5" transform="translate(93 58)" fill="#212121"/>
+      <circle id="Elipse_9263" data-name="Elipse 9263" cx="1.5" cy="1.5" r="1.5" transform="translate(88 58)" fill="#212121"/>
+      <circle id="Elipse_9264" data-name="Elipse 9264" cx="1.5" cy="1.5" r="1.5" transform="translate(83 58)" fill="#212121"/>
+    </g>
+  </g>
+</svg>
