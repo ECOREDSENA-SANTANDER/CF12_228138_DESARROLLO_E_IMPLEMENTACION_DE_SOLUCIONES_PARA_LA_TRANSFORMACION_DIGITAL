@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Analizando y visualizando datos
-        p.mb-4 #[b Fortalecer los conceptos de la analítica y visualización de datos, y el desarrollo de soluciones visuales de inteligencia de negocio.] 
+          h2 Conceptos de computación en la nube y adopción de tecnologías disponibles. 
+        p.mb-4 #[b Identificar conceptos relacionados con la computación en la nube con el fin de  implementarla en las organizaciones. ] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

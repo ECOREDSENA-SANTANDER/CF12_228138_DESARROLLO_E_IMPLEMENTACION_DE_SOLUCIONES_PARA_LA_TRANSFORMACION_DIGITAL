@@ -3,16 +3,16 @@ export default {
     componenteFormativo: 'Migración de servicios en la nube',
     descripcionCurso:
       'La migración a la nube, proceso de mover aplicaciones y datos desde una ubicación, de servidores privados locales de una empresa de un entorno local a servidores de un proveedor de nube pública; también entre distintas nubes. Las principales ventajas de la migración a la nube son  la reducción de los costos de TI y la mejora en el rendimiento.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.jpg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.jpg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.jpg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
       },
     ],
   },

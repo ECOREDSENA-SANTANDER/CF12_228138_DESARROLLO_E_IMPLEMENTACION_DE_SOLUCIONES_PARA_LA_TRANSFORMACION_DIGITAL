@@ -7,330 +7,333 @@
         span 2
       h1 Servicio de almacenamiento en la nube 
 
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-4.col-8.mb-5
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img1.png" alt="tema2")
-      .col-lg-8.col-12.mb-5
-        p.mb-3.my-3 En el diario vivir, en un hogar promedio actual, podría fácilmente suceder que el chico de la escuela, quien hace las tareas, pregunta en voz alta, ¿cuántos departamentos tiene Colombia?, a lo que el padre, quien tradicionalmente debería saberlo, tiene en su memoria que son 33 departamentos, pero mientras está en la mitad de su proceso cognitivo, asegurándose para responder, se oye primero el dispositivo electrónico Alexa, dando la respuesta de 32 departamentos.
-        .mb-5
-        .cajac.p-4.mb-4
-          .col-lg-7.my-0
-          .row.d-flex.align-items-center.justify-content-center
-            .col-lg-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/nueva.svg', alt='tema2')
-            .col-lg-10 Adicionalmente, amplía esta información con algunos datos complementarios. En este instante, la inteligencia artificial, es tomada como fuente de información rápida y confiable. Es así como los padres y profesores, que han sido tradicionalmente las fuentes de conocimiento, van siendo desplazados en este sentido (para adquirir conocimientos), y empiezan otros retos y roles igual de importantes que deben asumir.
+    .row.mb-5(data-aos="zoom-in-left")
+      .col-lg-12.md-lg-10.col-12
+        .bgonza
+          .row 
+            .col-lg-8.md-lg-10.col-12
+              .bg-whiter-r.mb-3.p-3.mt-4.mx-4.fw-bold.mb-0 
+                p.mb-0.p-2 #[em Cloud Storage] (almacenamiento en la nube), uno de los servicios del #[em computing cloud,] es importante conocer el pasado para entender mejor el nivel de avance y mejoramiento que han traído los servicios en la nube. #[b Las maneras de salvar los datos han tenido múltiples tecnologías y medios físicos, como: ]
+              ul.lista-ul--color.mx-4
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-0 Tarjetas perforadas con los mainframes. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-1 Unidades de almacenamiento de disco magnético como los antiguos y discos duros que incluso hoy día se usan. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-0 Unidades ópticas como DVD y sus formatos derivados. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-0 Unidad Flash USB o Pendrive, inventada por Fujio Masuoka para la empresa japonesa Toshiba (Electro personalizados, 2020), permite almacenamiento sin alimentación eléctrica permanente y sin uso de motores. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-0 Algunas actividades profesionales aún requieren usan almacenamiento en unidades externas o para gestionar la propia información personal.  
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-1 Los servicios de almacenamiento de archivos en línea han sido de los primeros servicios para internet. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-0 La nube es una funcionalidad evolucionada de los tradicionales sistemas ftp y otros para la transferencia y sincronización de archivos. 
+                li.mb-0.pb-1 
+                  i.fas.fa-chevron-right.mx-2
+                  p.mb-3 Actualmente, las unidades de almacenamiento de estado sólido (a veces mal llamados como discos de estado sólido) han sido la evolución y mejoramiento de la tecnología inventada por Masuoka. Actualmente es la unidad de almacenamiento más eficiente.
+            .col-sm-12.col-md-4.pt-5 
+              img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img1.png', alt='')
+    p.mb-5(data-aos="zoom-in-left") #[b A continuación se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los Cluster de almacenamiento. ]
     
-    p.mb-5 #[b En relación con el aprendizaje automático, es importante tener en cuenta aspectos como:]
-    
-    .tarjeta.tarjeta--azul.py-5.p-4.mb-5
-      SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-        .row.justify-content-center
-          .col-lg-4.col-12.mx-3.my-3
-            h4.mb-5 Avance y actualización permanentes
-            p.mb-lg-0.mb-3 La Inteligencia Artificial seguirá avanzando, las organizaciones y personas las seguirán asumiendo y consumiendo en su diario vivir, debido a que se encuentra en celulares, carros, compras, gestiones de gobierno, app, bancos, medios de comunicación, etc.
-          .col-lg-7.col-8  
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/temas/tema2/img01.png")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Apropiación y adaptación de las personas
-            p.mb-lg-0.mb-3 La mayoría de las empresas y personas, en medio de la inmersión de diario vivir, ocasionan aumento de las habilidades digitales en los individuos, muchas veces de manera natural, sin enterarnos, esto nos hace más exigentes para la solución de problemas, gestión de procesos, así como conocedores de la tecnología.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/temas/tema2/img02.png")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Mejoras industriales
-            p.mb-lg-0.mb-3 Los avances empresariales bajo el contexto de la cuarta revolución industrial, se van entendiendo mejor, aceptando y asumiéndolos en sus organizaciones. Algo similar debió pasar cuando llegó la electricidad al mundo, algunas personas y organizaciones no lo veían necesario sino complementario, como piensan actualmente, de la tecnología, algunas personas. No obstante, desde hace muchas décadas, la electricidad no es un elemento que se debata en un hogar o una organización.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img03.png")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 La IA como representación de la inteligencia humana
-            p.mb-lg-0.mb-3 La IA está fundamentada en una serie de algoritmos y métodos inspirados en procesos propios del cerebro, es decir, la programación se basa en entradas de datos. El software se programa para realizar procesos y asociar datos en tablas y organizar, sumar o dar reportes. Es un asunto más mecánico y de ejecutar pasos establecidos.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img04.png")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Inteligencia con poder de decisión, aprendizaje y predicción
-            p.mb-lg-0.mb-3 En cierta manera, los cálculos y guardar datos también son características del cerebro, sin embargo, existen otras donde la programación ha avanzado ostensiblemente en los últimos años. Si el algoritmo tiene poder de decisión, aprendizaje, predicción, usa lenguaje natural humano y automatiza tareas, es un componente de IA.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img05.png")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Frecuencia y utilidad
-            p.mb-lg-0.mb-3 La IA es una rama de las ciencias informáticas, si bien, la tecnología en analítica de datos no se enfoca al desarrollo de redes neuronales o aprendizajes de máquina, es interesante saber de qué se trata, porque, aunque no se programen estos sistemas, es una realidad el uso frecuente y útil de herramientas sofisticadas a las cuales conectamos nuestros datos, y nos pueden dar conocimientos importantes a partir de la IA.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img06.png")
-
-    separador
-    #t_2_1.titulo-segundo.color-acento-contenido
-      h2 2.1 Aprendizaje supervisado
-
-    p.mb-4 Machine Learning (ML) es el área de las ciencias computacionales que hace parte de la IA, su enfoque es que las computadoras, en vez de ser programadas paso a paso, aprendan a partir de los datos. Cada solución de ML es específica para cada necesidad, tal y como se tiene el enfoque con la programación convencional. Los profesionales de ML están dedicados al desarrollo de algoritmos genéricos que pueden extraer patrones de diferentes tipos de datos.
-    
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
-      .col-lg-12.col-12.mb-5
-        .bloque-texto-g.col.color-acento-contenido.p-lg-5
-          .bloque-texto-g__img.col(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img4.png')})`}"
-          )
-          .bloque-texto-g__texto.p-lg-5.py-lg-6.p-5
-            p.mb-5 El ML enfocado a la ciencia de datos apunta a desarrollar procesos específicos como la identificación de la fuente de datos, desechar información inválida o no útil, limpiar, normalizar, relacionar, datos sesgados, etc. 
-
-    
-    .row.d-flex.align-items-center.justify-content-center
-      .col-sm-12.col-lg-10
-        .cajaa.p-4.mb-4
-          .col-lg-7.my-0
-          .row.d-flex.align-items-center.justify-content-center
-            .col-lg-2
-              img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/nueva1.svg', alt='tema2')
-            .col-lg-10 Nota importante. Todas estas tareas podrían encontrar solución eficiente en la selección de soluciones de machine learning, cuya aplicación resulte apropiada, la elección del algoritmo más adecuado, el ajuste de los parámetros del método elegido, el análisis de los resultados, la identificación de comportamientos incorrectos, la vuelta a procesos anteriores con el fin de cambiar lo que resulte necesario para mejorar los resultados. (Bobadilla, 2020).
-    
-    p.mb-4 Si bien la aplicación de Business Intelligence (BI) es una manera interesante para el conocimiento de las organizaciones y otras bondades, la implementación de ML es ir más allá. Preste atención a los aspectos clave que se muestran a continuación:
+    h4.mb-5(data-aos="zoom-in-left") Clúster de almacenamiento 
+    p.mb-3(data-aos="zoom-in-left") La información que almacena un disco duro, se guarda en sus sectores, y cada grupo de sectores contiguos forma un clúster. Esto quiere decir que cada clúster es la cantidad de sectores que lo componen, veamos cómo:
     
     .row(data-aos="zoom-in")
-      .col-lg-7.mb-4.my-4
-        AcordionA.activo.color-acento-botones.mas(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-          .row(titulo="Orientación del Machine Learning")
-            .col-12.ps-5
-                  p.mb-0 Se orienta a mejorar predicciones cada vez más precisas, obtener información más profunda de los datos, reducir sobrecarga de tareas y mejorar las experiencias de clientes, por ejemplo, a través de Chatbots que vayan aprendiendo de un humano a cómo responder según las situaciones.
-
-          .row(titulo="Diferentes tipos de aprendizaje")
-            .col-12.ps-5
-                  p.mb-0 Varían en función de si se conoce o no la respuesta que se busca, del tipo de datos analizados, del entorno de los datos en cuestión y del tipo de análisis realizado (estadísticas, comparaciones, reconocimiento de imágenes, etc.).
-                    
-          .row(titulo="Algoritmos de aprendizaje")
-            .col-12.ps-5
-                  p.mb-0 Los algoritmos de aprendizaje y la potencia de cálculo requerida también difieren en función de la tarea que se realiza.
-
-          .row(titulo="Calidad de los aprendizajes")
-            .col-12.ps-5
-                  p.mb-0 Tal calidad depende del número de ejemplos relevantes que el software puede analizar (cuantos más ejemplos, más precisión se tendrá en el análisis de datos). También dependen de la cantidad de características que detallan los ejemplos (cuanto más sencillos y precisos, más rápido y acertado será el análisis: tamaño, peso, cantidad, velocidad, rangos, etc.).
-
-          .row(titulo="Calidad de los datos")
-            .col-12.ps-5
-                  p.mb-0 Si faltan muchos datos o se presentan falencias en las dimensiones de la calidad de datos, el análisis se verá afectado.
-          
-          .row(titulo="Cumplimiento máximo de criterios")
-            .col-12.ps-5
-                  p.mb-0 El ML de predicción será más preciso y el análisis resultará más ajustado a la realidad. Así que, una vez que se hayan definido los objetivos y elementos de aprendizaje automático, y que las bases de datos estén en óptimas condiciones, podrá empezar a sacar el máximo partido al machine learning.
-
-          .row(titulo="Principio del algoritmo")
-            .col-12.ps-5
-                  p.mb-0 El tipo de aprendizaje está dado según el principio del algoritmo, sin decir que otro tipo de aprendizaje no es usado, este aprendizaje es el más implementado en la gestión de datos y otras aplicaciones y ha permitido gran ampliación en implementación de Inteligencia Artificial en las organizaciones y la vida cotidiana.
-
-          .row(titulo="Fundamento del aprendizaje supervisado")
-            .col-12.ps-5
-                  p.mb-0 Se fundamenta en el descubrimiento o el aprendizaje en la relación existente entre unas variables o datos de entrada y unas variables de salida, es decir, el aprendizaje surge de mostrarle a los algoritmos cuál es el resultado que se desea obtener para un determinado valor.
-
-        
+      .col-lg-4.mb-5(data-aos="fade-left")
+        figure.d-lg-block.d-none.my-3
+          img(src='@/assets/curso/temas/tema2/img2.png', alt='imagen decorativa') 
+      .col-lg-8.my-3
+        AcordionA.activo(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          .row(titulo="Arquitectura de <em>Hardware</em>")
+            .col-12.ps-6
+              p.mb-0 Existe una ingeniería dedicada solo a la gestión del almacenamiento e implementación de modelos arquitectónicos para la gestión de capacidad para guardar información.
+          .row(titulo="Proveedores en la nube")
+            .col-12.ps-6
+              p.mb-0 Se caracterizan por ser expertos en los servicios que ofrecen, el almacenamiento es quizás el más importante, pues es el responsable de conservar, gestionar y transportar el alma de los sistemas de información, los datos.     
+          .row(titulo="Arreglos de servidores de almacenamiento")
+            .col-12.ps-6
+              p.mb-0 Son nodos responsables de guardar y tramitar los datos físicamente.
+          .row(titulo="Volúmenes gigantes en <em>terabytes</em> (TB) o <em>petabytes</em> (PB)")
+            .col-12.ps-6
+              p.mb-0 Hemos trabajado con una unidad de almacenamiento en la computadora, sin embargo, los clusters, los cuales están en centros de datos de las compañías alrededor del mundo con muchas máquinas, cada una con muchas unidades de almacenamiento comportándose como una sola unidad de almacenamiento.
+          .row(titulo="Nodos de datos")
+            .col-12.ps-6
+              p.mb-0 Garantizan la disponibilidad del servicio a pesar de fallos e incluso desastres o ataques militares.
+          .row(titulo="Arquitecturas de nodos")
+            .col-12.ps-6
+              p.mb-0 Emplea los métodos y algoritmos que mejor consideren, este aspecto es transparente para los usuarios, a excepción de algunos casos donde un experto de la organización requiera gestionar las unidades de almacenamiento para optimizar tablas y particiones de datos, sin embargo, estos casos no son frecuentes.
                                                 
-      .col-lg-5(data-aos="fade-left")
-        figure.d-lg-block.d-none
-          img(src='@/assets/curso/temas/tema2/img5.png', alt='imagen decorativa') 
+      P.mb-5 Ahora, en la figura 4 se detalla la arquitectura de interacción clúster donde muestra cómo se conecta el usuario final hacia el frontend y como este usa el bus de comunicación para utilizar recursos adicionales y tener almacenamientos de información considerables:
     
-    separador
-    #t_2_2.titulo-segundo.color-acento-contenido
-      h2 2.2 Aprendizaje no supervisado
-    
-    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-      .col-lg-4.col-8
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img6.png" alt="")
-      .col-lg-8.col-12
-        p.mb-4 Este paradigma de aprendizaje toma como base, únicamente, los datos de entrada, sin explicarle al sistema qué resultado es el que se espera obtener. Podría ser un poco difícil de concebir, porque si no hay una referencia previa, ¿de qué manera podrían los sistemas aprender?
-        .cajad.p-4.mb-2.my-4
-          p.mb-3Este concepto es menos usado, pues sostiene mayores retos a la ciencia y a los algoritmos, donde a partir de un parámetro, el sistema deberá tratar de descubrir qué resultado o resultados posibles daría ese dato de entrada.
-
-    p.mb-4 #[b Estas son algunas generalidades que se deben tener en cuenta, respecto del aprendizaje no supervisado:]
-
-    SlyderF(columnas="col-lg-6 col-xl-4")
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/ej1.svg' alt='AvatarTop')
-        p Tiene una ventaja, porque el entrenamiento en aprendizaje supervisado implicaría miles de horas, humanos enseñando y altos costos, debido a que para que un sistema esté bien entrenado requiere al menos 100 mil ejemplos, esto es una tarea larga y costosa.
-
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/ej2.svg' alt='AvatarTop')
-        p Por su parte, el aprendizaje no supervisado solo requiere de los datos de entrada, dar unos pocos parámetros de lo que se quiere y dejar todo a la máquina.
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/ej3.svg' alt='AvatarTop')
-        p La desventaja es que requiere mucho procesamiento, puntos generales que pueda asociar a lo que se le parezca, y avance tecnológico con el fin que la máquina vislumbre y descubra el dato de salida.
-
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/ej4.svg' alt='AvatarTop')
-        p Si bien, las técnicas ML más usadas están basadas en referencias de salidas, el aprendizaje no supervisado será el futuro, porque de cierta manera los sistemas usarán estas referencias y gran capacidad computacional para empezar a asociar.
-
-      .tarjeta.color-acento-botones.p-4
-        .row.justify-content.mb-3
-          .col-8
-            img(src='@/assets/curso/temas/tema2/ej5.svg' alt='AvatarTop')
-        p Lograr que una máquina tenga sentido común es un objetivo muy difícil, sin embargo, los algoritmos actuales se van acercando un poco, por ejemplo, hay palabras que si bien es la misma para dos cosas o significados diferentes (palabras polisémicas), para los humanos es fácil según el contexto, pero para una máquina es difícil definir estas cosas.
-
-    separador
-    #t_2_3.titulo-segundo.color-acento-contenido
-      h2 2.3 Algoritmos y modelos matemáticos
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-5.col-8.mb-5
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img1.svg" alt="tema2")
-      .col-lg-7.col-12.mb-5
-        .cajaverde.p-4.mb-4
-          p.mb-4 Los métodos matemáticos y algorítmicos empleados en la Inteligencia Artificial, pueden variar según los desarrollares. Aunque existen otros, los más comunes o típicos para 
-            strong.rojo aprendizaje supervisado 
-            | son las Regresiones lineales y logísticas, Máquinas de vectores de soporte, árbol de decisiones y K-Media
-    
-    
-    .mb-4.d-flex
-      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Regresiones lineales y logísticas
-        img.clase2.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema2/clase2.svg' data-aos="fade-left")
-    
-    p.mb-4 Estos algoritmos tienen un comportamiento basado en el historial de los datos, por ejemplo, se requiere predecir o asignar correctamente el valor de un inmueble; teniendo como base datos históricos, se tendría una gráfica como esta:
-    
-    .row.justify-content-center.mb-5
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 1.
-          span  Datos base para los algoritmos regresiones lineales
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig1.svg" alt="tema2")
-        
-    p.mb-4 Luego, a partir de una la regresión lineal, se calcula la línea que abarca los valores y se establece con mejor exactitud el valor del inmueble.
-    p.mb-4 De esa manera, cuando una propiedad tiene ciertos metros cuadrados específicos, la salida que ofrece la máquina será un precio que coincida con la regresión lineal, como se expresa en la siguiente gráfica:
-    
-    .row.justify-content-center.mb-5
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 2.
-          span Línea a partir de valores conocidos
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig2.svg" alt="tema2")
-
-    p.mb-4 Con estas técnicas se pueden establecer grupos, por ejemplo, es posible definir si un inmueble es costoso o no lo es, con base en los datos y sus grupos.
-    
-    .mb-4.d-flex
-      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") K-MEANS cluestering o K-media de agrupamiento
-        img.clase3.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema2/clase2.svg' data-aos="fade-left")
-
-    p.mb-0 En el caso anterior, se tenían valores históricos, sin embargo, ¿qué tal si se presenta el caso de que los datos no están categorizados y no hay un historial?
-    p.mb-4 Se deberá usar uno de los algoritmos o métodos no supervisados para que la máquina aprenda a identificar patrones y arroje respuestas.
-    p.mb-4 El algoritmo por agrupación usa como base centroides o puntos de datos base, que procura detectar patrones similares y de esa manera identifica grupos, como se presenta a continuación.
-    
-    .row.justify-content-center.mb-5
-      .col-lg-7
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-          h5 Figura 3.
-          span Agrupando (clustering)
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig3.svg" alt="tema2")
-
-    p.mb-4 En un primer momento, los datos no están clasificados, sin embargo, el algoritmo determina similitud según la distancia entre los mismos (en estos datos se nota que hay dos grupos por su cercanía).
-    p.mb-4 Para empezar a usar este tipo de algoritmos, se debe elegir el número de clusters, representado por K, Luego, aleatoriamente, se asignan centroides y se calcula, uno a uno, la cercanía de los datos al centroide, como se presenta en la siguiente figura.
-    
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
+    .row.mb-5
+      .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 4.
-          span Clusters y centroides
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig4.svg" alt="tema2")
-      
-      .col-lg-6.my-5
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig4.1.svg" alt="tema2")
+          span Ejemplo Arquitectura de clúster e interactividad con los demás sistemas
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.png', alt='La figura representa un ejemplo de arquitectura de clúster e interactividad con los demás sistemas. Inicia con los servidores de servicio, que son los recursos computacionales. Estos están conectados mediante un bus de comunicaciones que pasan los datos por el Nodo administrador de almacenamiento, que se dividen en tres servidores de almacenamiento, cada uno con sus respectivos clúster. Posteriormente, atraviesan el nodo de gestión y autenticación etapa conocida como “Frontend” para legar a una conexión segura hacia los usuarios finales.')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.12.png', alt='La figura representa un ejemplo de arquitectura de clúster e interactividad con los demás sistemas. Inicia con los servidores de servicio, que son los recursos computacionales. Estos están conectados mediante un bus de comunicaciones que pasan los datos por el Nodo administrador de almacenamiento, que se dividen en tres servidores de almacenamiento, cada uno con sus respectivos clúster. Posteriormente, atraviesan el nodo de gestión y autenticación etapa conocida como “Frontend” para legar a una conexión segura hacia los usuarios finales.')
+  
+    .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema2/img4.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Centros de datos de AWS 
+                  p.mb-0 Estimado aprendiz, para conocer más sobre centros de datos (data centers) de AWS ingresa al siguiente enlace: 
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://aws.amazon.com/es/compliance/data-center/controls" target="_blank")
+                    span Ir al sitio
+                    i.fas.fa-link
 
-    p.mb-4 El algoritmo calcula estas distancias usando la #[b Distancia Euclidiana.] Se trata de una variación del teorema de Pitágoras y es una de las maneras más fáciles para calcular distancia, a partir de las posiciones de dos objetos en un plano cartesiano, como se presenta a continuación.
-    
-    .row.justify-content-center.mb-5
-      .col-lg-6
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
+    Separador
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.1 Volumen elástico
+
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+      .col-sm-12.col-md-12.col-lg-4
+        p.mb-3 El almacenamiento elástico es la característica que permite adaptarse y escalar según las necesidades especificadas por quien configura el sistema o por el mismo sistema según los requerimientos de uso.
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .tarjeta.bg14.p-3.mb-4.mt-2
+              .row.d-flex.justify-content-around.align-items-center
+                .col-sm-auto
+                  img.arribaa.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema2/img5.svg")
+                .col-sm-12.col-lg-10
+                  .row.justify-content-between.align-items-center
+                    .col-sm-12.col-md-12.col-lg-12.mb-0
+                      p.mb-0.my-2.mx-2 La elasticidad es un concepto que se aplica a varios servicios en la nube, principalmente para el procesador, memoria RAM, tipo de almacenamiento (HDD o SSD), alta o media disponibilidad, entre otros.
+      .col-md-9.col-lg-4.col-9
+        img.img-a.img-t.mb-4(src="@/assets/curso/temas/tema2/img5.1.png", alt="alt").img100.m-auto
+      .col-sm-12.col-md-12.col-lg-4
+        .bg100.p-4.mb-4(data-aos="fade-left") 
+            .row.d-flex
+              .col-lg-12
+                p.mb-1.my-2.d-flex Desde el punto de vista de Hardware, las marcas han desarrollado dispositivos que gestionan estas asignaciones de almacenamiento, es decir, si una empresa decide implementar su propia nube, es relativamente fácil implementar esta característica a los recursos de sus usuarios o servicios. 
+                .row.justify-content.align-items
+                  .col-sm-4.col-md-3.my-2
+                    img.end.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
+
+
+    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación en la figura 5 se puede ver un ejemplo de un sistema de almacenamiento elástico creado por #[em IBM:]
+
+    .row.mb-2
+      .col-lg-10-sm-10.col-md-12.col-lg-12.m-auto    
+        .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-left")
           h5 Figura 5.
-          span Distancia euclidiana
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/fig5.svg" alt="tema2")
-
-    p.mb-4 Esta función se repite las veces que sea necesario o se hayan parametrizado, para que el algoritmo autónomamente determine qué dato estaría en cuál cluster o qué clasificación.
-    p.mb-4 Esto es solo un ejemplo de métodos o algoritmos que emplea el machine learning, pero hay muchos más tanto para aprendizaje supervisado como no supervisado
+          span Dispositivos de gestion de almacenamiento elastico
+    .row.align-items-center.justify-content-center
+      .col-lg-12.md-lg-10.col-12
+        .caja 
+          .row.align-items-center.justify-content-center
+            .col-lg-2.md-lg-10.col-12   
+              img.my-4.img-a.img-t(src='@/assets/curso/temas/tema2/serv.png', alt='La imagen representa  un dispositivo de hardware que le permite implementar IBM Storage Scale  en miles de nodos con un rendimiento de TB/s, baja latencia y decenas de millones de IOP por nodo.')
+          .row.align-items-center.justify-content-center 
+            .col-lg-auto.md-lg-10.col-12 
+              p.mx-3 Nota. https://www.ibm.com/products/elastic-storage-system
+    Separador
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.2 Copia de seguridad
     
-    separador
-    #t_2_4.titulo-segundo.color-acento-contenido
-      h2 2.4. Predictores
-
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-4.col-8.mb-5
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img8.svg" alt="tema2")
-      .col-lg-8.col-12.mb-5
-        p.mb-3.my-3 Adivinar el futuro ha sido uno de los factores más fascinantes que, a lo largo de toda la historia humana, ha ocupado a las civilizaciones y líderes, hasta el punto de desarrollar ansiedades por tal incertidumbre. Es por ello que es tan frecuente que el futuro sea un insumo para historias de cine, y atrapen y fascinen a todo el público, aparecen objetos como oráculos, bolas de cristal y profecías alrededor de múltiples films e historias.
-        .mb-5
-        .cajac.p-4.mb-4
-          .col-lg-10 Si bien la predicción, culturalmente, se contempla como saber el futuro, no necesariamente es así, la predicción enfatiza la capacidad de ver información oculta, ya sea en el pasado, el presente o el futuro, tal como se concibe la bola de cristal de algunas historias mágicas, donde este objeto no solo permite ver el futuro, sino también ver qué sucede en el presente en otros lugares; esta utilidad ya dejó de ser fascinante porque se convirtió en algo normal después del avance de los medios de comunicación, pero igual se sigue llamando predicción.
-
-    .mb-4.d-flex
-      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
-        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Predictores como funciones de herramientas
-        img.clase4.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema2/clase2.svg' data-aos="fade-left")
+    .row.align-items-center.justify-content-center.mb-4
+      .col-lg-3.col-md-9.col-9.my-3
+        img.img-a.img-t(src='@/assets/curso/temas/tema2/img7.png', alt='')
+      .col-lg-9.my-3
+        p.mb-0(data-aos="zoom-in-left") Una de las ventajas de la computación en la nube, ha sido la seguridad, se presentan riesgos que deben gestionarse, las organizaciones pueden advertir riesgos en los datos y tener control físico de los datos.
+        p.mb-3 La disponibilidad de los datos depende de contratos y pagos a terceros, riesgos cibernéticos, recuperación de daños en los datos, etc.
+        p.mb-3 Las empresas van aumentando su volumen de información y muchas veces poco estructurada y aparentemente caótica, lo que hace más complejo gestionar las copias de respaldo.
+        .bg101.p-4.mb-1 
+          .row.d-flex.align-items-center.justify-content
+            .col-lg-12 Para realizar los respaldos existen dos opciones elementales: utilizar un proveedor en la nube con las instancias para este fin o realizar desde la empresa misma una copia de seguridad y disponerla en una ubicación fuera de las instalaciones.
+        .d-flex.align-items-center.justify-content-center
+            img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img7.1.svg', alt='')
+            p.ml-1-custom.mt-3 Como todo en la nube, existen proveedores especializados en la gestión de copias de seguridad; las empresas prometen las siguientes ventajas:
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-left")
-      .col-lg-8.col-12.mb-5
-        p.mb-3.my-3 Un ejemplo de predictores usados por todos, ha sido la función autocompletar de Google en sus búsquedas y los teclados de celular donde, al escribir una palabra o parte de ella, el sistema procura autocompletar lo que se desea escribir, ahorrando tiempo y disminuyendo errores de digitación de manera ostensible. Esto se hace a partir de unas métricas y del aprendizaje que la máquina detectó por las tendencias propias del usuario o tendencias de búsqueda masiva localizada o mundial.
-        .mb-5
-        .cajac.p-4.mb-4
-          .col-lg-10 En las aplicaciones, también la predicción avanza según esta va aprendiendo; es el caso del traductor de Google: cuando esta herramienta era nueva, su traducción no tenía buena calidad, pero, actualmente, con el aporte de los mismos usuarios, las traducciones tienen en cuenta incluso ciertos contextos que la máquina ha aprendido a diferenciar.
-      .col-lg-4.col-8.mb-5
-        img.mb-lg-0.mb-3(src="@/assets/curso/temas/tema2/img9.svg" alt="tema2")
+    .row
+      .col-sm-6.col-lg-3.mb-4.mb-lg-4
+        .tarjeta--boton.color-primario.bg11111.p-4
+          .row.justify-content.mb-4
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema2/cumpli.svg', alt='Texto que describa la imagen')
 
-    p.mb-4 #[b En relación con los predictores, tenga en cuenta algunas generalidades como las que enuncian a continuación:]
+          h4.mb-3.mt-3 Cumplimiento 
+          p Los Backups se almacenan fuera de las instalaciones y se almacenan en conjuntos de copias de seguridad.
+      
+      .col-sm-6.col-lg-3.mb-4.mb-lg-4
+        .tarjeta--boton.color-primario.bg11111.p-4
+          .row.justify-content.mb-4
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema2/esca.svg', alt='Texto que describa la imagen')
+
+          h4.mb-3.mt-3 Escalabilidad
+          p Sin importar el volumen de datos, el proveedor escala capacidad de ser necesario. 
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-4
+        .tarjeta--boton.color-primario.bg11111.p-4
+          .row.justify-content.mb-4
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema2/resi.svg', alt='Texto que describa la imagen')
+
+          h4.mb-3.mt-3 Resiliencia
+          p Lo que significa que posee la posibilidad de tener varias copias, adicional la replicación de nodos en diferentes regiones. 
     
-    .tarjeta.tarjeta--azul.py-5.p-4.mb-5
-      SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-        .row.justify-content-center
-          .col-lg-4.col-12.mx-3.my-3
-            h4.mb-5 Resultado de una acción
-            p.mb-lg-0.mb-3 La predicción no es un asunto nuevo; en su mínima expresión se podría resumir en el resultado de una acción, es decir, no se necesita ser gurú para saber que si no se realizan ventas, el negocio se viene a pique, sin embargo, la IA es mucho más que esto y se responsabiliza de elementos más complejos.
-          .col-lg-7.col-8  
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/temas/tema2/img10.svg")
+      .col-sm-6.col-lg-3.mb-4.mb-lg-4
+        .tarjeta--boton.color-primario.bg11111.p-4
+          .row.justify-content.mb-4
+            .col-5
+              figure
+                img(src='@/assets/curso/temas/tema2/segu.svg', alt='Texto que describa la imagen')
 
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Análisis predictivo
-            p.mb-lg-0.mb-3 El objetivo de este análisis es la estimación de eventos futuros a partir de datos históricos o, incluso, descubrir fenómenos presentes que podrían desencadenar consecuencias más adelante, como por ejemplo, la no satisfacción de clientes.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="tema1" src="@/assets/curso/temas/tema2/img11.svg")
+          h4.mb-3.mt-3 Seguridad
+          p  La información almacenada cuenta con cifrado en tránsito, además se realizan solicitudes de autenticaciones para evitar accesos indebidos. 
+    
+    p.mb-3 Para poder asegurar estas promesas de servicios se requiere tener una Arquitectura Backup la cual cuenta con las siguientes características:
+    h4.mb-3 Arquitectura #[em Backups] en la nube
+    p.mb-3 Los elementos de información más críticos de las organizaciones y la manera en cómo se llevan a cabo estas copias son:
+    
+    TabsA.color-acento-botones.mb-5
+      .tarjeta.bg145.p-4(titulo="Bases de datos")
+        h4.mt-2 Bases de datos
+        .row 
+          .col-sm-12.col-md-8
+            p.mt-5  Se puede realizar conexiones directas a las bases de datos para extraer toda la información. 
+          .col-sm-12.col-md-4
+            img.img-t.mx-3.my-0(src='@/assets/curso/temas/tema2/img9.1.svg')
+      .tarjeta.bg145.p-4(titulo="Recursos de terceros")
+        h4.mt-2 Recursos de terceros
+        .row
+          .col-sm-12.col-md-8
+            p.mt-4 En el mercado, existen muchas herramientas como plugins y complementos que facilitan la gestión y automatización de los backups. Es importante que los servicios de copias de respaldo permitan el uso de estos gestores. 
+          .col-sm-12.col-md-4
+            img.img-t.mx-3.my-0(src='@/assets/curso/temas/tema2/img9.svg')
+      .tarjeta.bg145.p-4(titulo="Frecuencia")
+        h4.mt-2 Frecuencia
+        .row 
+          .col-sm-12.col-md-8
+            p.mt-5 Según los planes y diseños, se pueden configurar dispositivos software que sincroniza archivos al sistema de respaldo.
+          .col-sm-12.col-md-4
+            img.img-t.mx-3.my-0(src='@/assets/curso/temas/tema2/img9.2.svg')
+    
+    P.mb-4 En la figura 6 se ilustra la arquitectura de copias de respaldo #[em (Backup)]:
+    
+    .row.mb-2
+      .col-lg-12.md-lg-10.col-12   
+        .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+          h5 Figura 6.
+          span Arquitectura de referencia copias de respaldo
+    .row
+      .col-lg-6.md-lg-10.col-12
+        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/fig6.png' ,alt='La figura representa la arquitectura de referencia para copias de respaldo. Inicia con "Customer Premises" y pasa por "SAN" y "NAS". Luego, va hacia "Third Party Backup", "Oracle Storage Gateway" y la Base de Datos. Posteriormente, se conecta a través de "Public Internet" y "FastConnect”, y finalmente entra en el "Cloud" (nube) para almacenar copias de respaldo utilizando "Public Object Storage" y "Access Management" (gestión de acceso).')
+    
+      .col-lg-6.md-lg-10.col-12
+        .cajon 
+          p.mb-1.mx-2.p-3 La arquitectura anterior 
+            span.blanco es un ejemplo implementado por #[em Oracle] con su servicio #[em Oracle Cloud Infrastructure].
+            | Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este 
+            span.blanco caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
+          p.mb-2.mx-4 Luego se encuentra el almacenamiento de objetos, corresponde a la plataforma de almacenamiento de alto rendimiento con características elásticas. Cuenta con gestión de identidad y acceso que controla el ingreso a los recursos #[em cloud]. Controla niveles de accesos según permisos asignados a los usuarios.  
+          p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de #[em Oracle cloud], la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. #[em (Oracle, s.f.)]  
+            .col-lg-6.md-lg-10.col-12 
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/abaj.png',)
+    Separador
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+      h2 2.3 Recuperación en la nube
+    
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-12.col-md-lg-10.col-12
+        .cajobb
+          .row.justify-content-center.align-items-center.mb-0
+            .col-lg-4
+              img(alt="" src="@/assets/curso/temas/tema2/img11.png")
+            .col-lg-8.col-md-lg-10.col-12.p-4
+              p.text-white.mx-3  Como complemento a la copia de respaldo, la recuperación en la nube se resume en el flujo contrario al proceso del #[em backup.] Se trata entonces de una acción o maniobra de contingencia como respuesta a un suceso ocurrido ya sea por pérdida de datos, o daños en los mismos y se requiere la restauración total o parcial de algunos dominios de datos.
+  
+    p.mb-4 La recuperación de datos podría explicarse como regresar en el tiempo y restaurar las cosas tal como estaban en un momento dado cuando se toma la foto de los datos para guardar #[b #[em “snapshot”.]]
+          
+    .row.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-md-12.col-lg-12
+        .bgonza
+          .row.mx-2 
+            .col-sm-12.col-md-12.col-lg-12.my-2
+              .bg-whiter-r.mb-4.p-3.mt-4.mx-4.mb-0 
+                p.mb-0.mx-1 Los snapshots (foto o imagen en inglés) son instantáneas del estado actual de un Servidor #[em Cloud] y sirven como punto de restauración de una máquina virtual en un momento dado.
+            .col-sm-12.col-md-12.col-lg-8
+              ul.lista-ul--color.mx-4
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Es un concepto para el respaldo y restauración del sistema, 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Tiene diferencias con las copias de respaldo o #[em Backups] 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Como su nombre lo indica, “instantáneas” en español, toman una "imagen" en un instante de un servidor (incluidos sus archivos, aplicaciones y configuraciones) 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Por lo general, los #[em snapshot] conservan un punto en el estado del tiempo, sin tener que mover o copiar datos existentes en absoluto.  
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Es mejor, tener una imagen de un punto en el tiempo para hacer una copia de seguridad que hacer un #[em backup] del sistema y los datos en vivo. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Gestionar archivos abiertos y aplicaciones activas que cambian datos. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 En algunos sistemas, los #[em snapshot] también se replican en un sistema redundante en otra ubicación o en un servicio #[em cloud.] (#[em Demlow], 2020) 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Al usar una imagen para restaurar un servidor, éste volverá al estado en el que se encontraba cuando se tomó el #[em snapshot.] 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Debido a que los #[em snapshot] no hacen una copia de todos los datos, son eficientes en relación al espacio y velocidad del proceso. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 A medida que los datos y configuración en el sistema cambian con el uso normal, la imagen también debe conservar el contenido del #[em snapshot] original, de esa manera se tendrán diferentes puntos de restauración en el tiempo.
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-1 Las imágenes a nivel de VM (Máquina Virtual) ofrece protección contra #[em ransomware, malware], eliminación accidental de archivos u otras vulnerabilidades a los sistemas. 
+                li.mb-0.pb-0 
+                  i.fas.fa-chevron-right
+                  p.mb-4 Los #[em snapshot] pueden recuperar máquinas virtuales completas o archivos individuales. 
+            .col-lg-4.col-md-10.col-12.pt-2 
+              img.img-a.img-t.my-0.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img12.png', alt='')
 
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Construcción de algoritmos de predicción
-            p.mb-lg-0.mb-3 Construir algoritmos o funciones de programación básicos no suele ser difícil, por ejemplo, en una ferretería se podría implementar un campo calculado que sugiera pedidos para comprar a proveedores, basado en la cantidad de productos vendidos en los últimos tres meses. Si bien, este es un componente que podría funcionar, no se considera exacto.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img12.svg")
 
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Datos entregados a modelos ML
-            p.mb-lg-0.mb-3 Si estos datos se entregan a modelos ML de un proveedor de este servicio y se define el objetivo con claridad (número de unidades a comprar a proveedores), a medida que pasa el tiempo las predicciones de ventas y las decisiones de compra para el stock de inventarios serán cada vez más exactas, porque la IA tendrá muchísimas más variables para definir la decisión de compra. Además de las ventas, podría tener en cuenta el mes, según comportamiento del mismo mes de los años anteriores, el precio de divisas, incluso si hay épocas de lluvia o no, etc.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img13.svg")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Datos históricos
-            p.mb-lg-0.mb-3 Para la construcción de estos modelos, una vez desarrollado el algoritmo predictivo (y reglas de negocio que apliquen), y configurado con claridad las metas y objetivos en el entorno del proveedor de IA, es necesario disponer de un conjunto de datos históricos. Por lo general, se tienen dos conjuntos: uno de datos de entrenamiento y otro de prueba.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img14.svg")
-
-        .row.justify-content-center
-          .col-lg-5.col-12.mx-3.my-3
-            h4.mb-5 Comprobación de exactitud
-            p.mb-lg-0.mb-3 Al modelo se le pasan como entrada, los datos de entrenamiento para calibrar la predicción y, posteriormente, los datos de prueba. Después, se compara el resultado de la predicción con los valores reales (históricos) para comprobar su exactitud.
-          .col-lg-5.col-8
-            img.mb-0.mx-5(alt="" src="@/assets/curso/temas/tema2/img15.svg")
+    p.mb-3 #[b ¿Qué elegir para recuperar el sistema ante caídas o pérdidas, #[em snapshot o backup?]]
+    p.mb-3 Se tiene en cuenta que los snapshots no son verdaderas copias de seguridad, pero son eficientes y funcionales para algunos casos. Por ejemplo, una imagen se puede usar como una protección rápida en caso de necesitar revertir una actualización, una prueba o cualquier operación que pueda considerarse riesgosa.
+    
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-in-left")
+      .col-sm-12.col-md-12.col-lg-4
+        .row.justify-content-center.align-items-center
+          .col-lg-12
+            .tarjeta.bg10.p-3.mb-3.mt-0
+              .row.justify-content-around.align-items-center
+                .col-sm-12.col-md-12
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-5
+                      p.mb-0 Ahora bien, los backup, por otro lado, al hacer la recuperación a partir de copias de seguridad pierden parte de la inmediatez de la restauración, pues suelen ser procesos más robustos en términos de almacenamiento, es ideal para esquemas de almacenamiento de archivos a largo plazo. Además, según el tipo de medio utilizado como destino, las copias de seguridad permiten dividir y catalogar los datos de los respaldos de los eventos de tiempo de ejecución. Esto actúa como una capa adicional de protección y aislamiento de algunas amenazas de malware en el mundo actual. (Demlow, 2020)
+      .col-sm-12.col-md-12.col-lg-4.col-9
+        img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema2/img13.1.png", alt="alt").img100.m-auto
+      .col-sm-12.col-md-12.col-lg-4
+        .bg14.p-4.mb-4(data-aos="fade-left") 
+            .row
+              .col-lg-12
+                p.mb-1 En conclusión, si bien los Snapshot son más rápidos y ocupan menos recursos, los backups no deberían de dejarse de implementar, en caso de presentarse un incidente, depende de la gravedad, es posible que las imágenes disponibles no logren recuperar algunos daños o pérdidas de datos; en caso tal de que no se tengan los resultados esperados, el Backup es la segunda opción, es más robusto, pero más seguro. Cada organización puede elegir una de las dos opciones de restauración, o si desea mayor respaldo pueden implementar las dos formas para recuperar sistemas e información, pues ambas conviven sin interferencia. 
+                .align-self-end
 
     
 

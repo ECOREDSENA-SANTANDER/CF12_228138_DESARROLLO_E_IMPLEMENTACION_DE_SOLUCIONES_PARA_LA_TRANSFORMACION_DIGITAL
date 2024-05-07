@@ -2,103 +2,122 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 75%
+    right: 70%
+
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 21%
+    right: 10%
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
   100%
     transform: translateY(0px)
 
+@keyframes float1
+	0%
+		transform: rotate(0deg) translateX(10px) rotate(-20deg)
 
-figure, picture, img, svg 
+
+	100%
+		transform: rotate(-180deg) translateX(10px) rotate(180deg)
+
+
+
+.banner-principal .tarjeta 
+  img, svg 
+    display: auto;
+    border-style: hidden;
+
+  figure, picture, img, svg 
     margin: 0;
-    width: 45%;
-    max-width: 100%;
+    width: 71%;
+    
+    
+.banner-principal__componente 
+  margin-bottom: 50px
 
+.banner-principal
+  animation: float 2.8s
 
-.rojo
-  color: red
+.banner-principal__row 
+    justify-content: space-around;
+    
 
-.tarjeta--azul
-  background-color: #D4DADC
-
-
-.slider-a-custom
-  .fa-angle-right:before 
-    content: "\f105";
-
-.bg-card
-  background-position: center
-  background-size: cover !important
-  background-repeat: no-repeat
-  &:hover
-    background-position: center
-    background-size: cover !important
-    background-repeat: no-repeat
-
-.bg191
-  background-color: #FFE5CF
-  border-radius: 13px
-  &:hover
-    background-color: #FFB476
-.bg191:hover .bg12 
-  background-color: #FFB476
-
-.cajac
-  background-color: #FFECDC
-  border-radius: 12px
 .img-a
   display: block
   margin: auto
+
+.ir
+  color: #FFB476
 
 .img-t
   width: auto
   height: auto
 
-.cajaa
-  background-color: #FFEEEB
-  border-radius: 12px
+.itt
+  width: 100px
+  margin-left: 28rem !important;
+  &.my-5 
+    margin-top: 6rem !important;
 
-.acordion.activo .acordion__activo
-  background-color:#FFF3EA
-  .acordion__accion__btn--a
-    background-color: #FFB476   
+.ittt
+  width: 100px
+  margin-left: 28rem !important;
+  &.my-5 
+    margin-top: 4.5rem !important;
 
-.acordion 
-  .acordion__accion__btn--a 
-    background-color: #2EFEC7
-    box-shadow: 0px 3px 5px 0px rgba(17, 30, 97, 0.3);
+.iti
+  width: 100px
+  margin-left: 28rem !important;
+  &.my-5 
+    margin-top: 1.5rem !important;
 
-.cajad
-  background-color: #FFE9E6
-  border-radius: 12px
+.fondoo
+  background: url('../assets/curso/temas/tema3/fondoo.png')
+  background-size: 100% 98%
+  background-repeat: no-repeat
+  background-position: center 
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -1.4rem   
 
-.slyder-f__slyde > .tarjeta 
-    height: 100%;
+@media only screen and (max-width: 768px) 
+  .imagen-mobile 
+    display: block;
+@media only screen and (min-width: 769px) 
+  .imagen-mobile 
+    display: none;
 
-.tarjeta.color-acento-botones 
-    background-color: #FFC8BF;
+.cajj
+  background-color: #F6F6F6
 
-.tarjeta 
-    border-radius: 0px;
+.ittpun
+  width: 100px
+  margin-right: 1.5rem !important;
+  margin-left: 17rem !important;
 
+.color-acento-contenido-2
+  background-color: #FDEDE0
 
-.cajaverde
-  background-color: #E4FAF4
-  border-radius: 15px 
+.bg-white-r
+  background-color: #fff
+  border-radius: 10px 
+.bloque-texto-d 
+    border-top: 0px solid #fff;
+    position: relative; 
+
+.clase1
+  max-width: 60px
+  left: 320px 
+  position: absolute 
 
 .clase2
   max-width: 60px
-  left: 390px 
+  left: 190px 
   position: absolute 
 
 .bg-img-blue
@@ -106,75 +125,356 @@ figure, picture, img, svg
   border-radius: 25px
   padding: 11px
 
-.clase3
-  max-width: 60px
-  left: 539px 
+.bg-img-bluess
+  background-color: #FFB476
+  border-radius: 25px
+  padding: 11px
+  
+.bg111111
+  background-color: #C1CDD1
+  border-radius: 10px
+  height: 192px
+  &:hover
+    background-color: #083142  
+.bg111111
+  box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+.bg11111
+  background-color: #C1CDD1
+  border-radius: 10px
+  height: 300px
+  &:hover
+    background-color: #AEDBEF
+    &::target-text
+      color: #fff
+.titu
+  background-color: #083142
+.blanco
+  background-color: #F8FBFD
+  vertical-align: top
+.rosa
+  background-color: #E6EEF3
+  vertical-align: top
+  
+.acordion.activo .acordion__activo
+  background-color:#FFF3EA
+  .acordion__accion__btn--a
+    background-color: #FFB476   
+
+.acordion 
+  .acordion__accion__btn--b 
+    background-color: #2EFEC7
+    border: 0px solid #f3f4f8;
+  
+.tarjeta--gris 
+    border-radius: 15px;
+    .pb-md-0 
+    padding-bottom: -5rem !important;
+    .mb-3 
+    margin-bottom: 0.5rem !important;
+
+.cajon
+  background-color: #DEE9F0
+
+.end
+  max-width: 90px
+  left: 1110px 
   position: absolute 
 
-.clase4
-  max-width: 60px
-  left: 500px 
+.arribaa
+  max-width: 55px
+  left: 25px 
   position: absolute 
+  top: 42%
+  overflow: hidden
 
-.clase5
-  max-width: 60px
-  left: 340px 
-  position: absolute 
-
-.clase6
-  max-width: 60px
-  left: 170px 
-  position: absolute 
-
-.caja1
-  background-color: #FFC8BF
-  border-radius: 15px
+.bg111110
+  background-color: #C1CDD1
+  border-radius: 10px
   height: 250px
-.caja2
-  background-color: #CCD5D8
-  border-radius: 15px 
-  height: 250px
+  .my-5 
+    margin-top: 0rem !important
 
-.clase7
-  max-width: 60px
-  left: 470px 
-  position: absolute 
+.bg13
+  background-color: #FFECDC
+  border-radius: 10px
+.bg194
+  background-color: #FAFAFA
 
-.cajaf
-  background-color: #C9E8E0
-  border-radius: 15px 
+.text-cent
+  text-align: center;
 
-.lista-ul--color li > i:first-of-type 
-    color: #FFB476;
+.tarjetassss
+  background-color: #fff
+
+.b 
+  color: red
 
 
-.cajag
+.bg1404
+  background-color: #F6F6F6
+
+.bg1444
+  background-color: #fff
+
+.bg1444p
+  background-color: #FFF7F0 
+
+
+.bg-whit-r
+  background-color: #D4F4FF
+
+.bg-whiter-r
+  background-color: #FEE6D1
+  border-radius: 10px
+
+.slyder-a
+  &__tipo-a
+    .slyder-a
+      &__bullets
+        position: absolute
+        bottom: 20px !important
+        left: 50%
+        transform: translateX(-50%)
+
+.slyder-a__bullets__item--active
+  background-color: #FF6148 !important
+  border: 1px solid #FF6148 !important
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #2EFEC7
+.slyder-a__bullets__item
+  background-color: #AFAFAF 
+  border: 1px solid #AFAFAF
+.slyder-a__btn--sigt:hover, .slyder-a__btn--atrs:hover
+  font-size: 16px
+  font-weight: 400
+  line-height: 1.5
+.slyder__btn
+  background-color: #2EFEC7
+.slyder-a.slider-a-custom
+  background-color: #fff3ea
+  padding: 1rem 3rem !important;
+  border-radius: 15px;
+  border-radius: 20px
+
+.bg145
+  background-color:#FFECDC 
+  border-radius: 10px
+
+.bg14
+  background-color: #E4E9EB
+  border-radius: 10px
+  box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+.pabg
+  background-color: #fff
+
+.bag14
   background-color: #F3F9FF
 
+.caja
+  background-color: #E4E9EB
 
-.clase8
-  max-width: 60px
-  left: 703px 
+.imagenb
+  margin-bottom: -88px
+  
+.lista-ul
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.lista-ol
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.bg2
+  background-color: #083142
+  border-radius: 6px
+
+.he-4-cuii
+  background-color: #FFFFFF
+
+.he-4-cus
+  height: 500px;
+
+.he-4-cusoo
+  height: 320px;
+
+.tarjeta--blanc
+  background-color: #E4E9EB
+
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: 810px)
+    width: 45px
+    height: 45px
+  @media (max-width: $bp-max-sm )
+    width: 35px
+    height: 35px
+.slyder-a__bullets__item
+  @media (max-width: 810px)
+    width: 15px
+    height: 15px
+    margin: 0 3px
+  @media (max-width: $bp-max-sm)
+    width: 15px
+    height: 15px
+    margin: 0 3px
+
+.bg100
+  background-color: #FFE9E6
+  border-radius: 10px
+  height: 308px 
+
+.bg101
+  background-color: #FFECDC
+  border-radius: 10px
+
+.tarjeta.bg6.acordion__activo
+  background-color: #FFF3EA !important
+
+.ml-1-custom
+  margin-left: 1rem !important;
+
+.he-7-cus 
+    height: 181px;
+
+.ml-neg-cus
+  margin-left: -20px
+
+.w-auto-cus
+  width: fit-content;
+
+.tarje
+  background-color: #083142
+  border-radius: 10px
+  height: 520px
+.bloque.BGR08.p-4
+  background-color: #083142 
+  padding: 1.8rem !important;
+
+.cajaaas
+  background-color: #fff
+  border-radius: 10px
+  box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+
+.tarjeta.color-primario
+  background: linear-gradient(190deg, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%)
+  border-radius: 10px
+
+.img-center-cus
+  position: relative
+  top: 35%
+
+.bg19
+  background-color: #083142
+
+.bg188
+  background-color: #FFD8D2
+
+.bg11
+  background-color: #FFECDC
+  border-radius: 6px
+
+.bg10
+  background-color: #FFE9E6
+  border-radius: 6px
+
+.bloque-texto-d i 
+    font-size: 1.8em;
+
+.cajobb
+  background-color: #083142
+
+.border-y
+  border-bottom: solid 2px #AFAFAF !important
+
+.bg000
+  background-color: #FFF7F0
+
+.fondo21
+    border-radius: 10px
+    background: rgba(10,78,106,1);
+    background: -moz-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,78,106,1)), color-stop(100%, rgba(2,10,13,1)));
+    background: -webkit-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -o-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: -ms-linear-gradient(top, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    background: linear-gradient(to bottom, rgba(10,78,106,1) 0%, rgba(2,10,13,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a4e6a', endColorstr='#020a0d', GradientType=0 );
+
+.parra
+  font-size: 0.8em;  
+
+.bgonza
+  background-color: #FFF7F0
+  border-radius: 10px 
+
+.deree
+  left: 1080px 
   position: absolute 
+  margin-top: 0rem 
 
-.clase9
-  max-width: 60px
-  left: 400px 
-  position: absolute 
 
-.clase10
-  max-width: 60px
-  left: 437px 
-  position: absolute 
+.colored
+  color: #E11F00
 
-.cajaa1
-  background-color: #E4FAF4
-  border-radius: 15px
+.resaltado
+  background-color: #FDD1CA
 
-.cajagris
-  background-color: #EEF1F2
-  border-radius: 15px
+.resaltado2
+  background-color: #FFB476
 
-.cajabi
-  background-color: #FFEFE2
-  border-radius: 15px
+
+.tarjeta-avatar-b__img.modi
+    min-width: 17%;
+.tarjeta-avatar-b .tarjetay 
+    width: 100%;
+    margin-left: -10%;
+    padding-left: 4%;
+    height: 150px
+.tarjeta--azul 
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 130px
+    box-shadow: 0px 3px 5px 0.5px rgba(0, 0, 0, 0.3);
+
+.faschek
+  margin: 0;
+  position: absolute
+  top: -3%
+  right: 39.5%
+  height: 80px
+
+
+.bloque-texto-c:after 
+    content: '';
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-color: #FF6148;
+    position: relative;
+    left: 100%
+    top: -22%;
+
+.cajonu 
+  background-color: #192F4A
+  border-radius: 18px 
+  height: 372px
+
+
+.peque
+  font-size: 0.8em;
+
+.tarjep
+  background-color: #083142
+  border-radius: 10px
+  height: 320px
+
+.espaci
+  font-size: 0.9em;

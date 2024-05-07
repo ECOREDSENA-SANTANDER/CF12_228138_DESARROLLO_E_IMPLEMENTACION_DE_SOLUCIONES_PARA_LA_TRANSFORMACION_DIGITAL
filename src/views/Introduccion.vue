@@ -8,21 +8,21 @@
         span
           i.fas.fa-info
       h1 Introducción
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-5.col-8
-          img.mb-3(src="@/assets/curso/introduccion/img1.svg" alt="")
-        .col-lg-7.col-12
-          .cajon.color-secundario.p-4.mb-5.pri
-            p.mb-0 Se da la bienvenida al estudio del componente formativo
-              strong.rojo “Analítica de datos y visualización”
-              | . Para comenzar satisfactoriamente esta experiencia de aprendizaje, se le invita a explorar el video que se muestra a continuación. 
-              strong.rojo ¡Adelante!
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-12(data-aos="fade-left")
-          figure
-            .video
-              iframe(src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            figcaption Video. Description
+    .tarjeta.color-acento-contenido-2.mb-4.py-2
+      .row.justify-content-center.align-items-center
+        .col-auto.my-3.mx-4
+          img.imagenb.img-a.img-t(src='@/assets/curso/introduccion/img1.png', alt='')
+        .col-lg-8.col-md-10.col-12.my-0
+          .bg-white-r.mb-3.p-2.mt-4.mx-6.fw-bold 
+            p.mx-2.p-3.my-1 La claridad conceptual en relación a la computación en la nube se debe abordar de una manera holística para el entendimiento de los servicios bajo este concepto y se adquieren conocimientos acerca de arquitecturas, modelos, opciones, servicios de almacenamiento, y #[em software] de virtualización, para la migración a sistemas tecnológicos y optimizar procesos y recursos con mejor proyección.
+          p.p-3 En el siguiente vídeo se  describe #[b la importancia de la implementación de soluciones para la transformación digital en las empresas, así:]
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12(data-aos="fade-left")
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          figcaption Video. Description
 </template>
 
 <script>
