@@ -8,16 +8,16 @@
         span
           i.fas.fa-info
       h1 Introducción
-    .tarjeta.color-acento-contenido-2.mb-4.py-2
+    .tarjeta.color-acento-contenido-2.mb-4.p-4
       .row.justify-content-center.align-items-center
-        .col-auto.my-3.mx-4
+        .col-auto
           img.imagenb.img-a.img-t(src='@/assets/curso/introduccion/img1.png', alt='')
-        .col-lg-8.col-md-10.col-12.my-0
-          .bg-white-r.mb-3.p-2.mt-4.mx-6.fw-bold 
-            p.mx-2.p-3.my-1 La claridad conceptual en relación a la computación en la nube se debe abordar de una manera holística para el entendimiento de los servicios bajo este concepto y se adquieren conocimientos acerca de arquitecturas, modelos, opciones, servicios de almacenamiento, y #[em software] de virtualización, para la migración a sistemas tecnológicos y optimizar procesos y recursos con mejor proyección.
-          p.p-3 En el siguiente vídeo se  describe #[b la importancia de la implementación de soluciones para la transformación digital en las empresas, así:]
+        .col-lg-8.col-md-10.col-12
+          .bg-white-r.mb-4.p-3.fw-bold 
+            p.mb-0 La claridad conceptual en relación a la computación en la nube se debe abordar de una manera holística para el entendimiento de los servicios bajo este concepto y se adquieren conocimientos acerca de arquitecturas, modelos, opciones, servicios de almacenamiento, y #[em software] de virtualización, para la migración a sistemas tecnológicos y optimizar procesos y recursos con mejor proyección.
+          p En el siguiente vídeo se  describe #[b la importancia de la implementación de soluciones para la transformación digital en las empresas, así:]
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-left")
         figure
           .video

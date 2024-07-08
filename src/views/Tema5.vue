@@ -7,50 +7,54 @@
         span 5
       h1 Estrategias de migración
     
-    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
+    .row.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-12
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.png')})`}"
           )
           .bloque-texto-g__texto.p-5
             p.mb-0 La migración de información a la nube, como se ha visto anteriormente, es un paso obligado para particulares y para empresas que se encuentren dotadas a nivel de infraestructura, con equipos de servidores, aplicaciones, redes, etc. Todo esto implica un largo, y a veces complejo proceso de migración. 
-      p.mb-5 Este proceso de migración, #[b consiste en una serie de actividades para lograr una identificación, planificación, ejecución y evaluación de migración de servicios de TI locales a servicios en la nube dentro de una organización.]
+    p.mb-4 Este proceso de migración, #[b consiste en una serie de actividades para lograr una identificación, planificación, ejecución y evaluación de migración de servicios de TI locales a servicios en la nube dentro de una organización.]
       
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Concepto
         img.clase2.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
 
-    .row.align-items-center.justify-content-center.mb-2(data-aos="zoom-in-left")
-      .col-lg-8.my-4
+    .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
+      .col-lg-8
         p.bg10.p-4.mb-3 #[b Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración] la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/tema5/img2.svg', alt='')
           p.ml-1-custom No obstante, una de las ventajas de la infraestructura #[em cloud ]es permitir combinar servicios que consoliden las necesidades de la organización. En el #[em cloud computing] se suele utilizar la fórmula de ‘las 6 Rs’ para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.
-      .col-lg-4.my-3
+      .col-lg-4.col-md-8.col-8
         img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema5/img2.1.png', alt='')
     
-    .row.mb-5
+    .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 9.
           span Las 6 Rs de #[em AWS] para migración a la nube
-        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
-        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.15.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
+        .cajag.p-4
+          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
+          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.15.png', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
   
-    .mb-5 #[b De forma simplificada, puede explicarse cada una de las estrategias que involucran la migración a la nube en la siguiente imagen.]
+    .mb-4 #[b De forma simplificada, puede explicarse cada una de las estrategias que involucran la migración a la nube en la siguiente imagen.]
     
 
-    .row.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 10.
-          span Estrategias de migracion
-        img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/fig9.png', alt='La figura representa las estrategias de migración. Inicia con el rehospedaje, la replataforma, la recompra, el rediseño, la retención y la retirada.')
+          span Estrategias de migración
+      .col-lg-12.col-md-12.col-12
+        .cajag.p-4 
+          .row.justify-content-center.align-items-center
+            .col-lg-6.col-md-12.col-12
+              img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/imgg.png', alt='La imagen muestra un diagrama de las seis estrategias de migración a la nube, agrupadas en dos columnas. En la columna izquierda, de color naranja, están “Re-hospedaje (lift and shift)”, “Re-plataforma” y “Re-compra”. En la columna derecha, de color gris, están “Retirada”, “Retención” y “Re-diseño”. Cada bloque representa una estrategia distinta para migrar aplicaciones a la nube.')
     
-
-    .mb-4.d-flex
+    .mb-2.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
         h3.col.px-4.mb-0.text-white(data-aos="fade-right") Tipos y caracteristicas
         img.clase1.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
@@ -94,7 +98,7 @@
               p.text-center  La misma estrategia de negocio
     
       .col-lg-4.col-md-9.col-9
-        img.my-3.mt-0(src='@/assets/curso/temas/tema5/img4.png', alt='') 
+        img.d-none.d-lg-block.my-3(src='@/assets/curso/temas/tema5/img4.png', alt='') 
     
     p.mb-4 En el siguiente recurso didáctico podremos ampliar la información sobre cada una de esas 6Rs: 
     
@@ -148,7 +152,7 @@
               .d-flex.align-items-center.justify-content-center
                 img.img-a.img-t(src='@/assets/curso/temas/tema5/seisss.svg', alt='')
       
-      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0(data-aos="fade-left")
         img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema5/img5.png")  
   
     p.mb-3 Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, veamos: 
@@ -157,8 +161,8 @@
       .col-lg-12-sm-12.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Tabla 1.
-          span Estrategias de migracion
-    .row.justify-content-center.align-items-center  
+          span Estrategias de migración
+    .row.justify-content-center.align-items-center(alt='La tabla describe seis estrategias de migración a la nube: Re-hospedaje (transferir sistemas sin cambios significativos), Re-Plataforma (modificar sistemas para optimizarlos para la nube), Re-compra (sustituir aplicaciones con soluciones SaaS como Office 365), Re-diseño (reconstruir aplicaciones desde cero para maximizar los beneficios de la nube), Retención (mantener aplicaciones en su entorno actual si no es viable migrarlas) y Retirada (eliminar aplicaciones obsoletas para reducir costos operativos')  
       .col-lg-12.col-md-10.col-12
         .tabla-b
             tr
@@ -189,7 +193,7 @@
     
     p.mb-3  Entre las principales motivaciones  para que una empresa migre a la nube, se tienen: 
     
-    .row.mb-5(data-aos="zoom-in-left")
+    .row.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-md-12.col-lg-12
         .bgonza
           .row 
@@ -238,44 +242,44 @@
               img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img6.png', alt='')
     
     
-    p.mb-5(data-aos="zoom-in-left") #[b A continuación, se detallan las razones para que una organización migre sus soluciones tecnológicas a la nube:  ]
+    p.mb-4(data-aos="zoom-in-left") #[b A continuación, se detallan las razones para que una organización migre sus soluciones tecnológicas a la nube:  ]
     
     .row.justify-content-center.mb-4
       
-      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-3
         .cajonu
-          img.img-a.img-t(src='@/assets/curso/temas/tema5/ab.png',)
+          img.img-a.img-t(src='@/assets/curso/temas/tema5/ab.png', alt='La imagen muestra cuatro conceptos clave representados visualmente: transformar la experiencia de usuario con una mano seleccionando una cara feliz en un gráfico de satisfacción; toma de decisiones con una persona moviendo una pieza de ajedrez; mejorar operaciones con manos sosteniendo engranajes y relojes, simbolizando la optimización y eficiencia; y nuevos servicios con una mano marcando elementos en una lista en una computadora portátil, indicando innovación y desarrollo.')
           h4.p-3.text-white.text-center Transformar la experiencia de usuario 
       
-      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-3
         .cajonu
-          img(src='@/assets/curso/temas/tema5/cd.png',)
+          img(src='@/assets/curso/temas/tema5/cd.png', alt='La imagen muestra cuatro conceptos clave representados visualmente: transformar la experiencia de usuario con una mano seleccionando una cara feliz en un gráfico de satisfacción; toma de decisiones con una persona moviendo una pieza de ajedrez; mejorar operaciones con manos sosteniendo engranajes y relojes, simbolizando la optimización y eficiencia; y nuevos servicios con una mano marcando elementos en una lista en una computadora portátil, indicando innovación y desarrollo.')
           h4.p-3.text-white.text-center.my-2 Toma de decisiones   
 
-      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-3
         .cajonu
-          img(src='@/assets/curso/temas/tema5/ef.png',)
+          img(src='@/assets/curso/temas/tema5/ef.png', alt='La imagen muestra cuatro conceptos clave representados visualmente: transformar la experiencia de usuario con una mano seleccionando una cara feliz en un gráfico de satisfacción; toma de decisiones con una persona moviendo una pieza de ajedrez; mejorar operaciones con manos sosteniendo engranajes y relojes, simbolizando la optimización y eficiencia; y nuevos servicios con una mano marcando elementos en una lista en una computadora portátil, indicando innovación y desarrollo.')
           h4.p-3.text-white.text-center.my-2 Mejorar operaciones
 
-      .col-sm-12.col-lg-3.col-md-6.col-9.mb-4
+      .col-sm-12.col-lg-3.col-md-6.col-9.mb-3
         .cajonu
-          img(src='@/assets/curso/temas/tema5/gh.png',)
+          img(src='@/assets/curso/temas/tema5/gh.png', alt='La imagen muestra cuatro conceptos clave representados visualmente: transformar la experiencia de usuario con una mano seleccionando una cara feliz en un gráfico de satisfacción; toma de decisiones con una persona moviendo una pieza de ajedrez; mejorar operaciones con manos sosteniendo engranajes y relojes, simbolizando la optimización y eficiencia; y nuevos servicios con una mano marcando elementos en una lista en una computadora portátil, indicando innovación y desarrollo.')
           h4.p-3.text-white.text-center.my-3 Nuevos servicios 
 
     
     .row 
       .col-lg-12
-        h4.mb-4.my-5.mt-5  Beneficios de la computación en la nube 
-        p.mb-5 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
+        h4.mb-4  Beneficios de la computación en la nube 
+        p.mb-4 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
     
-    .row.mb-5
+    .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 11.
           span Beneficios generales de migrar a la nube
         .cajj.p-4
-          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='La figura representa los beneficios de migrar los servicios a la nube. Entre ellos están la velocidad, la elasticidad, la innovación, el pago por uso y el autoservicio.')
-          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.13.jpg', alt='La figura representa los beneficios de migrar los servicios a la nube. Entre ellos están la velocidad, la elasticidad, la innovación, el pago por uso y el autoservicio.')
+          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
+          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.13.jpg', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
 
     h4.mb-4 Motivadores para migrar a la nube
 
@@ -290,7 +294,7 @@
 
     p.mb-4 La migración a la nube, implica descubrir y aprovechar muchas oportunidades que estarán allí a la mano para las organizaciones, de la siguiente manera:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center
       .col-lg-12(data-aos="fade-left")
         figure
           .video
@@ -318,94 +322,94 @@
     h3.mb-3 #[b Algunas cifras]
     p.mb-3 Los gerentes y CEO´s corporativos tienen entre otras misiones, avizorar el futuro de las organizaciones que presiden, en este sentido es importante tener en cuenta las experiencias de otras organizaciones, como se muestra a continuación:     
 
-    .row.mb-5
+    .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
-          h5 Figura 12
-          span Cifras, Beneficios de la migracion hacia servicios cloud
+          h5 Figura 12.
+          span Cifras, Beneficios de la migracion hacia servicios #[em cloud]
         .col-lg-8-sm-10.col-md-8.col-lg-8.m-auto
           img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img10.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
-    h3.mb-5 Retos tecnológicos al migrar a la Nube
+    h3.mb-4 Retos tecnológicos al migrar a la Nube
 
-    p.mb-5 Los responsables de TI de las organizaciones que dan el paso hacia la modernización y transformación digital asumen retos que deben gestionar y sortear, por ello es importante estudiar y documentarse previamente ante los retos que se sortean en el desarrollo del plan de migración, entre ellos se encuentran:
+    p.mb-4 Los responsables de TI de las organizaciones que dan el paso hacia la modernización y transformación digital asumen retos que deben gestionar y sortear, por ello es importante estudiar y documentarse previamente ante los retos que se sortean en el desarrollo del plan de migración, entre ellos se encuentran:
   
   
-    .mb-5.d-flex.justify-content-center
+    .mb-4.d-flex.justify-content-center
       .d-flex.flex-wrap.align-items-center.pe-4.bg-img-bluess
         h4.col.px-4.mb-0(data-aos="fade-right") Retos tecnológicos al migrar a la Nube
 
-    .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left").mx-0
+    .row.d-flex.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Problemas de compatibilidad
               p Se presentan diversos tipos de infraestructura y sistemas operativos.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Tiempo de inactividad e interrupción de servicios
               p Transiciones, pruebas y correcciones de errores, lo que supone una afectación en los servicios.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Aplicaciones Ilegales
               p Las aplicaciones locales pueden estar instaladas de manera informal o irregular.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Cronogramas ajustados, presupuestos limitados
               p Los proyectos tienen asignado unos recursos económicos y de tiempo. El nivel de estimados debe gestionarse lo mejor posible.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mb-0 Bases de datos complejas
               p Al analizar sus motores de datos y no contar con documentación el entendimiento técnico del diseño y arquitectura se vuelve complejo de entender y migrar.
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Impacto mínimo o nulo en las aplicaciones
               p La migración debe darse sin pérdida de datos (eliminaciones e inserciones).
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
               h3.mt-2 Habilidades especiales en la nube
-              p El personal TI debe contar con conocimientos específicos necesarios para trabajar bajo plataformas cloud.
+              p El personal TI debe contar con conocimientos específicos necesarios para trabajar bajo plataformas #[em cloud.]
       .col-lg-6
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
+            img.img-a.img-t(src='@/assets/curso/temas/tema5/img11.svg' alt='AvatarTop')
           .tarjeta.tarjeta--blanc
             .p-2
-              h3.mt-2 Integrar los ecosistemas
+              h3.mb-2 Integrar los ecosistemas
               p Definir las estratégias y métodos para que estas plataformas convivan en el desarrollo de los procesos y de los planes administrativos y financieros.
 
     Separador
     #t_5_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
       h2 5.3 Seguridad en la nube 
     
-    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-0(data-aos="zoom-in-left")
       .col-lg-8
         .tarjeta.color-primario.px-2.py-2.mb-4
           .row.justify-content-around.align-items-center
@@ -427,18 +431,18 @@
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-4.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema5/img13.png") 
 
-    .row.justify-content-center.align-items-center.mb-0.mb-5(data-aos="zoom-in-left")
+    .row.justify-content-center.align-items-center.mb-4(data-aos="zoom-in-left")
       .col-sm-12.col-lg-10.col-md-12.bg1404
         .row 
           .col-sm-12.col-md-12
             .bg-whit-r.mb-3.p-3.mt-4.mx-4.fw-bold.mb-0 
-              p.mb-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos (DAM - Database Activity Monitoring) y de monitorización de actividad en archivos (FAM - File Activity Monitoring).
+              p.mb-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos (#[em DAM - Database Activity Monitoring]) y de monitorización de actividad en archivos (#[em FAM - File Activity Monitoring]).
             
-        .col-lg-6.sm-8.col-md-4.lg-8.pt-8 
-        img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
+        .col-lg-6.sm-8.col-md-4.lg-8 
+        img.img-a.img-t.d-none.d-lg-block.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
         img.img-a.img-t.imagen-mobile.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.13.jpg', alt='')
       
-    p.mb-4 Monitorizar la migración de datos a Cloud con filtros URL y herramientas Data Loss Prevention. En las implementaciones de Cloud públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
+    p.mb-4 Monitorizar la migración de datos a #[em Cloud] con filtros URL y herramientas #[em Data Loss Prevention]. En las implementaciones de #[em Cloud] públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
 
     .row.justify-content-center.align-items-center.mb-0
       .col-sm-12.col-lg-8.col-md-12

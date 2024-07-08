@@ -285,7 +285,7 @@ export default {
         'Contenido en video o audio que puede ser transmitido a través de una plataforma, esta transmisión puede ser en vivo o grabado. Son usados para programas de TV, videoclips musicales, entre otros. ',
     },
     {
-      termino: 'Web 2.0',
+      termino: '<em>Web</em> 2.0',
       significado:
         'Concepto que nace a partir del surgimiento de un conjunto de tecnologías que facilitó, como nunca antes, la publicación y colaboración de usuarios en Internet. (redes sociales, streamings, Blogs, Wikis, Podcast, etc.). ',
     },
@@ -295,7 +295,7 @@ export default {
         '(Solid State Drive), dispositivo de almacenamiento denominado unidad de estado sólido. ',
     },
     {
-      termino: 'Routers',
+      termino: '<em>Routers</em>',
       significado:
         'Dispositivo de la capa 3 (de red) que permite conexión y retransmitirla a otros nodos de la red. Esta retransmisión y enrutado de los datos pueden ser por cable o inalámbrico. ',
     },
@@ -310,7 +310,7 @@ export default {
         '(Hard Drive Disk), Unidad de almacenamiento tipo Disco Duro. ',
     },
     {
-      termino: 'Hardware x86',
+      termino: '<em>Hardware x86</em>',
       significado:
         'Se refiere a la arquitectura hardware compleja y reducida, se fundamenta en la Unidad Central de Procesamiento CPU, y sus componentes. La primera arquitectura de computadores personales comercial exitosa fue el Intel 80286 en 1982. ',
     },
@@ -335,7 +335,7 @@ export default {
         'Término que se usa para referirse a lo que hay detrás de un proceso. Ejemplo, un algoritmo de caja negra es aquel código que no se puede ver la manera en cómo funciona internamente. ',
     },
     {
-      termino: 'Active directory',
+      termino: '<em>Active directory</em>',
       significado:
         'Active Directory (AD) es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo. ',
     },
@@ -417,9 +417,9 @@ export default {
           centro: 'Dirección General',
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de Línea de Producción',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -427,31 +427,36 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Jaime Hernán Tejada ',
-          cargo: 'Experto Temático  ',
-          centro: 'Centro de la Industria, la Empresa y los Servicios - CIES. ',
+          nombre: 'Jaime Hernán Tejada',
+          cargo: 'Experto Temático',
+          centro: 'Centro de la Industria, la Empresa y los Servicios - CIES',
         },
         {
-          nombre: 'Diego E. Acevedo Guevara ',
-          cargo: 'Diseñador Instruccional  ',
+          nombre: 'Diego E. Acevedo Guevara',
+          cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Alix Cecilia Chinchilla Rueda ',
-          cargo: 'Asesor Metodológico ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Asesor Metodológico',
+          centro: 'Regional Distrito Capital – Centro de Diseño y Metrología',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes ',
-          cargo: 'Responsable Equipo de Desarrollo Curricular. ',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Responsable Equipo de Desarrollo Curricular',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura ',
+            'Regional Santander – Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda ',
-          cargo: 'Corrección de estilo ',
-          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología ',
+          nombre: 'Sandra Patricia Hoyos Sepúlveda',
+          cargo: 'Corrección de estilo',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
+        },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -459,24 +464,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Diego E. Acevedo Guevara ',
+          nombre: 'Edison Eduardo Mantilla Cuadros',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Pedro Alonso Bolivar Gonzalez',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Pedro Alonso Bolivar González',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -484,24 +484,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
