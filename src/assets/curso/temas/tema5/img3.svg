@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="633" viewBox="0 0 1240 633">
+  <defs>
+    <filter id="Elipse_5973" x="159.555" y="286" width="53" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Elipse_5975" x="896.555" y="286" width="53" height="52" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1076386" data-name="Grupo 1076386" transform="translate(-180 -1240)">
+    <rect id="Rectángulo_376394" data-name="Rectángulo 376394" width="1240" height="633" transform="translate(180 1240)" fill="#f6f6f6"/>
+    <path id="Trazado_197369" data-name="Trazado 197369" d="M-7869.049-9650.9h-264.365v-4h264.365Z" transform="translate(8373.859 11202.191)" fill="#1565c0"/>
+    <path id="Trazado_197372" data-name="Trazado 197372" d="M-7889.6-9650.9h-243.81v-4h243.81Z" transform="translate(9228.604 11202.191)" fill="#1565c0"/>
+    <rect id="Rectángulo_46353" data-name="Rectángulo 46353" width="26.137" height="26.137" transform="translate(684.467 1395.177) rotate(-45)" fill="#1565c0"/>
+    <g transform="matrix(1, 0, 0, 1, 180, 1240)" filter="url(#Elipse_5973)">
+      <ellipse id="Elipse_5973-2" data-name="Elipse 5973" cx="17.5" cy="17" rx="17.5" ry="17" transform="translate(168.55 292)" fill="#1565c0"/>
+    </g>
+    <ellipse id="Elipse_5980" data-name="Elipse 5980" cx="17.5" cy="17" rx="17.5" ry="17" transform="translate(1218 1532)" fill="#1565c0"/>
+    <ellipse id="Elipse_5981" data-name="Elipse 5981" cx="17.5" cy="17" rx="17.5" ry="17" transform="translate(1321 1532)" fill="#1565c0"/>
+    <path id="Trazado_197370" data-name="Trazado 197370" d="M-7932.707-9614.721l-2.54-3.09,167.724-137.832,2.54,3.09Z" transform="translate(8461.406 11157.769)" fill="#1565c0"/>
+    <path id="Trazado_197371" data-name="Trazado 197371" d="M-7450.149-9386.793h-364.809l-.579-.992-120.878-207.289,3.455-2.016,120.3,206.3h359.878l92.761-215.5L-7495.407-9758h-244.257v-4h246.049l.6.668,137.68,154.279-.5,1.172Z" transform="translate(8461.093 11155.177)" fill="#1565c0"/>
+    <g transform="matrix(1, 0, 0, 1, 180, 1240)" filter="url(#Elipse_5975)">
+      <ellipse id="Elipse_5975-2" data-name="Elipse 5975" cx="17.5" cy="17" rx="17.5" ry="17" transform="translate(905.55 292)" fill="#1565c0"/>
+    </g>
+    <ellipse id="Elipse_5976" data-name="Elipse 5976" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(992.555 1749)" fill="#1565c0"/>
+    <ellipse id="Elipse_5977" data-name="Elipse 5977" cx="17" cy="17.5" rx="17" ry="17.5" transform="translate(861.555 1749)" fill="#1565c0"/>
+    <circle id="Elipse_5978" data-name="Elipse 5978" cx="17.5" cy="17.5" r="17.5" transform="translate(747.555 1749)" fill="#1565c0"/>
+    <circle id="Elipse_5979" data-name="Elipse 5979" cx="17.5" cy="17.5" r="17.5" transform="translate(633.555 1749)" fill="#1565c0"/>
+    <path id="Trazado_197373" data-name="Trazado 197373" d="M-7397.447-9604.314l-3.687-1.55,3.875-9.219,3.688,1.55Zm7.749-18.437-3.687-1.55,3.874-9.219,3.688,1.55Zm7.749-18.438-3.687-1.55,3.875-9.219,3.688,1.55Zm7.749-18.437-3.687-1.55,3.875-9.219,3.688,1.55Zm7.749-18.437-3.687-1.55,3.874-9.219,3.688,1.55Zm7.749-18.438-3.687-1.55,1.831-4.355-1.832-2.02,2.962-2.687,3.544,3.906Zm-10.408-15.33-6.719-7.406,2.962-2.687,6.719,7.405Zm-13.439-14.812-6.719-7.406,2.962-2.687,6.719,7.406Zm-422.458-14.209-2.072-3.422,8.553-5.181,2.073,3.421Zm409.019-.6-6.719-7.406,2.962-2.687,6.719,7.405Zm-391.913-9.761-2.072-3.421,8.553-5.182,2.073,3.422Zm378.474-5.052-6.719-7.406,2.962-2.687,6.719,7.406Zm-361.368-5.311-2.072-3.421,8.553-5.182,2.073,3.421Zm347.929-9.5-6.719-7.406,2.962-2.687,6.72,7.405Zm-330.823-.862-2.072-3.421,8.553-5.182,2.073,3.422Zm17.106-10.362-2.072-3.421,8.553-5.182,2.073,3.421Zm300.278-3.588-6.72-7.406,2.962-2.687,6.72,7.406Zm-283.172-6.774-2.072-3.422,8.553-5.181,2.073,3.421Zm269.733-8.037-6.72-7.406,2.962-2.687,6.72,7.405Zm-252.627-2.326-2.072-3.421,8.553-5.182,2.073,3.421Zm17.106-10.362-2.072-3.422,8.553-5.181,2.073,3.421Zm222.083-2.124-6.167-6.8.66-.6v-2.745h1.707l6.763,7.454Zm-15.508-6.142h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Zm-20,0h-10v-4h10Z" transform="translate(8517.564 11127.232)" fill="#707070"/>
+    <path id="Trazado_197374" data-name="Trazado 197374" d="M-7992.96-9471.7l-3.467-2,4.988-8.667,3.467,2Zm9.977-17.334-3.467-2,4.989-8.667,3.466,2Zm9.977-17.334-3.467-2,4.988-8.667,3.467,2Zm-83.771-13.312-2.445-3.166,7.915-6.112,2.445,3.166Zm93.748-4.021-3.467-2,4.988-8.667,3.467,2Zm-77.919-8.2-2.445-3.166,7.915-6.112,2.445,3.166Zm87.9-9.131-3.467-2,4.988-8.667,3.467,2Zm-72.066-3.094-2.445-3.166,7.914-6.112,2.445,3.165Zm15.829-12.226-2.445-3.165,7.915-6.112,2.445,3.165Zm66.214-2.015-3.467-2,4.988-8.667,3.467,2Zm-50.385-10.21-2.445-3.166,7.915-6.112,2.445,3.166Zm60.362-7.124-3.467-2,4.988-8.667,3.467,2Zm-44.533-5.1-2.445-3.166,7.914-6.112,2.445,3.166Zm15.829-12.225-2.445-3.166,7.915-6.112,2.445,3.166Zm38.681-.009-3.467-2,4.988-8.667,3.467,2Zm-22.852-12.216-2.445-3.166,7.915-6.112,2.445,3.166Zm32.828-5.118-3.467-2,4.988-8.667,3.467,2Zm-17-7.106-2.445-3.166,7.915-6.112,2.445,3.165Zm26.976-10.228-3.467-2,4.988-8.667,3.467,2Zm-11.147-2-2.445-3.165,7.915-6.113,2.445,3.166Zm15.829-12.225-2.445-3.166,5.994-4.629,2.956,2.581-1.21,2.1-.725-.417Z" transform="translate(8406.964 11204.281)" fill="#707070"/>
+    <ellipse id="Elipse_5986" data-name="Elipse 5986" cx="15.5" cy="16" rx="15.5" ry="16" transform="translate(333.555 1671)" fill="#707070"/>
+    <circle id="Elipse_5992" data-name="Elipse 5992" cx="15.5" cy="15.5" r="15.5" transform="translate(392.555 1728)" fill="#707070"/>
+    <circle id="Elipse_5987" data-name="Elipse 5987" cx="16" cy="16" r="16" transform="translate(845.555 1287)" fill="#707070"/>
+    <circle id="Elipse_5988" data-name="Elipse 5988" cx="16" cy="16" r="16" transform="translate(1036.555 1287)" fill="#707070"/>
+    <circle id="Elipse_5989" data-name="Elipse 5989" cx="16" cy="16" r="16" transform="translate(1144.555 1412)" fill="#707070"/>
+    <path id="Trazado_197375" data-name="Trazado 197375" d="M-7931.9-9607.037l-.883-3.9,267.022-60.4H-7532.1l29.112-82.592,3.772,1.33-30.054,85.262h-136.039Z" transform="translate(8462.124 11158.135)" fill="#f4c62f"/>
+    <path id="Trazado_197376" data-name="Trazado 197376" d="M-7489.956-9560.85h-203.823l-.327-.117-238.232-85.287,1.348-3.766,237.905,85.17h201.864l117.882-82.822,2.3,3.273Z" transform="translate(8462.42 11204.281)" fill="#f59d36"/>
+    <rect id="Rectángulo_46352" data-name="Rectángulo 46352" width="26.137" height="26.137" transform="translate(501.719 1549.146) rotate(-45)" fill="#1565c0"/>
+    <rect id="Rectángulo_46354" data-name="Rectángulo 46354" width="26.137" height="26.137" transform="translate(773.458 1491.068) rotate(-45)" fill="#f4c62f"/>
+    <ellipse id="Elipse_5974" data-name="Elipse 5974" cx="17.5" cy="17" rx="17.5" ry="17" transform="translate(948.555 1378)" fill="#1565c0"/>
+    <circle id="Elipse_5985" data-name="Elipse 5985" cx="16" cy="16" r="16" transform="translate(954.555 1627)" fill="#f59d36"/>
+    <circle id="Elipse_5990" data-name="Elipse 5990" cx="16" cy="16" r="16" transform="translate(757.555 1627)" fill="#f59d36"/>
+    <circle id="Elipse_5991" data-name="Elipse 5991" cx="16" cy="16" r="16" transform="translate(911.555 1473)" fill="#f4c62f"/>
+    <text id="Rehosting" transform="translate(583.051 1488.177) rotate(-41)" fill="#1565c0" font-size="19" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">Rehosting</tspan></text>
+    <text id="Refactoring" transform="translate(569.254 1617.122) rotate(59)" fill="#1565c0" font-size="19" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">Refactoring</tspan></text>
+    <text id="Replatforming" transform="translate(617.403 1521.045) rotate(-13)" fill="#f4c62f" font-size="19" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">Replatforming</tspan></text>
+    <text id="Repurchasing" transform="translate(596.461 1572.627) rotate(20)" fill="#f59d36" font-size="19" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">Repurchasing</tspan></text>
+    <text id="_Lift_and_shift_" data-name="(Lift and shift)" transform="translate(596.209 1508.562) rotate(-41)" fill="#1565c0" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">(Lift and shift)</tspan></text>
+    <text id="_Re-writing_decoupling_applications_" data-name="(Re-writing / decoupling
+applications)" transform="translate(570.422 1673.804) rotate(59)" fill="#1565c0" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-86.173" y="0">(Re-writing / decoupling</tspan><tspan x="-46.069" y="18">applications)</tspan></text>
+    <text id="_Lift_and_Reshape_" data-name="(Lift and Reshape)" transform="translate(620.452 1547.221) rotate(-13)" fill="#f4c62f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">(Lift and Reshape)</tspan></text>
+    <text id="_Replace_Drop_Shop_" data-name="(Replace Drop &amp; Shop)" transform="translate(574.939 1588.264) rotate(20)" fill="#f59d36" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="0">(Replace Drop &amp; Shop)</tspan></text>
+    <text id="Manual_install" data-name="Manual install" transform="translate(868.555 1284)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-51.006" y="0">Manual install</tspan></text>
+    <text id="Determine_new_platform" data-name="Determine
+new platform" transform="translate(792.555 1526)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-36.859" y="0">Determine</tspan><tspan x="-47.454" y="18">new platform</tspan></text>
+    <text id="Purchase_COTS_SaaS_licensing" data-name="Purchase COTS/
+SaaS &amp; licensing" transform="translate(779.555 1673)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-56.071" y="0">Purchase COTS/</tspan><tspan x="-58.297" y="18">SaaS &amp; licensing</tspan></text>
+    <text id="Redesign_application_infraestructure_architecture" data-name="Redesign
+application/
+infraestructure architecture" transform="translate(645.555 1805)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-31.652" y="0">Redesign</tspan><tspan x="-43.33" y="18">application/</tspan><tspan x="-96.489" y="36">infraestructure architecture</tspan></text>
+    <text id="App_code_development" data-name="App code
+development" transform="translate(762.555 1805)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-32.351" y="0">App code</tspan><tspan x="-45.417" y="18">development</tspan></text>
+    <text id="Retire_decommission" data-name="Retire /
+decommission" transform="translate(399.555 1773)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-26.184" y="0">Retire /</tspan><tspan x="-49.937" y="18">decommission</tspan></text>
+    <text id="Retire_not_moving" data-name="Retire / not
+moving" transform="translate(278.555 1683)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-39.858" y="0">Retire / not</tspan><tspan x="-26.459" y="18">moving</tspan></text>
+    <text id="Discover_Assess_Prioritize_applications" data-name="Discover / Assess / Prioritize
+applications" transform="translate(357.555 1582)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-99.778" y="0">Discover / Assess / Prioritize</tspan><tspan x="-43.293" y="18">applications</tspan></text>
+    <text id="Determine_migration_path" data-name="Determine
+migration
+path" transform="translate(516.555 1490)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-36.859" y="0">Determine</tspan><tspan x="-35.098" y="18">migration</tspan><tspan x="-16.19" y="36">path</tspan></text>
+    <text id="Full_ALM_SDLC" data-name="Full ALM /
+SDLC" transform="translate(877.555 1805)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-36.244" y="0">Full ALM /</tspan><tspan x="-18.278" y="18">SDLC</tspan></text>
+    <text id="Integration" transform="translate(1009.555 1806)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-42.09" y="0">Integration</tspan></text>
+    <text id="Manual_install_setup" data-name="Manual install
+&amp; setup" transform="translate(968.555 1675)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-51.006" y="0">Manual install</tspan><tspan x="-27.008" y="18">&amp; setup</tspan></text>
+    <text id="Modify_underlying_infraestructure" data-name="Modify underlying
+infraestructure" transform="translate(923.555 1526)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-64.618" y="0">Modify underlying</tspan><tspan x="-52.277" y="18">infraestructure</tspan></text>
+    <text id="Automate" transform="translate(822.555 1388)" fill="#1565c0" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-34.878" y="0">Automate</tspan></text>
+    <text id="Use_migration_tools" data-name="Use migration tools" transform="translate(970.555 1373)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-68.95" y="0">Use migration tools</tspan></text>
+    <text id="Manual" transform="matrix(0.839, -0.545, 0.545, 0.839, 768.038, 1338.83)" fill="#afafaf" font-size="15" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-26.455" y="0">Manual</tspan></text>
+    <text id="Manual_config" data-name="Manual config" transform="translate(1064.555 1284)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-50.731" y="0">Manual config</tspan></text>
+    <text id="Manual_deploy" data-name="Manual deploy" transform="translate(1235.555 1431)" fill="#12263f" font-size="15" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-52.35" y="0">Manual deploy</tspan></text>
+    <text id="Validation" transform="translate(1140.555 1586)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-39.566" y="0">Validation</tspan></text>
+    <text id="Transition" transform="translate(1235 1586)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-38.398" y="0">Transition</tspan></text>
+    <text id="Production" transform="translate(1339 1586)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="-40.988" y="0">Production</tspan></text>
+  </g>
+</svg>

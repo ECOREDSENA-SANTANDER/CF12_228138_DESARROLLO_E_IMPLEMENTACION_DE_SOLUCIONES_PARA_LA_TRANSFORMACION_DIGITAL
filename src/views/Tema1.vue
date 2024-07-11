@@ -20,7 +20,7 @@
           .bg13.p-4.mb-3.mx-3   El término estricto de 
             strong.colored #[em computing cloud ]
             | siempre estuvo presente desde los inicios de Internet, estas limitaciones estaban por debajo del rendimiento comparado con una máquina local; pues trabajar en máquinas locales era mucho más rápido, mejor rendimiento y contaba con más capacidad de almacenamiento.
-        p.mb-0 Para comprender el #[em computing cloud,] es preciso conocer un poco sobre las arquitecturas de los diferentes componentes de la computación y sus capas, es decir entender sobre arquitectura de hardware, de redes, sistemas operativos y por supuesto aplicaciones. Cada elemento mencionado es un mundo técnico al que por años han evolucionado, cada uno tiene sus desarrollos y especialistas específicos.
+        p.mb-0 Para comprender el #[em computing cloud,] es preciso conocer un poco sobre las arquitecturas de los diferentes componentes de la computación y sus capas, es decir entender sobre arquitectura de #[em hardware], de redes, sistemas operativos y por supuesto aplicaciones. Cada elemento mencionado es un mundo técnico al que por años han evolucionado, cada uno tiene sus desarrollos y especialistas específicos.
     
 
 
@@ -38,31 +38,31 @@
     
     .row.d-flex.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-12.col-md-10.col-12
-        .bag14
+        .bag14.p-2
           .row.d-flex.align-items-center.justify-content-center.mb-2
             .col-lg-9.col-md-10.col-12.my-5
-              img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.png', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
-              img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.11.png', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
+              img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/iimg3.svg', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
+              img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img3.11.svg', alt='La figura representa los antecedentes de la computación en la nube, comenzando en los años 70 y 80 con Mainframe, donde destacaban empresas como IBM, UNISYS y NEC. Luego, en los noventa, surgieron actores  como Microsoft, Intel, HP y Compaq. En los años 2000, Internet se convirtió en un elemento fundamental con empresas como Yahoo, Google, Amazon, entre otros. Finalmente, en 2010, la computación en la nube tomó protagonismo, con la presencia de empresas como LinkedIn, Box, Apple, Twitter, Amazon, entre otros.')
             .row 
               .col-lg-auto.col-md-10.col-11.pabg.mb-3.mx-3
-                p.mb-2.my-2 Nota. Adaptación tomada de, Entendiendo a la nube informática. #[em (Cloud computing.Blog,] 2016).
+                p.mb-2.my-2 Nota. Adaptación tomada de, Entendiendo a la nube informática. (Cloud computing.Blog, 2016).
 
     p.mb-4 #[b Para llegar  a lo que son hoy los servicios en la nube, se debió pasar por los siguientes precedentes:]
     
-    SlyderA(tipo="b").slider-a-custom(data-aos="zoom-in-left")
-      .row.align-items-top.justify-content-center.p-4
+    SlyderA(tipo="b").slider-a-custom.p-2.p-md-5(data-aos="zoom-in-left")
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-12-md-12
           h4.mb-4 #[em Mainframe]
           p Se considera como la primera supercomputadora moderna, creada por IBM en los años 60, consistía en una máquina de cómputo central donde se llevaban todos los datos a manera de tarjetas perforadas para su procesamiento. 
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Tomas Watson
-          p Lanzó el modelo #[em IBM]/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
+          p Lanzó el modelo IBM/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.1.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Elementos clave de la arquitectura de la nube
           ul.lista-ul--color
@@ -77,31 +77,31 @@
               p.mb-0 Adaptación de varios modelos para acoplarse al presupuesto y necesidades de las empresas.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.2.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Computación en malla (#[em Grid computing])
           p Entre finales de los años 80 e inicios de la década del 90 (s.xx), con el estándar de #[em hardware] X86 de Intel, se dio la masificación del uso de PC (computadoras personales), paralelamente surgen las primeras versiones de #[em software open source].
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.3.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Arquitectura Cliente-Servidor
-          p El internet era un servicio más usado especialmente para el correo electrónico, transferencias de archivos (#[em protocolo ftp]) y servicios de la #[em web] a finales de 1980. 
+          p El internet era un servicio más usado especialmente para el correo electrónico, transferencias de archivos (protocolo ftp) y servicios de la #[em web] a finales de 1980. 
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.4.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Internet
           p Con la aparición de la #[em web] a principios de los 90s del siglo XX, que se empezó a masificar su uso y se da la aceptación de estas tecnologías como herramienta de productividad y uso personal por parte de las empresas y personas.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.5.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 #[em Computing cloud]
           p Para inicios de la década de los 2000, la internet estaba prácticamente en todos los países, la infraestructura mundial de datos comienza su aceleración de desarrollo, se empiezan a crear nuevos centros de datos.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.6.png', alt='')
-      .row.align-items-top.justify-content-center.p-4
+      .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Cuarta revolución industrial
           ul.lista-ul--color
@@ -129,7 +129,7 @@
       .col-lg-6.col-sm-12.mb-3
         .cajat.p-4.mb-4
           p.mb-0 Existen distintas formas de la nube, el concepto básico por el que se hace la entrega de servicios informáticos a clientes o usuarios por medio de una red. Los servicios en línea gestionan las peticiones recibidas y se caracterizan por tener flexibilidad y adaptabilidad de recursos según la demanda; estos escalamientos son transparentes para los usuarios. 
-        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores web, o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la 
+        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores #[em web], o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la 
           strong.colored figura 2 se ilustra la arquitectura de la computación en la nube:
       .col-lg-4.col-md-9.col-9.mb-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img5.png', alt='')
@@ -139,8 +139,8 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 2.
           span Arquitectura computacion en la nube
-        img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/img6.png', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
-        img.imagen-mobile(src='@/assets/curso/temas/tema1/img6.11.png', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
+        img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/iimg6.svg', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
+        img.imagen-mobile(src='@/assets/curso/temas/tema1/img6.11.svg', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
         
     p.mb-4 En términos generales, emplear computación en la nube en vez de usar infraestructura local tiene ventajas como las que se muestran a continuación:
 
@@ -148,8 +148,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/HF3KfcdGxrc?si=o0ZRR0IL-jAZQI_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Uso y escenarios de aplicación en la nube
     
     p.mb-4 A continuación se detallarán algunos servicios #[em Multicloud] y características de los recursos propios y alojados en la nube.
     
@@ -159,7 +159,7 @@
           .row 
             .col-lg-8.md-lg-10.col-12
               p.mb-0.mb-3.p-2.mt-4.mx-3.fw-bold
-                strong.resaltado2.p-2 #[b #[em Multi-cloud]]
+                strong.resaltado2.p-2.h4 #[b #[em Multi-cloud]]
               p.mb-4.mx-4 Cuando la organización implementa servicios en la nube con diferentes proveedores, se define el #[em multi-cloud], esta característica se presenta por diferentes circunstancias, como las siguientes:
               ul.lista-ul--color.mx-3
                 li.mb-0.pb-0 
@@ -179,7 +179,7 @@
                   p.mb-0 Aumentan la garantía de seguridad en la información usando respaldos en otros proveedores. En especial como medida de protección contra ataques cibernéticos, secuestro de datos u otras circunstancias. 
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
-                  p.mb-0 Un proveedor fuerte en servidores y disponibilidad de máquinas para montar bases de datos, aplicaciones web, soluciones propias, etc. y contar con los servicios de marcas con todo un ecosistema de productividad para apoyar las labores del negocio tales como Microsoft o Google. 
+                  p.mb-0 Un proveedor fuerte en servidores y disponibilidad de máquinas para montar bases de datos, aplicaciones #[em web], soluciones propias, etc. y contar con los servicios de marcas con todo un ecosistema de productividad para apoyar las labores del negocio tales como Microsoft o Google. 
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
                   p.mb-0 Para emplear la computación en la nube con varios proveedores, lo más importante al momento de elegir un ecosistema de productividad digital son: sus condiciones de uso y garantías, asistencia técnica, servicios que ofrece, disponibilidad, precios, habilidad en el manejo de herramientas, entre otros aspectos. 
@@ -201,26 +201,26 @@
         p.mb-4 En términos generales, se refiere a la contratación de máquinas (#[em hardware]). Se contratan por lo general, equipos servidores, o si es política de la empresa, asignarle a cada empleado su computadora donde trabajará y guardará su información. 
         p.mb-0 La infraestructura incluye máquinas de comunicación como routers, #[em firewall], servidores y computadoras personales. Se tiene la opción de elegir las características #[em hardware] de los dispositivos. 
 
-    p.mb-4.text-center Es un servicio que, entre otras ventajas, permite escalar características de los equipos según la necesidad.
+    p.mt-4.mb-4.text-center Es un servicio que, entre otras ventajas, permite escalar características de los equipos según la necesidad.
     
     .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
       .col-lg-6.col-md-12.col-12
         .bg5.p-5.mb-4
-          p.mb-3 #[em #[b PaaS (Plataformas como Servicio):]]
+          p.mb-3 #[em #[b PaaS ]]#[b (Plataformas como Servicio):]
           p.mb-0 Está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura PaaS los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
       .col-lg-6.col-md-9.col-9
         img.mb-5.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img9.png', alt='')
     
-    p.mb-4 #[em SaaS] #[b (#[em Software] como Servicio):] son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el #[em Office,] si bien por ejemplo #[emWord] podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
+    p.mb-4  #[b #[em SaaS] (#[em Software] como Servicio):] son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el Office, si bien por ejemplo Word podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
     
     .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 3.
-          span Modelo De servicios en la nube
-        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.png', alt='La figura muestra un modelo de servicios en la nube dividido en tres niveles: SaaS (Software as a Service), que incluye aplicaciones como Dropbox y Google Drive para usuarios finales; PaaS (Platform as a Service), con plataformas como Google App Engine y Microsoft Azure dirigidas a desarrolladores de software; e IaaS (Infrastructure as a Service), que ofrece infraestructura como AWS y Google Compute Engine para administradores de TI.')
+          span Modelo de servicios en la nube
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.svg', alt='La figura muestra un modelo de servicios en la nube dividido en tres niveles: SaaS (Software as a Service), que incluye aplicaciones como Dropbox y Google Drive para usuarios finales; PaaS (Platform as a Service), con plataformas como Google App Engine y Microsoft Azure dirigidas a desarrolladores de software; e IaaS (Infrastructure as a Service), que ofrece infraestructura como AWS y Google Compute Engine para administradores de TI.')
         figcaption.d-none.d-lg-block Nota. Adaptado de: (Islámica, 2020)
-        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.11.png', alt='La figura muestra un modelo de servicios en la nube dividido en tres niveles: SaaS (Software as a Service), que incluye aplicaciones como Dropbox y Google Drive para usuarios finales; PaaS (Platform as a Service), con plataformas como Google App Engine y Microsoft Azure dirigidas a desarrolladores de software; e IaaS (Infrastructure as a Service), que ofrece infraestructura como AWS y Google Compute Engine para administradores de TI.')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img10.11.svg', alt='La figura muestra un modelo de servicios en la nube dividido en tres niveles: SaaS (Software as a Service), que incluye aplicaciones como Dropbox y Google Drive para usuarios finales; PaaS (Platform as a Service), con plataformas como Google App Engine y Microsoft Azure dirigidas a desarrolladores de software; e IaaS (Infrastructure as a Service), que ofrece infraestructura como AWS y Google Compute Engine para administradores de TI.')
         figcaption.imagen-mobile Nota. Adaptado de: (Islámica, 2020)
     
     p.mb-4 Cuando no se hacen planes de inversión para adquirir recursos TI, los servicios se pagan mensual o anual, a un tercero según las necesidades de la organización. En la mayoría de los casos existen grandes prestadores de soluciones tecnológicas con infraestructuras de gran tamaño e inversión para la transformación digital, que cubren múltiples servicios.
@@ -230,22 +230,22 @@
     p.mb-4 Los gigantes de la nube están expandiendo rápidamente sus operaciones para capitalizar el crecimiento de demanda que acompañará a la aceleración de la transformación digital. Los más populares y líderes en el mercado so n los siguientes:
     
     TabsA.color-acento-botones.mb-4
-      .tarjeta.bg145.p-5(titulo="<em>Amazon Web Services</em>")
+      .tarjeta.bg145.p-5(titulo="Amazon Web Services")
         h4 #[em Amazon Web Services]
         .row 
           .col-sm-12.col-md-8
             p Modelo de computación en la nube flexible, con concepto autoescalable según su uso, cuenta con herramientas para el procesamiento de soluciones analíticas e inteligencia artificial.
           .col-sm-12.col-md-4
             img.img-t(src='@/assets/curso/temas/tema1/img11.png')
-      .tarjeta.bg145.p-5(titulo="<em>Azure</em>")
-        h4 #[em Azure]
+      .tarjeta.bg145.p-5(titulo="Azure")
+        h4 Azure
         .row
           .col-sm-12.col-md-8
-            p Trabajar bajo el ecosistema de #[em Microsoft] es trabajar con las herramientas más usadas en el mundo bajo el esquema de #[em Windows], herramientas #[em Office] y la infraestructura de #[em Azure.]
+            p Trabajar bajo el ecosistema de Microsoft es trabajar con las herramientas más usadas en el mundo bajo el esquema de Windows, herramientas Office y la infraestructura de Azure.
           .col-sm-12.col-md-4
             img.img-t(src='@/assets/curso/temas/tema1/img11.1.png')
-      .tarjeta.bg145.p-5(titulo="<em>Google Cloud</em>")
-        h4 #[em Google Cloud]
+      .tarjeta.bg145.p-5(titulo="Google Cloud")
+        h4 Google Cloud
         .row 
           .col-sm-12.col-md-8
             p Puede ser usado por empresas de todos los tamaños, cuenta con excelentes herramientas de productividad y apoyo a los procesos de negocio, su fuerte es el empleo de máquinas de alto rendimiento.
@@ -256,7 +256,7 @@
       .row.d-flex
         .col-lg-1
           img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/im.svg', alt='')
-        .col-lg-11 Adicionalmente, es importante aclarar que los anteriores no son los únicos proveedores, si bien son los más populares y líderes en el mercado existen cientos de compañías especializadas en soluciones en la nube. Hay compañías especializadas en inteligencia de negocios, otras en #[em big data,] otras en infraestructura #[em hardware,] como #[em IBM, Qlic Sense, Oracle,] entre otras.
+        .col-lg-11 Adicionalmente, es importante aclarar que los anteriores no son los únicos proveedores, si bien son los más populares y líderes en el mercado existen cientos de compañías especializadas en soluciones en la nube. Hay compañías especializadas en inteligencia de negocios, otras en #[em big data,] otras en infraestructura #[em hardware,] como IBM, Qlic Sense, Oracle, entre otras.
 
 
     

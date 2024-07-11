@@ -37,8 +37,8 @@
           h5 Figura 9.
           span Las 6 Rs de #[em AWS] para migración a la nube
         .cajag.p-4
-          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.png', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
-          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.15.png', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
+          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.svg', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
+          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img3.15.svg', alt='La imagen muestra un diagrama de las seis estrategias de AWS para la migración a la nube, conocidas como las “6 R”. Representa un flujo desde la evaluación inicial hasta la producción, con rutas específicas para cada estrategia: Retirar, Retener, Replataformar, Recomprar, Reubicar y Refactorizar. Cada camino incluye pasos como la determinación de la ruta de migración, rediseño de la arquitectura, uso de herramientas de migración y configuraciones manuales o automatizadas.')
   
     .mb-4 #[b De forma simplificada, puede explicarse cada una de las estrategias que involucran la migración a la nube en la siguiente imagen.]
     
@@ -108,7 +108,7 @@
         LineaTiempoD.color-secundario
           .row(numero="1" titulo= "<em>(R)ehosting</em>")
             .col-md-12.mb-2.mb-md-0.mx-0
-              p  Refiere a la estrategia de #[em lift-and-shift], en donde se trasladan las aplicaciones a la nube sin rediseño de ningún tipo (a veces de forma literal), podría decirse que como una copia bit a bit.
+              p  Refiere a la estrategia de #[em lift-and-shift], en donde se trasladan las aplicaciones a la nube sin rediseño de ningún tipo (a veces de forma literal), podría decirse que como una copia #[em bit] a #[em bit].
             .col-md-12.mb-2.mb-md-0.mx-0
               .d-flex.align-items-center.justify-content-center
                 img.img-a.img-t.mb-4.mx-2(src='@/assets/curso/temas/tema5/cincoo.svg', alt='')
@@ -176,10 +176,10 @@
               td.rosa Estrategia que implica análisis de negocio para identificación de procesos y servicios que puedan ser excluidos de la migración, requiere un conocimiento de la arquitectura originaria y procesos para la toma de decisiones. 
             tr
               th.h4.blanco.text-center Re-compra  
-              td.blanco Estrategia asociada a la recompra de versiones SaaS de una aplicación utilizada por la organización, por ejemplo:  #[em Microsoft Exchange] migrar a #[em Office] 365 obteniendo las funcionalidades y beneficios de un producto novedoso y seguro. <br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición.  
+              td.blanco Estrategia asociada a la recompra de versiones SaaS de una aplicación utilizada por la organización, por ejemplo: Microsoft Exchange migrar a Office 365 obteniendo las funcionalidades y beneficios de un producto novedoso y seguro. <br><br>Este modelo requiere de una importante justificación para ser presentado ante la alta dirección, ya que es común escuchar que no se debe comprar algo con lo que ya se cuenta, de ahí la importancia de presentar los beneficios y bondades de la nueva adquisición.  
             tr
               th.h4.rosa.text-center Re-diseño  
-              td.rosa Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología #[em Cloud.]<br><br>Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura <i> cloud.</i>  
+              td.rosa Estrategia de mayor complejidad y de mayor costo ya que implica re arquitecturizar sistemas de información y procesos, buscando aprovechar los beneficios de la tecnología #[em cloud.]<br><br>Considera que puede requerir diseñar la infraestructura desde cero, pero esto se puede ver beneficiado con una optimización de recursos, y evitar gastos innecesarios en la operación de la infraestructura <i> cloud.</i>  
             tr
               th.h4.blanco.text-center Retención  
               td.blanco Esta estrategia considera la posibilidad de no tener que migrar hacia la nube toda una infraestructura. Ya sea por costos, restricciones de licenciamiento o compatibilidad.<br><br>Para este caso, se conserva la aplicación o algún componente de la misma en el entorno original, identificando que, en algunas ocasiones, no todo puede ser llevado hacia la nube. 
@@ -222,7 +222,7 @@
                   p.mb-1 Cada negocio tiene su naturaleza, característica y tamaño.
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
-                  p.mb-1 La solución en la nube de una organización no necesariamente es igual para otra, así se le parezca
+                  p.mb-1 La solución en la nube de una organización no necesariamente es igual para otra, así se le parezca.
                 li.mb-0.pb-0 
                   i.fas.fa-chevron-right
                   p.mb-1 Nivel de innovación de la organización y lo que mejora.
@@ -278,8 +278,8 @@
           h5 Figura 11.
           span Beneficios generales de migrar a la nube
         .cajj.p-4
-          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.png', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
-          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.13.jpg', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
+          img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.svg', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
+          img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/11.13.svg', alt='La imagen describe los beneficios generales de migrar a la nube: Velocidad, ya que automatiza y acelera procesos; Elasticidad, permitiendo adaptarse rápidamente a nuevas circunstancias; Innovación, al facilitar el aprendizaje y la creación de nuevos productos y servicios; Pago por uso, optimizando recursos y ajustando costos según la carga de trabajo; y Autoservicio, donde la organización gestiona sus recursos con soporte del proveedor solo cuando es necesario. ')
 
     h4.mb-4 Motivadores para migrar a la nube
 
@@ -298,8 +298,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description 
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/RxZVx8tNez4?si=SDiSVv0rCMITBSOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Migración a La Nube, un paso fundamental para las organizaciones hoy en día
 
     Separador
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
@@ -312,7 +312,7 @@
           .row.d-flex.align-items-center.justify-content-center
             .col-lg-12 
               p.mb-4.text-center.b #[b “Crecer duele, pero es necesario”]
-              P.mb-0 Si bien, el enfoque de este material de estudio es técnico, no se puede dejar de lado las circunstancias mundiales, tales como la inestabilidad económica, crisis geopolítica, rezagos de la pandemia COVID-19 y otros componentes globales y nacionales que impactan a las organizaciones de todos los tamaños. Uno de esos componentes fuertes de inestabilidad, es el tránsito actual que el mundo productivo, económico y social está atravesando hacia la cuarta revolución industrial. Aun así, muchos empresarios, tienen la opinión de que ..
+              P.mb-0 Si bien, el enfoque de este material de estudio es técnico, no se puede dejar de lado las circunstancias mundiales, tales como la inestabilidad económica, crisis geopolítica, rezagos de la pandemia COVID-19 y otros componentes globales y nacionales que impactan a las organizaciones de todos los tamaños. Uno de esos componentes fuertes de inestabilidad, es el tránsito actual que el mundo productivo, económico y social está atravesando hacia la cuarta revolución industrial. Aun así, muchos empresarios, tienen la opinión de que ...
             .col-10.my-2.mx-2
           .bg-white-r.mb-0.p-2.mt-0.mx-0.fw-bold 
             p.mb-1 Sin tecnología y sin transformación digital, sus organizaciones seguirán como de costumbre, igual que debió pasarles a muchos empresarios a inicios del siglo XX, donde opinaron que sin energía podrían trabar como siempre. Según la Unión Sindical de CCOO (2016).
@@ -328,7 +328,7 @@
           h5 Figura 12.
           span Cifras, Beneficios de la migracion hacia servicios #[em cloud]
         .col-lg-8-sm-10.col-md-8.col-lg-8.m-auto
-          img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img10.png', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/i100.svg', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
     h3.mb-4 Retos tecnológicos al migrar a la Nube
 
@@ -421,7 +421,7 @@
                   h3.mb-2 Seguridad en la Nube 
                   p.mb-0.peque Para este componente es necesario para la seguridad en la nube adoptar los puntos 11, 11.1, 11.1.1, 11.1.2, 11.2, 11.3, 11.4, 11.5 de la guía 12 del modelo MSPI del ministerio TIC, “5482_G12- Seguridad en la nube, el cual puede consultar en el enlace: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://youtu.be/vqyuNha0Rek" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
         p.my-3.mb-2 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en Cloud, migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
@@ -439,10 +439,10 @@
               p.mb-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos (#[em DAM - Database Activity Monitoring]) y de monitorización de actividad en archivos (#[em FAM - File Activity Monitoring]).
             
         .col-lg-6.sm-8.col-md-4.lg-8 
-        img.img-a.img-t.d-none.d-lg-block.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.png', alt='')
-        img.img-a.img-t.imagen-mobile.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.13.jpg', alt='')
+        img.img-a.img-t.d-none.d-lg-block.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.svg', alt='')
+        img.img-a.img-t.imagen-mobile.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/img14.13.svg', alt='')
       
-    p.mb-4 Monitorizar la migración de datos a #[em Cloud] con filtros URL y herramientas #[em Data Loss Prevention]. En las implementaciones de #[em Cloud] públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
+    p.mb-4 Monitorizar la migración de datos a #[em cloud] con filtros URL y herramientas #[em Data Loss Prevention]. En las implementaciones de #[em cloud] públicas y privadas, y a través de los diferentes modelos de servicio, es importante proteger los datos en tránsito. Esto incluye:
 
     .row.justify-content-center.align-items-center.mb-0
       .col-sm-12.col-lg-8.col-md-12
@@ -457,15 +457,15 @@
                 p.mb-0 #[em Cloud], incluyendo público/privado, interior/exterior y otras combinaciones.
               li.mb-0.pb-0 
                 i.fas.fa-chevron-right
-                p.mb-0 Los datos migrando entre los proveedores de #[em Cloud]. 
+                p.mb-0 Los datos migrando entre los proveedores de #[em cloud]. 
               li.mb-0.pb-0 
                 i.fas.fa-chevron-right
-                p.mb-0 Los datos moviéndose entre instancias (u otros componentes) en un #[em Cloud] determinado. Hay tres opciones.
+                p.mb-0 Los datos moviéndose entre instancias (u otros componentes) en un #[em cloud] determinado. Hay tres opciones.
         .col-lg-12.order-lg-12.order-12.mx-0
           LineaTiempoD.color-acento-botones
             p(numero="1" titulo="Cifrado cliente/aplicación") Los datos son cifrados en el extremo o en el servidor antes de enviarse por la red o ya están almacenados en un formato de cifrado adecuado. Esto incluye el cifrado en cliente local (basado en agente), por ejemplo, para archivos almacenados, o el cifrado integrado en aplicaciones.
             p(numero="2" titulo="Cifrado enlace/red") Técnicas de cifrado de red estándar incluyendo SSL21, VPNs22, y SSH23. Puede ser #[em hardware o software.] Es preferible extremo a extremo, pero puede no ser viable en todas las arquitecturas.
-            p(numero="3" titulo="Cifrado basado en proxy") Los datos son transmitidos a un servidor dedicado o servidor #[em proxy,] el cual los cifra antes de enviarlos por la red. Es la opción escogida frecuentemente para la integración con aplicaciones #[em legacy] pero no es generalmente recomendable.
+            p(numero="3" titulo="Cifrado basado en <em>proxy</em>") Los datos son transmitidos a un servidor dedicado o servidor #[em proxy,] el cual los cifra antes de enviarlos por la red. Es la opción escogida frecuentemente para la integración con aplicaciones #[em legacy] pero no es generalmente recomendable.
       .col-lg-4.col-md-12.col-9.order-lg-2.mb-lg-0.mb-8(data-aos="fade-left")
         img.img-a.img-t(src="@/assets/curso/temas/tema5/img15.png") 
 

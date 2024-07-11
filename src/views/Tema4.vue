@@ -20,13 +20,13 @@
                 .col-lg-10
                   .row.justify-content-between.align-items-center
                     .col-auto
-                      p.mb-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma Docker la cual es ampliamente utilizada por #[b la industria de desarrollo de #[em software.]]
-            p Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de #[em docker], construir y ejecutar contenedores Docker a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube #[em Docker Hub.]
+                      p.mb-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma #[em Docker] la cual es ampliamente utilizada por #[b la industria de desarrollo de #[em software.]]
+            p Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de #[em Docker], construir y ejecutar contenedores #[em Docker] a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube #[em Docker Hub.]
 
 
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 4.1  Contenedores de software
+      h2 4.1  Contenedores de #[em software]
     
     p.mb-4 El término de contenedores se ha vuelto muy común en la jerga actual asociada a la administración de servicios de infraestructura, pero en esencia hace referencia a un modelo de virtualización repasado en el componente anterior, específicamente la virtualización a nivel de sistema operativo.
     
@@ -35,12 +35,12 @@
         img.d-none.d-lg-block.img-t.img-a(src='@/assets/curso/temas/tema4/img2.png', alt='Actividades del plan de gestión de servicios TI')
       .col-lg-5
         .bg14.p-5.mb-3
-          p.mb-0 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host.]
+          p.mb-0 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o #[em host], logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host.]
     .bg188.p-4.mb-4(data-aos="fade-left") 
       .row.d-flex
         .col-lg-1
           img.img-a.img-t.mb-2(data-aos="zoom-in")(src='@/assets/curso/temas/tema4/img3.svg', alt='')
-        .col-lg-11 Los contenedores encapsulan únicamente el #[em software] específico de la aplicación que se ejecuta dentro de él junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar logrando entonces una portabilidad real ya que es posible predecir el comportamiento de un software cuando este se mueve desde un servidor a otro.
+        .col-lg-11 Los contenedores encapsulan únicamente el #[em software] específico de la aplicación que se ejecuta dentro de él junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar logrando entonces una portabilidad real ya que es posible predecir el comportamiento de un #[em software] cuando este se mueve desde un servidor a otro.
     
     h3.mb-4 Ventajas 
 
@@ -104,14 +104,14 @@
                 .col-sm-12.col-md-12
                   .row.justify-content-between.align-items-center
                     .col.mb-2.mb-sm-0
-                      p.mb-1.my-3 En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un software que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
+                      p.mb-1.my-3 En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un #[em software] que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
       .col-sm-12.col-md-12.col-lg-4.col-9
         img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
               .col-lg-12
-                p.mb-2.mb-3 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con #[em Visual Studio] .Net es necesario también montar en la máquina virtual el sistema operativo #[em Windows], si la aplicación a ejecutar en la máquina virtual fue construida en #[em Swift] requiere entonces la instalación del sistema operativo #[em MacOS] y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar. 
+                p.mb-2.mb-3 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con Visual Studio .Net es necesario también montar en la máquina virtual el sistema operativo Windows, si la aplicación a ejecutar en la máquina virtual fue construida en Swift requiere entonces la instalación del sistema operativo MacOS y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las #[em App] a utilizar. 
                 .align-self-end 
                   img.deree.img-t.img-a.mx-5(src='@/assets/curso/temas/tema4/puntos.svg', alt='')
     
@@ -119,11 +119,11 @@
 
     Separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
-      h2 4.3 Docker
+      h2 4.3 #[em Docker]
 
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-8
-        p #[em Docker] es una de las plataformas de software más ampliamente utilizada en el mundo para la gestión de contenedores.
+        p #[em Docker] es una de las plataformas de #[em software] más ampliamente utilizada en el mundo para la gestión de contenedores.
         .tarjeta.color-primario.px-3.py-3.mb-0
           .row.justify-content-around.align-items-center
             .col-2.col-sm-2.col-lg-2
@@ -131,10 +131,10 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-2.mb-sm-0
-                  h3.mb-1 Docker 
-                  p.mb-0 Para realizar el proceso de instalación de #[em Docker] en el sistema operativo #[em Windows] debemos dirigirnos directamente a la página oficial de Docker disponible en:
+                  h3.mb-1 #[em Docker] 
+                  p.mb-0 Para realizar el proceso de instalación de #[em Docker] en el sistema operativo Windows debemos dirigirnos directamente a la página oficial de Docker disponible en:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://www.docker.com" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
         .d-flex.align-items-center.justify-content-center
@@ -148,8 +148,8 @@
       .col-lg-12(data-aos="fade-left")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="Description" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-          figcaption Video. Description
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9eTVZwMZJsA?si=tvn8R6xfqL4Ff2sI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+          figcaption Video. Docker - La explicación que querías
     
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
       .col-lg-6.md-lg-10.col-12.mb-4
@@ -162,7 +162,7 @@
                 .col.mb-2.mb-sm-0
                   p.mb-0.my-3 Para más información detallada diríjase a la documentación de referencia de #[em Docker] sobre archivos #[em Dockerfile] disponible en: 
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://docs.docker.com/reference/dockerfile/#:~:text=A%20Dockerfile%20is%20a%20text,can%20use%20in%20a%20Dockerfile" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
     
@@ -174,9 +174,9 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-2.mb-sm-0
-                  p.mb-4.my-3 O la documentación de #[em Dockerfile] para #[em Windows] disponible en:
+                  p.mb-4.my-3 O la documentación de #[em Dockerfile] para Windows disponible en:
                 .col-sm-auto
-                  a.boton.color-acento-botones(href="https://biblioteca.sena.edu.co/images/PDF/InstructivoAPA.pdf" target="_blank")
+                  a.boton.color-acento-botones(href="https://pilasguru.gitbooks.io/docker-guia-para-el-usuario/content/chapter03/04crear-dockerfile.html" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
 </template>

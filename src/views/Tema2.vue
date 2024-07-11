@@ -9,12 +9,12 @@
 
     .row.mb-4(data-aos="zoom-in-left")
       .col-lg-12.md-lg-10.col-12
-        .bgonza
+        .bgonza.p-4
           .row 
             .col-lg-8.md-lg-10.col-12
-              .bg-whiter-r.mb-3.p-3.mt-4.mx-4.fw-bold.mb-0 
+              .bg-whiter-r.p-2.mx-2.mb-4
                 p.mb-0.p-2 #[em Cloud Storage] (almacenamiento en la nube), uno de los servicios del #[em computing cloud,] es importante conocer el pasado para entender mejor el nivel de avance y mejoramiento que han traído los servicios en la nube. #[b Las maneras de salvar los datos han tenido múltiples tecnologías y medios físicos, como: ]
-              ul.lista-ul--color.mx-4
+              ul.lista-ul--color.mx-1
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
                   p.mb-0 Tarjetas perforadas con los mainframes. 
@@ -26,7 +26,7 @@
                   p.mb-0 Unidades ópticas como DVD y sus formatos derivados. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
-                  p.mb-0 Unidad #[em Flash USB] o Pendrive, inventada por #[em Fujio Masuoka] para la empresa japonesa #[em Toshiba] (Electro personalizados, 2020), permite almacenamiento sin alimentación eléctrica permanente y sin uso de motores. 
+                  p.mb-0 Unidad #[em Flash USB o Pendrive], inventada por Fujio Masuoka para la empresa japonesa Toshiba (Electro personalizados, 2020), permite almacenamiento sin alimentación eléctrica permanente y sin uso de motores. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
                   p.mb-0 Algunas actividades profesionales aún requieren usan almacenamiento en unidades externas o para gestionar la propia información personal.  
@@ -38,17 +38,17 @@
                   p.mb-0 La nube es una funcionalidad evolucionada de los tradicionales sistemas ftp y otros para la transferencia y sincronización de archivos. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
-                  p.mb-0 Actualmente, las unidades de almacenamiento de estado sólido (a veces mal llamados como discos de estado sólido) han sido la evolución y mejoramiento de la tecnología inventada por #[em Masuoka].
+                  p.mb-0 Actualmente, las unidades de almacenamiento de estado sólido (a veces mal llamados como discos de estado sólido) han sido la evolución y mejoramiento de la tecnología inventada por Masuoka.
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
-                  p.mb-3 Actualmente es la unidad de almacenamiento más eficiente.
-            .col-sm-12.col-md-4.pt-5 
+                  p.mb-0 Actualmente es la unidad de almacenamiento más eficiente.
+            .col-sm-12.col-md-4
               img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img1.png', alt='')
   
-    p.mb-4(data-aos="zoom-in-left") #[b A continuación se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los #[em Cluster] de almacenamiento. ]
+    p.mb-4(data-aos="zoom-in-left") #[b A continuación se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los clúster de almacenamiento. ]
     
-    h4.mb-4(data-aos="zoom-in-left") #[em Clúster] de almacenamiento 
-    p.mb-2(data-aos="zoom-in-left") La información que almacena un disco duro, se guarda en sus sectores, y cada grupo de sectores contiguos forma un #[em clúster]. Esto quiere decir que cada #[em clúster] es la cantidad de sectores que lo componen, veamos cómo:
+    h4.mb-4(data-aos="zoom-in-left") Clúster de almacenamiento 
+    p.mb-2(data-aos="zoom-in-left") La información que almacena un disco duro, se guarda en sus sectores, y cada grupo de sectores contiguos forma un clúster. Esto quiere decir que cada clúster es la cantidad de sectores que lo componen, veamos cómo:
     
     .row(data-aos="zoom-in")
       .col-lg-4.mb-3(data-aos="fade-left")
@@ -82,9 +82,9 @@
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 4.
           span Ejemplo Arquitectura de clúster e interactividad con los demás sistemas
-        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.png', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
+        img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/immg3.svg', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
         figcaption.d-none.d-lg-block.mb-2 Fuente. https://www.marquette.edu/high-performance-computing/architecture.php
-        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.12.png', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
+        img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.12.svg', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
         figcaption.imagen-mobile.mb-2 Fuente. https://www.marquette.edu/high-performance-computing/architecture.php
   
     .row.justify-content-center.align-items-center(data-aos="zoom-in-left")
@@ -132,7 +132,7 @@
                   img.end.d-none.d-lg-block.my-0(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
 
 
-    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación en la figura 5 se puede ver un ejemplo de un sistema de almacenamiento elástico creado por #[em IBM:]
+    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación en la figura 5 se puede ver un ejemplo de un sistema de almacenamiento elástico creado por IBM:
 
     .row.mb-2
       .col-lg-10-sm-10.col-md-12.col-lg-12.m-auto    
@@ -154,9 +154,8 @@
     .row.align-items-center.justify-content-center.mb-2
       .col-lg-3.col-md-9.col-9
         img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema2/img7.png', alt='')
-      .col-lg-9
-        p.mb-0(data-aos="zoom-in-left") Una de las ventajas de la computación en la nube, ha sido la seguridad, se presentan riesgos que deben gestionarse, las organizaciones pueden advertir riesgos en los datos y tener control físico de los datos.
-        p.mb-3 La disponibilidad de los datos depende de contratos y pagos a terceros, riesgos cibernéticos, recuperación de daños en los datos, etc.
+      .col-lg-9(data-aos="zoom-in-left")
+        p.mb-0 Una de las ventajas de la computación en la nube, ha sido la seguridad, se presentan riesgos que deben gestionarse, las organizaciones pueden advertir riesgos en los datos y tener control físico de los datos. La disponibilidad de los datos depende de contratos y pagos a terceros, riesgos cibernéticos, recuperación de daños en los datos, etc.
         p.mb-3 Las empresas van aumentando su volumen de información y muchas veces poco estructurada y aparentemente caótica, lo que hace más complejo gestionar las copias de respaldo.
         .bg101.p-4.mb-1 
           .row.d-flex.align-items-center.justify-content
@@ -207,7 +206,13 @@
           p  La información almacenada cuenta con cifrado en tránsito, además se realizan solicitudes de autenticaciones para evitar accesos indebidos. 
     
     p.mb-4 Para poder asegurar estas promesas de servicios se requiere tener una Arquitectura #[em Backup] la cual cuenta con las siguientes características:
-    h4.mb-4 Arquitectura #[em Backups] en la nube
+    
+    .mb-4.d-flex
+      .d-flex.flex-wrap.align-items-center.pe-4.bg-img-blue
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Arquitectura #[em Backups] en la nube
+        img.clase2p.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/tema5/titulo.svg' data-aos="fade-left")
+    
+    
     p.mb-3 Los elementos de información más críticos de las organizaciones y la manera en cómo se llevan a cabo estas copias son:
     
     TabsA.color-acento-botones.mb-4
@@ -229,7 +234,7 @@
         h4.mb-4 Frecuencia
         .row 
           .col-sm-12.col-md-9.col-lg-9
-            p.mb-4 Según los planes y diseños, se pueden configurar dispositivos software que sincroniza archivos al sistema de respaldo.
+            p.mb-4 Según los planes y diseños, se pueden configurar dispositivos #[em software] que sincroniza archivos al sistema de respaldo.
           .col-sm-12.col-md-3.col-lg-3
             img.img-t.img-a(src='@/assets/curso/temas/tema2/img9.2.svg')
     
@@ -246,11 +251,11 @@
       .col-lg-6.md-lg-10.col-12
         .cajon 
           p.mb-1.mx-2.p-3 La arquitectura anterior 
-            span.blanco es un ejemplo implementado por #[em Oracle] con su servicio #[em Oracle Cloud Infrastructure].
-            | Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este 
+            span.blanco es un ejemplo implementado por Oracle con su servicio Oracle Cloud Infrastructure.
+            |  Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este 
             span.blanco caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
           p.mb-2.mx-4 Luego se encuentra el almacenamiento de objetos, corresponde a la plataforma de almacenamiento de alto rendimiento con características elásticas. Cuenta con gestión de identidad y acceso que controla el ingreso a los recursos #[em cloud]. Controla niveles de accesos según permisos asignados a los usuarios.  
-          p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de #[em Oracle cloud], la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. #[em (Oracle, s.f.)]  
+          p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de Oracle cloud, la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. (Oracle, s.f.).
             .col-lg-6.md-lg-10.col-12 
             img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/abaj.png',)
       figcaption Nota. https://docs.oracle.com/es/solutions/onprem-to-cloud-backup/index.html
@@ -276,7 +281,7 @@
           .row.mx-2 
             .col-sm-12.col-md-12.col-lg-12.my-2
               .bg-whiter-r.mb-4.p-3.mt-4.mx-4.mb-0 
-                p.mb-0.mx-1 Los #[em snap shots] (foto o imagen en inglés) son instantáneas del estado actual de un Servidor #[em Cloud] y sirven como punto de restauración de una máquina virtual en un momento dado.
+                p.mb-0.mx-1 Los #[em snapshots] (foto o imagen en inglés) son instantáneas del estado actual de un Servidor #[em Cloud] y sirven como punto de restauración de una máquina virtual en un momento dado.
             .col-sm-12.col-md-12.col-lg-8
               ul.lista-ul--color.mx-4
                 li.mb-0.pb-0 
@@ -331,9 +336,9 @@
                 .col-sm-12.col-md-12
                   .row.justify-content-between.align-items-center
                     .col.mb-3.mb-sm-5
-                      p.mb-0 Ahora bien, los #[em backup], por otro lado, al hacer la recuperación a partir de copias de seguridad pierden parte de la inmediatez de la restauración, pues suelen ser procesos más robustos en términos de almacenamiento, es ideal para esquemas de almacenamiento de archivos a largo plazo. Además, según el tipo de medio utilizado como destino, las copias de seguridad permiten dividir y catalogar los datos de los respaldos de los eventos de tiempo de ejecución. Esto actúa como una capa adicional de protección y aislamiento de algunas amenazas de #[em malware] en el mundo actual. (#[em Demlow], 2020)
+                      p.mb-0 Ahora bien, los #[em backup], por otro lado, al hacer la recuperación a partir de copias de seguridad pierden parte de la inmediatez de la restauración, pues suelen ser procesos más robustos en términos de almacenamiento, es ideal para esquemas de almacenamiento de archivos a largo plazo. Además, según el tipo de medio utilizado como destino, las copias de seguridad permiten dividir y catalogar los datos de los respaldos de los eventos de tiempo de ejecución. Esto actúa como una capa adicional de protección y aislamiento de algunas amenazas de #[em malware] en el mundo actual. (#[em Demlow], 2020).
                       .row.justify-content.align-items
-                        .col-sm-4.col-md-3.my-2
+                        .col-sm-4.col-md-3.my-0
                           img.ende.d-none.d-lg-block.my-5(src='@/assets/curso/temas/tema2/imag5.0.svg', alt='')
 
       .col-sm-12.col-md-12.col-lg-4.col-9
@@ -342,7 +347,7 @@
         .bg14.p-4.mb-4(data-aos="fade-left") 
             .row
               .col-lg-12
-                p.mb-1 En conclusión, si bien los #[em Snapshot] son más rápidos y ocupan menos recursos, los #[em backups] no deberían de dejarse de implementar, en caso de presentarse un incidente, depende de la gravedad, es posible que las imágenes disponibles no logren recuperar algunos daños o pérdidas de datos; en caso tal de que no se tengan los resultados esperados, el #[em Backup] es la segunda opción, es más robusto, pero más seguro. Cada organización puede elegir una de las dos opciones de restauración, o si desea mayor respaldo pueden implementar las dos formas para recuperar sistemas e información, pues ambas conviven sin interferencia. 
+                p.mb-1 En conclusión, si bien los #[em snapshot] son más rápidos y ocupan menos recursos, los #[em backups] no deberían de dejarse de implementar, en caso de presentarse un incidente, depende de la gravedad, es posible que las imágenes disponibles no logren recuperar algunos daños o pérdidas de datos; en caso tal de que no se tengan los resultados esperados, el #[em backup] es la segunda opción, es más robusto, pero más seguro. Cada organización puede elegir una de las dos opciones de restauración, o si desea mayor respaldo pueden implementar las dos formas para recuperar sistemas e información, pues ambas conviven sin interferencia. 
                 .align-self-end
 
     
