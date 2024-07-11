@@ -128,7 +128,7 @@
       
               .col-lg-6.col-md-12.col-12.mb-2
                 .tarjetassss.my-4.he-4-cuii.px-4.pt-2
-                  h4.mb-3.mt-4 Paravirtualización
+                  h4.mb-3.mt-4 Para virtualización
                   p.mb-3 En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y en algunos casos se pueden presentar problemas de compatibilidad de #[em hardware.]
                     .d-flex.justify-content-center
                       .col-lg-8
