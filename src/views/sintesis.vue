@@ -6,7 +6,7 @@
       
         .col-12.my-3
           
-            p.mb-3 Los servicios en la  nube son infraestructuras, plataformas o sistemas de software que alojan los proveedores externos y que se ponen a disposición de los usuarios a través de Internet. Facilitan el flujo de datos de los usuarios a través de Internet, referenciando lo anterior la migración de los diferentes servicios requiere de diferentes formas de almacenamiento, metodologías o estrategias de migración y monitorización. 
+            p.mb-3 Los servicios en la  nube son infraestructuras, plataformas o sistemas de #[em software] que alojan los proveedores externos y que se ponen a disposición de los usuarios a través de Internet. Facilitan el flujo de datos de los usuarios a través de Internet, referenciando lo anterior la migración de los diferentes servicios requiere de diferentes formas de almacenamiento, metodologías o estrategias de migración y monitorización. 
             p.mb-0 A continuación, se presenta el diagrama que representa el resumen de las temáticas que están desarrolladas en el componente formativo: 
     
     .row.justify-content-center

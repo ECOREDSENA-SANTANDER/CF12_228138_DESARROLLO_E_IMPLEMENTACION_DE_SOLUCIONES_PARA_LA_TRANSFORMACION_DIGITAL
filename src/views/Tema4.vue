@@ -104,7 +104,7 @@
                 .col-sm-12.col-md-12
                   .row.justify-content-between.align-items-center
                     .col.mb-2.mb-sm-0
-                      p.mb-1.my-3 En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un #[em software] que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
+                      p.mb-1.my-3 En ambos casos se requiere de una máquina #[em host] que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo y luego sobre este sistema operativo se monta un #[em software] que en el caso del esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
       .col-sm-12.col-md-12.col-lg-4.col-9
         img.img-a.img-t.mb-3(src="@/assets/curso/temas/tema4/img5.png", alt="alt").img100.m-auto
       .col-sm-12.col-md-12.col-lg-4
@@ -140,7 +140,7 @@
         .d-flex.align-items-center.justify-content-center
             img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema4/img6.1.svg', alt='')
             p.ml-1-custom.mt-3 En el enlace anterior podrá encontrar el enlace acceso directo al proceso de descarga y también encontrará una descripción de los requerimientos específicos del sistema respecto a versiones de sistema operativo, memoria RAM mínima, procesadores compatibles entre otros requerimientos.
-        p.mb-0 En el siguiente recurso, podrá observar las características del #[em Docker], veamos:
+        p.mb-0 En el siguiente recurso, podrá comprender las características del #[em Docker]:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-4.mb-4(data-aos="fade-left")
         img.d-none.d-lg-block(src="@/assets/curso/temas/tema4/img6.2.png") 
       

@@ -17,7 +17,7 @@
               ul.lista-ul--color.mx-1
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
-                  p.mb-0 Tarjetas perforadas con los mainframes. 
+                  p.mb-0 Tarjetas perforadas con los #[em mainframes]. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
                   p.mb-0 Unidades de almacenamiento de disco magnético como los antiguos y discos duros que incluso hoy día se usan. 
@@ -45,10 +45,10 @@
             .col-sm-12.col-md-4
               img.img-a.img-t.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img1.png', alt='')
   
-    p.mb-4(data-aos="zoom-in-left") #[b A continuación se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los clúster de almacenamiento. ]
+    p.mb-4(data-aos="zoom-in-left") #[b A continuación, se detalla la gran innovación y cambio que trae el almacenamiento en la nube con los #[em clúster] de almacenamiento. ]
     
-    h4.mb-4(data-aos="zoom-in-left") Clúster de almacenamiento 
-    p.mb-2(data-aos="zoom-in-left") La información que almacena un disco duro, se guarda en sus sectores, y cada grupo de sectores contiguos forma un clúster. Esto quiere decir que cada clúster es la cantidad de sectores que lo componen, veamos cómo:
+    h4.mb-4(data-aos="zoom-in-left") #[em Clúster] de almacenamiento 
+    p.mb-2(data-aos="zoom-in-left") La información que almacena un disco duro, se guarda en sus sectores, y cada grupo de sectores contiguos forma un #[em clúster]. Esto quiere decir que cada #[em clúster] es la cantidad de sectores que lo componen, analicemos cómo:
     
     .row(data-aos="zoom-in")
       .col-lg-4.mb-3(data-aos="fade-left")
@@ -67,7 +67,7 @@
               p.mb-0 Son nodos responsables de guardar y tramitar los datos físicamente.
           .row(titulo="Volúmenes gigantes en <em>terabytes</em> (TB) o <em>petabytes</em> (PB)")
             .col-12.ps-6
-              p.mb-0 Hemos trabajado con una unidad de almacenamiento en la computadora, sin embargo, los clusters, los cuales están en centros de datos de las compañías alrededor del mundo con muchas máquinas, cada una con muchas unidades de almacenamiento comportándose como una sola unidad de almacenamiento.
+              p.mb-0 Hemos trabajado con una unidad de almacenamiento en la computadora, sin embargo, los #[em clusters], los cuales están en centros de datos de las compañías alrededor del mundo con muchas máquinas, cada una con muchas unidades de almacenamiento comportándose como una sola unidad de almacenamiento.
           .row(titulo="Nodos de datos")
             .col-12.ps-6
               p.mb-0 Garantizan la disponibilidad del servicio a pesar de fallos e incluso desastres o ataques militares.
@@ -81,7 +81,7 @@
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 4.
-          span Ejemplo Arquitectura de clúster e interactividad con los demás sistemas
+          span Ejemplo Arquitectura de #[em clúster] e interactividad con los demás sistemas
         img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/immg3.svg', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
         figcaption.d-none.d-lg-block.mb-2 Fuente. https://www.marquette.edu/high-performance-computing/architecture.php
         img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/img3.12.svg', alt='La figura muestra un ejemplo de arquitectura de cluster e interactividad con otros sistemas. Los usuarios finales se conectan de manera segura a un nodo de autenticación (fronted) y un nodo de gestión. Estos nodos están conectados a servidores de servicios que proporcionan recursos computacionales. A través de un bus de comunicaciones, los recursos computacionales interactúan con un sistema de almacenamiento compuesto por varios clusteres gestionados por un nodo administrador de almacenamiento, cada uno con su propio servidor de almacenamiento.')
@@ -132,7 +132,7 @@
                   img.end.d-none.d-lg-block.my-0(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
 
 
-    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación en la figura 5 se puede ver un ejemplo de un sistema de almacenamiento elástico creado por IBM:
+    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación, en la figura 5 se presenta un ejemplo de un sistema de almacenamiento elástico creado por IBM:
 
     .row.mb-2
       .col-lg-10-sm-10.col-md-12.col-lg-12.m-auto    
@@ -227,7 +227,7 @@
         h4.mb-4 Recursos de terceros
         .row
           .col-sm-12.col-md-9.col-lg-9
-            p.mb-4 En el mercado, existen muchas herramientas como plugins y complementos que facilitan la gestión y automatización de los backups. Es importante que los servicios de copias de respaldo permitan el uso de estos gestores. 
+            p.mb-4 En el mercado, existen muchas herramientas como #[em plugins] y complementos que facilitan la gestión y automatización de los #[em backups]. Es importante que los servicios de copias de respaldo permitan el uso de estos gestores. 
           .col-sm-12.col-md-3.col-lg-3
             img.img-t.img-a(src='@/assets/curso/temas/tema2/img9.svg')
       .tarjeta.bg145.p-4(titulo="Frecuencia")
@@ -250,7 +250,7 @@
         img(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/fig6.png' ,alt='La imagen muestra la infraestructura de almacenamiento y conectividad entre las premisas del cliente y la región de la nube de Oracle. En las premisas del cliente, se incluyen almacenamiento local SAN/NAS, un gateway de almacenamiento de Oracle, bases de datos y copias de seguridad de terceros. La conectividad se realiza a través de Internet público y FastConnect. En la nube de Oracle, se destacan el almacenamiento de objetos, la gestión de identidad y acceso, y el punto de acceso público. ')
       .col-lg-6.md-lg-10.col-12
         .cajon 
-          p.mb-1.mx-2.p-3 La arquitectura anterior es un ejemplo implementado por Oracle con su servicio Oracle Cloud Infrastructure. Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
+          p.mb-1.mx-2.p-3 La arquitectura anterior es un ejemplo implementado por Oracle con su servicio Oracle Cloud #[em Infrastructure]. Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
           p.mb-2.mx-4 Luego se encuentra el almacenamiento de objetos, corresponde a la plataforma de almacenamiento de alto rendimiento con características elásticas. Cuenta con gestión de identidad y acceso que controla el ingreso a los recursos #[em cloud]. Controla niveles de accesos según permisos asignados a los usuarios.  
           p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de Oracle cloud, la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. (Oracle, s.f.).
             .col-lg-6.md-lg-10.col-12 

@@ -29,12 +29,12 @@
       h2 1.1 Referente histórico
     
     p.mb-4(data-aos="zoom-in-left") La computación en la nube empezó a hacerse popular desde el año 2006 (por supuesto, con antecedentes anteriores); pero a partir de esta época ya existían recursos tecnológicos avanzados, se empieza a desarrollar aún más las posibilidades de Internet, nuevas y grandes compañías también inician a fundarse y crecer, 
-      strong.colored como se muestra en la siguiente figura:
+      strong.colored como se presenta en la siguiente figura:
     .row.mb-4
       .col-sm-12.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-0(data-aos="zoom-in-left")
           h5 Figura 1.
-          span Antecedentes de la computacion en la nube
+          span Antecedentes de la computación en la nube
     
     .row.d-flex.align-items-center.justify-content-center.mb-4(data-aos="zoom-in-left")
       .col-lg-12.col-md-10.col-12
@@ -53,13 +53,13 @@
       .row.align-items-top.justify-content-center
         .col-lg-6.col-12-md-12
           h4.mb-4 #[em Mainframe]
-          p Se considera como la primera supercomputadora moderna, creada por IBM en los años 60, consistía en una máquina de cómputo central donde se llevaban todos los datos a manera de tarjetas perforadas para su procesamiento. 
+          p Se considera como la primera supercomputadora moderna, creada por #[em IBM] en los años 60, consistía en una máquina de cómputo central donde se llevaban todos los datos a manera de tarjetas perforadas para su procesamiento. 
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.png', alt='')
       .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Tomas Watson
-          p Lanzó el modelo IBM/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
+          p Lanzó el modelo #[em IBM]/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.1.png', alt='')
       .row.align-items-top.justify-content-center
@@ -129,7 +129,7 @@
       .col-lg-6.col-sm-12.mb-3
         .cajat.p-4.mb-4
           p.mb-0 Existen distintas formas de la nube, el concepto básico por el que se hace la entrega de servicios informáticos a clientes o usuarios por medio de una red. Los servicios en línea gestionan las peticiones recibidas y se caracterizan por tener flexibilidad y adaptabilidad de recursos según la demanda; estos escalamientos son transparentes para los usuarios. 
-        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores #[em web], o porque se sincronizan con las computadoras o equipos de cómputo, a continuación en la 
+        p.mb-0 Los proveedores de #[em computing cloud] se basan en sistemas de cómputo que se encuentran en una cuenta de internet ya sea porque accedan a través de los navegadores #[em web], o porque se sincronizan con las computadoras o equipos de cómputo, a continuación, en la 
           strong.colored figura 2 se ilustra la arquitectura de la computación en la nube:
       .col-lg-4.col-md-9.col-9.mb-3
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img5.png', alt='')
@@ -138,11 +138,11 @@
       .col-lg-10.col-md-12.col-12   
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 2.
-          span Arquitectura computacion en la nube
+          span Arquitectura computación en la nube
         img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/iimg6.svg', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
         img.imagen-mobile(src='@/assets/curso/temas/tema1/img6.11.svg', alt='La figura representa la arquitectura de la computación en la nube, en la cual, a través de servidores, escritorios remotos, aplicaciones y almacenamiento de datos, junto con la ayuda de routers y switches, se brinda acceso a los usuarios finales.')
         
-    p.mb-4 En términos generales, emplear computación en la nube en vez de usar infraestructura local tiene ventajas como las que se muestran a continuación:
+    p.mb-4 En términos generales, emplear computación en la nube en vez de usar infraestructura local tiene ventajas como las que se explican a continuación:
 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12(data-aos="fade-left")
@@ -151,7 +151,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/HF3KfcdGxrc?si=o0ZRR0IL-jAZQI_p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Uso y escenarios de aplicación en la nube
     
-    p.mb-4 A continuación se detallarán algunos servicios #[em Multicloud] y características de los recursos propios y alojados en la nube.
+    p.mb-4 A continuación, se detallarán algunos servicios #[em Multicloud] y características de los recursos propios y alojados en la nube.
     
     .row.mb-4(data-aos="zoom-in-left")
       .col-lg-12.md-lg-10.col-12
@@ -195,11 +195,11 @@
         img.img-a.img-t.my-5.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img1.1.svg', alt='')
       .col-lg-6.col-md-12.col-12
         h4.mb-4.colored #[em On-premise]
-        p.mb-4 (En local), (en local), significa que el recurso informático, ya sea #[em Hardware, software], comunicación, etc., se encuentra en la empresa, es propiedad de ella misma. Por lo general, los planes de compra se ejecutan bajo un presupuesto de inversión inicial alto.
+        p.mb-4 (En local), (en local), significa que el recurso informático, ya sea #[em Hardware, software], comunicación, etc; se encuentra en la empresa, es propiedad de ella misma. Por lo general, los planes de compra se ejecutan bajo un presupuesto de inversión inicial alto.
         p.mb-5 Los equipos, servidores o aplicaciones hacen parte de los activos corporativos, pero en adelante no tendrá que pagar por el uso de estos recursos. Su dominio es total, al igual que su operación y mantenimiento, se podría configurar una nube privada.
         h4.mb-4.colored #[em IaaS] (Infraestructura como servicio)
         p.mb-4 En términos generales, se refiere a la contratación de máquinas (#[em hardware]). Se contratan por lo general, equipos servidores, o si es política de la empresa, asignarle a cada empleado su computadora donde trabajará y guardará su información. 
-        p.mb-0 La infraestructura incluye máquinas de comunicación como routers, #[em firewall], servidores y computadoras personales. Se tiene la opción de elegir las características #[em hardware] de los dispositivos. 
+        p.mb-0 La infraestructura incluye máquinas de comunicación como #[em routers], #[em firewall], servidores y computadoras personales. Se tiene la opción de elegir las características #[em hardware] de los dispositivos. 
 
     p.mt-4.mb-4.text-center Es un servicio que, entre otras ventajas, permite escalar características de los equipos según la necesidad.
     
@@ -207,7 +207,7 @@
       .col-lg-6.col-md-12.col-12
         .bg5.p-5.mb-4
           p.mb-3 #[em #[b PaaS ]]#[b (Plataformas como Servicio):]
-          p.mb-0 Está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura PaaS los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
+          p.mb-0 Está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura #[em PaaS] los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
       .col-lg-6.col-md-9.col-9
         img.mb-5.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img9.png', alt='')
     
@@ -230,7 +230,7 @@
     p.mb-4 Los gigantes de la nube están expandiendo rápidamente sus operaciones para capitalizar el crecimiento de demanda que acompañará a la aceleración de la transformación digital. Los más populares y líderes en el mercado so n los siguientes:
     
     TabsA.color-acento-botones.mb-4
-      .tarjeta.bg145.p-5(titulo="Amazon Web Services")
+      .tarjeta.bg145.p-5(titulo="Amazon <em>Web</em> Services")
         h4 #[em Amazon Web Services]
         .row 
           .col-sm-12.col-md-8

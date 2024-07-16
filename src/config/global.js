@@ -252,12 +252,12 @@ export default {
     {
       termino: '<em>Firewall</em>',
       significado:
-        'DDispositivo físico o virtual de red, que se emplea para proteger a las redes locales y privadas para evitar intrusiones, virus y otras seguridades de los sistemas de información. ',
+        'Dispositivo físico o virtual de red, que se emplea para proteger a las redes locales y privadas para evitar intrusiones, virus y otras seguridades de los sistemas de información. ',
     },
     {
       termino: '<em>Malware</em>',
       significado:
-        'Término para referirse a software malintencionado, que se diseña para dañar sistemas de información, desconfigurarlos o simplemente hacer acciones no deseadas. ',
+        'Término para referirse a <em>software</em> malintencionado, que se diseña para dañar sistemas de información, desconfigurarlos o simplemente hacer acciones no deseadas. ',
     },
     {
       termino: '<em>Open source</em>',
@@ -267,7 +267,7 @@ export default {
     {
       termino: '<em>Partner</em>',
       significado:
-        'Bajo el contexto empresarial, se considera un proveedor de servicios, en términos tecnológicos, por lo general, son intermediarios entre las grandes marcas y las organizaciones que desean adoptar estas marcas tecnológicas en sus empresas ',
+        'Bajo el contexto empresarial, se considera un proveedor de servicios, en términos tecnológicos, por lo general, son intermediarios entre las grandes marcas y las organizaciones que desean adoptar estas marcas tecnológicas en sus empresas. ',
     },
     {
       termino: '<em>Protocolo FTP</em>',
@@ -290,9 +290,9 @@ export default {
         'Concepto que nace a partir del surgimiento de un conjunto de tecnologías que facilitó, como nunca antes, la publicación y colaboración de usuarios en Internet. (redes sociales, streamings, Blogs, Wikis, Podcast, etc.). ',
     },
     {
-      termino: 'SSD',
+      termino: '<em>SSD</em>',
       significado:
-        '(Solid State Drive), dispositivo de almacenamiento denominado unidad de estado sólido. ',
+        '(<em>Solid State Drive</em>), dispositivo de almacenamiento denominado unidad de estado sólido. ',
     },
     {
       termino: '<em>Routers</em>',
@@ -302,12 +302,12 @@ export default {
     {
       termino: 'Nodo',
       significado:
-        'En redes, son todos aquellos puntos de conexión que impliquen dispositivos de capa 3 en adelante (router, computadores, impresoras, teléfono IP, puntos de acceso, etc.) Estos dispositivos también pueden ser virtuales como por ejemplo Teléfonos IP y otros dispositivos virtualizados',
+        'En redes, son todos aquellos puntos de conexión que impliquen dispositivos de capa 3 en adelante (router, computadores, impresoras, teléfono IP, puntos de acceso, etc.) Estos dispositivos también pueden ser virtuales como por ejemplo Teléfonos IP y otros dispositivos virtualizados.',
     },
     {
-      termino: 'HDD',
+      termino: '<em>HDD</em>',
       significado:
-        '(Hard Drive Disk), Unidad de almacenamiento tipo Disco Duro. ',
+        '(<em>Hard Drive Disk</em>), Unidad de almacenamiento tipo Disco Duro. ',
     },
     {
       termino: '<em>Hardware x86</em>',
@@ -322,12 +322,12 @@ export default {
     {
       termino: 'CEO',
       significado:
-        '(chief executive officer), director ejecutivo, es la persona con mayor responsabilidad sobre una empresa. ',
+        '(<em>chief executive officer</em>), director ejecutivo, es la persona con mayor responsabilidad sobre una empresa. ',
     },
     {
       termino: 'Capas',
       significado:
-        'Se refiere al nivel técnico del hardware y red. En HW hay bajo nivel (nivel de máquina), nivel de sistema operativo. En redes es más usual el término de capas, se plantean desde la física de transmisión de datos, redirección, red hasta la capa de aplicación. ',
+        'Se refiere al nivel técnico del <em>hardware</em> y red. En HW hay bajo nivel (nivel de máquina), nivel de sistema operativo. En redes es más usual el término de capas, se plantean desde la física de transmisión de datos, redirección, red hasta la capa de aplicación. ',
     },
     {
       termino: 'Caja negra',
@@ -337,7 +337,7 @@ export default {
     {
       termino: '<em>Active directory</em>',
       significado:
-        'Active Directory (AD) es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo. ',
+        '<em>Active Directory (AD)</em> es una base de datos y un conjunto de servicios que conectan a los usuarios con los recursos de red que necesitan para realizar su trabajo. ',
     },
   ],
   referencias: [

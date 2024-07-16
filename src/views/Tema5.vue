@@ -147,7 +147,7 @@
           
           .row(numero="6" titulo= "<em>(R)etain</em>")
             .col-md-12.mb-2.mb-md-0.mx-0
-              p En realidad es una no migración, es decir, es una decisión consciente de no migrar una aplicación a la nube.
+              p En realidad, es una no migración, es decir, es una decisión consciente de no migrar una aplicación a la nube.
             .col-md-12.mb-2.mb-md-0.mx-0
               .d-flex.align-items-center.justify-content-center
                 img.img-a.img-t(src='@/assets/curso/temas/tema5/seisss.svg', alt='')
@@ -155,7 +155,7 @@
       .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0(data-aos="fade-left")
         img.img-a.img-t.d-none.d-lg-block(src="@/assets/curso/temas/tema5/img5.png")  
   
-    p.mb-3 Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, veamos: 
+    p.mb-3 Con el fin de llevar a cabo una mayor precisión del concepto, así como un breve resumen de las 6Rs, se presenta la siguiente tabla, la cual incorpora las características de cada una de estas, analicemos: 
       
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12-sm-12.col-md-12.col-lg-12.m-auto    
@@ -270,7 +270,7 @@
     .row 
       .col-lg-12
         h4.mb-4  Beneficios de la computación en la nube 
-        p.mb-4 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se muestra a continuación:
+        p.mb-4 Sin entrar en detalles técnicos, los beneficios de migrar a la nube se traducen en velocidad, elasticidad, innovación, pago por uso y autoservicio, como se presenta a continuación:
     
     .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
@@ -320,13 +320,13 @@
         img.img-a.img-t(src='@/assets/curso/temas/tema5/img9.png', alt='')
     
     h3.mb-3 #[b Algunas cifras]
-    p.mb-3 Los gerentes y CEO´s corporativos tienen entre otras misiones, avizorar el futuro de las organizaciones que presiden, en este sentido es importante tener en cuenta las experiencias de otras organizaciones, como se muestra a continuación:     
+    p.mb-3 Los gerentes y CEO´s corporativos tienen entre otras misiones, avizorar el futuro de las organizaciones que presiden, en este sentido es importante tener en cuenta las experiencias de otras organizaciones, como se indica a continuación:     
 
     .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 12.
-          span Cifras, Beneficios de la migracion hacia servicios #[em cloud]
+          span Cifras, Beneficios de la migración hacia servicios #[em cloud]
         .col-lg-8-sm-10.col-md-8.col-lg-8.m-auto
           img(data-aos="zoom-in")(src='@/assets/curso/temas/tema5/i100.svg', alt='La figura representa los beneficios de la migración hacia la nube. Primero, un ahorro promedio del 31% en costos de infraestructura. Segundo, un 43% menos de incidentes de seguridad al año. Tercero, un aumento del 62% en la productividad del personal de TI. Cuarto, un aumento del 78% en la velocidad de implementar nuevos recursos informáticos.')
   
@@ -424,10 +424,10 @@
                   a.boton.color-acento-botones(href="https://youtu.be/vqyuNha0Rek" target="_blank")
                     span Ir al sitio
                     i.fas.fa-link
-        p.my-3.mb-2 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en Cloud, migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
+        p.my-3.mb-2 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en #[em Cloud], migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
         .d-flex.align-items-center.justify-content-center
             img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/temas/tema5/puntos.svg', alt='')
-            p.ml-1-custom.mt-3.mb-3 Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios Cloud, que podrá consultarse al desplegar el siguiente recurso, veamos:
+            p.ml-1-custom.mt-3.mb-3 Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios #[em Cloud], que podrá consultarse al desplegar el siguiente recurso:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-4.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/temas/tema5/img13.png") 
 

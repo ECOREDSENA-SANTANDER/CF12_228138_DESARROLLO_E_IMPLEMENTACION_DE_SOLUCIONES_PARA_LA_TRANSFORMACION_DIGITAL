@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-botones
       .titulo-principal__numero
         span 3
-      h1 Software de virtualización
+      h1 #[em Software] de virtualización
     
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-8.mb-3
@@ -35,7 +35,7 @@
       .col-lg-12-sm-10.col-md-12.col-lg-8.m-auto    
         .titulo-sexto.color-acento-contenido.mb-4(data-aos="zoom-in-left")
           h5 Figura 7.
-          span Esquema de virtualizacion
+          span Esquema de virtualización
         img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.svg', alt='La imagen muestra un esquema de virtualización. En la parte izquierda, se representa la infraestructura física que incluye almacenamiento, procesadores y memoria. Esta infraestructura está gestionada por un hipervisor, que es el software encargado de crear y gestionar máquinas virtuales. A la derecha del hipervisor, se ven varias máquinas virtuales (representadas con la letra “M”), cada una ejecutando una aplicación y un sistema operativo (SO) de manera independiente. Este esquema ilustra cómo la virtualización permite que múltiples máquinas virtuales funcionen en una única infraestructura física.')
         img.imagen-mobile(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img3.13.svg', alt='La imagen muestra un esquema de virtualización. En la parte izquierda, se representa la infraestructura física que incluye almacenamiento, procesadores y memoria. Esta infraestructura está gestionada por un hipervisor, que es el software encargado de crear y gestionar máquinas virtuales. A la derecha del hipervisor, se ven varias máquinas virtuales (representadas con la letra “M”), cada una ejecutando una aplicación y un sistema operativo (SO) de manera independiente. Este esquema ilustra cómo la virtualización permite que múltiples máquinas virtuales funcionen en una única infraestructura física.')
 
@@ -53,7 +53,7 @@
     
     .mb-3.d-flex.justify-content-center
       .d-flex.flex-wrap.align-items-center.pe-4.bg-img-bluess
-        h4.col.px-4.mb-0(data-aos="fade-right") Ventajas al implementar esquemas de virtualizacion
+        h4.col.px-4.mb-0(data-aos="fade-right") Ventajas al implementar esquemas de virtualización
 
     .row.justify-content-center.align-items-center
       .col-lg-6.col-md-10.col-12
@@ -193,7 +193,7 @@
             img.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img10.png', alt='')
     
     h4.mb-4 Herramientas de virtualización de servidores
-    p.mb-4 En el mercado existen muchas herramientas de #[em software] creadas para facilitar el proceso de virtualización de servidores, a continuación podra ver algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
+    p.mb-4 En el mercado existen muchas herramientas de #[em software] creadas para facilitar el proceso de virtualización de servidores. A continuación, podrá explorar algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
     
 
     .row.justify-content-center.align-items-center.mb-4
@@ -309,7 +309,7 @@
                       .row.justify-content-between.align-items-center
                         .col.mb-3.mb-sm-0
                           h3.text-white.mb-1 Qemu        
-                          p.text-white.mb-0.parra Obtenga el código fuente de los últimos lanzamientos y compílelo usted mismo! Las instrucciones detalladas de compilación se pueden encontrar en la wiki para Linux , Win32 y macOS .
+                          p.text-white.mb-0.parra ¡Obtenga el código fuente de los últimos lanzamientos y compílelo usted mismo! Las instrucciones detalladas de compilación se pueden encontrar en la wiki para Linux, Win32 y macOS.
                         .col-sm-auto
                           a.boton.color-acento-botones(href="https://youtu.be/ISvdxtW-Cls" target="_blank")
                             span Ir al sitio
@@ -380,12 +380,12 @@
       .col-lg-4.col-md-9.col-9
         img.img-a.img-t.mb-4(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img13.png', alt='')
       .col-lg-8
-        p.bg13.p-4.mb-4(data-aos="fade-left") Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo #[em hardware] que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación puede referirse a un proveedor que suministra el #[em hardware] necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean entre otras, como nos lo muestra la siguiente imagen.
+        p.bg13.p-4.mb-4(data-aos="fade-left") Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión (Alarcón, 2018), de igual manera debe existir un componente de infraestructura de tipo #[em hardware] que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o si se trata del despliegue y puesta en producción final de la aplicación puede referirse a un proveedor que suministra el #[em hardware] necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean entre otras, como se presenta en la siguiente imagen.
         .row.mb-4
           .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
             .titulo-sexto.color-acento-contenido.mb-3(data-aos="zoom-in-left")
               h5 Figura 8.
-              span Funcionamiento de una Maquina virtual
+              span Funcionamiento de una Máquina virtual
             img(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img13.1.svg', alt='La figura 8 muestra el funcionamiento de una máquina virtual, donde se observa cómo múltiples aplicaciones (Aplicación 1, Aplicación 2, Aplicación 3) funcionan sobre sus respectivas bibliotecas y sistemas, los cuales están gestionados por un hipervisor. Este hipervisor actúa como intermediario entre las aplicaciones y el sistema operativo host, el cual se ejecuta sobre el hardware físico. De esta manera, se permite la virtualización de recursos y la ejecución simultánea de múltiples aplicaciones en un mismo hardware físico mediante la gestión eficiente de los recursos por el hipervisor.')
 
     Separador
