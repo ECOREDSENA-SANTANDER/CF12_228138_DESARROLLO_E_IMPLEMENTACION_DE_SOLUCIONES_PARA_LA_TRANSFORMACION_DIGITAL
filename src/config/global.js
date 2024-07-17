@@ -32,7 +32,8 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Servicio de computación en nube',
+        titulo:
+          'Descripción general del servicio de computación en nube, gestión de uso y escenarios de aplicación',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -188,64 +189,54 @@ export default {
   },
   complementario: [
     {
-      tema: '2. Servicio de almacenamiento en la nube ',
+      tema: 'Servicio de almacenamiento en la nube ',
       referencia:
-        'hp México (4 de agosto de 2021). ¿Qué es una unidad de estado sólido (SSD)? Hewlett packard https://www.hp.com/mx-es/shop/tech-takes/que-es-una-unidad-de-estado-solido-ssd  ',
+        'hp México (4 de agosto de 2021). ¿Qué es una unidad de estado sólido (SSD)? Hewlett packard.',
       tipo: 'Artículo comercial ',
       link:
         'https://www.hp.com/mx-es/shop/tech-takes/que-es-una-unidad-de-estado-solido-ssd  ',
     },
     {
-      tema: '2. Servicio de almacenamiento en la nube ',
-      referencia:
-        'AWS (controles de data centers). Nuestros controles https://aws.amazon.com/es/compliance/data-center/controls/ ',
+      tema: 'Servicio de almacenamiento en la nube ',
+      referencia: 'AWS (controles de data centers). Nuestros controles.',
       tipo: 'Artículo ',
       link: 'https://aws.amazon.com/es/compliance/data-center/controls/ ',
     },
     {
-      tema: '2. Servicio de almacenamiento en la nube ',
+      tema: 'Servicio de almacenamiento en la nube ',
       referencia:
-        'MinTIC (2016) Seguridad en la Nube. Seguridad y privacidad de la información. https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf ',
-      tipo: 'Guía ',
+        '¿Qué es la seguridad en la nube? | Seguridad de Microsoft. (s. f.).',
+      tipo: 'Blog',
       link:
-        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf ',
+        'https://www.microsoft.com/es-es/security/business/security-101/what-is-cloud-security',
     },
     {
-      tema: '3. Software de virtualización ',
-      referencia:
-        'Guía rápida de Microsoft Introducción a AD DS. https://docs.microsoft.com/en-us/learn/modules/introduction-to-ad-ds/ ',
-      tipo: 'Página web ',
-      link:
-        'https://docs.microsoft.com/en-us/learn/modules/introduction-to-ad-ds/ ',
-    },
-    {
-      tema: '3. Software de virtualización ',
-      referencia:
-        'Página oficial de Docker: https://docs.docker.com/docker-for-windows/install/ ',
-      tipo: 'Página web ',
-      link: 'https://docs.docker.com/docker-for-windows/install/ ',
-    },
-    {
-      tema: '3. Software de virtualización ',
-      referencia:
-        'Documentación de referencia de Docker sobre archivos Dockerfile https://docs.docker.com/engine/reference/builder/   ',
-      tipo: 'Página web ',
-      link: 'https://docs.docker.com/engine/reference/builder/ ',
-    },
-    {
-      tema: '3. Software de virtualización ',
-      referencia:
-        'Documentación de referencia Dockerfile para Windows disponible en https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile ',
+      tema: 'Software de virtualización ',
+      referencia: 'Guía rápida de Microsoft Introducción a AD DS.',
       tipo: 'Página web ',
       link:
-        'https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile ',
+        'https://learn.microsoft.com/es-es/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview',
     },
     {
-      tema: '3. Software de virtualización ',
+      tema: 'Software de virtualización ',
       referencia:
-        'Página relacionada con los proveedores de servicios en la nube. Public Cloud Services Comparison, comparecloud.in ',
+        'Ringa Tech. (2022, 7 julio). Docker - La explicación que querías (Vídeo).',
+      tipo: 'Video',
+      link: 'https://youtu.be/9eTVZwMZJsA',
+    },
+    {
+      tema: 'Software de virtualización ',
+      referencia: 'Documentación de referencia Dockerfile para Windows.',
       tipo: 'Página web ',
-      link: 'comparecloud.in',
+      link:
+        'https://docs.microsoft.com/en-us/virtualization/windowscontainers/manage-docker/manage-windows-dockerfile',
+    },
+    {
+      tema: 'Software de virtualización ',
+      referencia:
+        'Página relacionada con los proveedores de servicios en la nube. Public Cloud Services Comparison.',
+      tipo: 'Página web ',
+      link: 'https://comparecloud.in/',
     },
   ],
   glosario: [
