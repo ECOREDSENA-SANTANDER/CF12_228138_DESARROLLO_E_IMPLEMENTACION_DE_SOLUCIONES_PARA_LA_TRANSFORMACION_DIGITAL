@@ -22,52 +22,52 @@
       <path id="path645" d="M0-682.665H66.474v42.323H0Z" transform="translate(0 702.522)"/>
     </clipPath>
   </defs>
-  <g id="Grupo_1076390" data-name="Grupo 1076390" transform="translate(-180 -5858)">
-    <g id="Grupo_1076389" data-name="Grupo 1076389">
-      <rect id="Rectángulo_374559" data-name="Rectángulo 374559" width="1240" height="450" transform="translate(180 5858)" fill="#e4e9eb"/>
-      <rect id="Rectángulo_374620" data-name="Rectángulo 374620" width="463" height="108" rx="6" transform="translate(856.612 5905.115)" fill="#fff"/>
-      <g id="Grupo_1071437" data-name="Grupo 1071437" transform="translate(12.612 129)">
-        <text id="SaaS_-_Software_as_a_Service" data-name="SaaS - Software as a Service" transform="translate(876.5 5788)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">SaaS - Software as a Service</tspan></text>
+  <g id="Grupo_1076378" data-name="Grupo 1076378" transform="translate(-180 -5858)">
+    <path id="Trazado_824830" data-name="Trazado 824830" d="M0,0H1240V450H0Z" transform="translate(180 5858)" fill="#e4e9eb"/>
+    <g id="Grupo_1071450" data-name="Grupo 1071450" transform="translate(0.612 126.115)">
+      <rect id="Rectángulo_374620" data-name="Rectángulo 374620" width="463" height="108" rx="6" transform="translate(856 5779)" fill="#fff"/>
+      <g id="Grupo_1071437" data-name="Grupo 1071437" transform="translate(12 2.885)">
+        <text id="SaaS_-_Software_as_a_Service" data-name="SaaS - Software as a Service" transform="translate(876.5 5788)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">SaaS -</tspan><tspan y="17" xml:space="preserve" font-family="SegoeUI-BoldItalic, Segoe UI" font-style="italic"> Software as a Service</tspan></text>
         <text id="Dropbox_Google_Drive_Wix_Salesforce._Usuarios_finales." data-name="Dropbox, Google, Drive, Wix, Salesforce.
 Usuarios finales." transform="translate(876.5 5829)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Dropbox, Google, Drive, Wix, Salesforce.</tspan><tspan x="0" y="39">Usuarios finales</tspan><tspan y="39" font-family="SegoeUI-Italic, Segoe UI" font-style="italic">.</tspan></text>
         <text id="Software_como_servicio" data-name="Software como servicio" transform="translate(947.5 5805)" fill="#ff821b" font-size="13" font-family="SegoeUI-Italic, Segoe UI" font-style="italic"><tspan x="0" y="14">Software </tspan><tspan y="14" font-family="SegoeUI, Segoe UI" font-style="normal">como servicio</tspan></text>
       </g>
-      <rect id="Rectángulo_374620-2" data-name="Rectángulo 374620" width="463" height="108" rx="6" transform="translate(856.612 6031.904)" fill="#fff"/>
-      <rect id="Rectángulo_374621" data-name="Rectángulo 374621" width="463" height="108" rx="6" transform="translate(856.612 6158.809)" fill="#fff"/>
-      <g id="Grupo_1071439" data-name="Grupo 1071439" transform="translate(12.612 132.115)">
-        <text id="PaaS_-_Plataform_as_a_Service" data-name="PaaS - Plataform as a Service" transform="translate(876.5 5911.789)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">PaaS - Plataform as a Service</tspan></text>
+      <rect id="Rectángulo_374620-2" data-name="Rectángulo 374620" width="463" height="108" rx="6" transform="translate(856 5905.789)" fill="#fff"/>
+      <rect id="Rectángulo_374621" data-name="Rectángulo 374621" width="463" height="108" rx="6" transform="translate(856 6032.693)" fill="#fff"/>
+      <g id="Grupo_1071439" data-name="Grupo 1071439" transform="translate(12 6)">
+        <text id="PaaS_-_Plataform_as_a_Service" data-name="PaaS - Plataform as a Service" transform="translate(876.5 5911.789)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">PaaS -</tspan><tspan y="17" xml:space="preserve" font-family="SegoeUI-BoldItalic, Segoe UI" font-style="italic"> Plataform as a Service</tspan></text>
         <text id="Google_App_Enginer_Microsoft_Azure_Desarrolladores_de_Software." data-name="Google App Enginer, Microsoft Azure
 Desarrolladores de Software." transform="translate(876.5 5952.789)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">Google App Enginer, Microsoft Azure</tspan><tspan x="0" y="39">Desarrolladores de </tspan><tspan y="39" font-family="SegoeUI-Italic, Segoe UI" font-style="italic">Software.</tspan></text>
         <text id="Plataformas_como_servicio" data-name="Plataformas como servicio" transform="translate(928.5 5928.789)" fill="#ff821b" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="14">Plataformas como servicio</tspan></text>
       </g>
-      <g id="Grupo_1071441" data-name="Grupo 1071441" transform="translate(12.612 135.23)">
-        <text id="laaS_-_Infraestructure_as_a_Service" data-name="laaS - Infraestructure as a Service" transform="translate(876.5 6035.578)" fill="#12263f" font-size="16" font-family="SegoeUI-BoldItalic, Segoe UI" font-weight="700" font-style="italic"><tspan x="0" y="17">laaS - Infraestructure as a Service</tspan></text>
+      <g id="Grupo_1071441" data-name="Grupo 1071441" transform="translate(12 9.115)">
+        <text id="laaS_-_Infraestructure_as_a_Service" data-name="laaS - Infraestructure as a Service" transform="translate(876.5 6035.578)" fill="#12263f" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="17">laaS -</tspan><tspan y="17" xml:space="preserve" font-family="SegoeUI-BoldItalic, Segoe UI" font-style="italic"> Infraestructure as a Service</tspan></text>
         <text id="AWS_Google_Computer_Engine_Administradores_TI." data-name="AWS, Google Computer Engine
 Administradores TI." transform="translate(876.5 6076.578)" fill="#12263f" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="0" y="17">AWS, Google Computer Engine</tspan><tspan x="0" y="39">Administradores TI</tspan><tspan y="39" font-family="SegoeUI-Italic, Segoe UI" font-style="italic">.</tspan></text>
         <text id="Infraestructura_como_servicio" data-name="Infraestructura como servicio" transform="translate(952.5 6052.578)" fill="#ff821b" font-size="13" font-family="SegoeUI, Segoe UI"><tspan x="0" y="14">Infraestructura como servicio</tspan></text>
       </g>
-      <g id="Grupo_1071445" data-name="Grupo 1071445" transform="translate(-49.837 136.387)">
+      <g id="Grupo_1071445" data-name="Grupo 1071445" transform="translate(-50.449 10.271)">
         <path id="Trazado_818200" data-name="Trazado 818200" d="M-7328.94-5843.417h-65.567v-36.839h-234.811v-1h235.811v36.839h64.567Z" transform="translate(8176 11666.074)" fill="#12263f"/>
         <g id="Grupo_1071444" data-name="Grupo 1071444" transform="translate(839.449 5815.474)">
           <circle id="Elipse_7995" data-name="Elipse 7995" cx="4" cy="4" r="4" fill="#809299" opacity="0.45"/>
           <circle id="Elipse_7994" data-name="Elipse 7994" cx="5" cy="5" r="5" transform="translate(1 2)" fill="#12263f"/>
         </g>
       </g>
-      <g id="Grupo_1071446" data-name="Grupo 1071446" transform="translate(496.846 6057.904)">
+      <g id="Grupo_1071446" data-name="Grupo 1071446" transform="translate(496.233 5931.789)">
         <path id="Trazado_818200-2" data-name="Trazado 818200" d="M-7328.94-5850.862h-65.567v-29.394h-154.811v-1h155.811v29.394h64.567Z" transform="translate(7629.318 5880.756)" fill="#12263f"/>
         <g id="Grupo_1071444-2" data-name="Grupo 1071444" transform="translate(292.767 22.711)">
           <circle id="Elipse_7995-2" data-name="Elipse 7995" cx="4" cy="4" r="4" fill="#809299" opacity="0.45"/>
           <circle id="Elipse_7994-2" data-name="Elipse 7994" cx="5" cy="5" r="5" transform="translate(1 2)" fill="#12263f"/>
         </g>
       </g>
-      <g id="Grupo_1071447" data-name="Grupo 1071447" transform="translate(496.846 6178.693)">
+      <g id="Grupo_1071447" data-name="Grupo 1071447" transform="translate(496.233 6052.578)">
         <path id="Trazado_818200-3" data-name="Trazado 818200" d="M-7328.94-5835.574h-65.567v-44.683h-154.811v-1h155.811v44.683h64.567Z" transform="translate(7629.318 5880.756)" fill="#12263f"/>
         <g id="Grupo_1071444-3" data-name="Grupo 1071444" transform="translate(292.767 38)">
           <circle id="Elipse_7995-3" data-name="Elipse 7995" cx="4" cy="4" r="4" fill="#809299" opacity="0.45"/>
           <circle id="Elipse_7994-3" data-name="Elipse 7994" cx="5" cy="5" r="5" transform="translate(1 2)" fill="#12263f"/>
         </g>
       </g>
-      <g id="Grupo_1071436" data-name="Grupo 1071436" transform="translate(280 5899)">
+      <g id="Grupo_1071436" data-name="Grupo 1071436" transform="translate(279.388 5772.885)">
         <g id="Grupo_1071435" data-name="Grupo 1071435" clip-path="url(#clip-path)">
           <path id="Trazado_818190" data-name="Trazado 818190" d="M182.194,0,93.957,152.832,35.074,254.82,264.082,141.832Z" transform="translate(30.16)" fill="#b09353"/>
           <path id="Trazado_818192" data-name="Trazado 818192" d="M58.883,195.159,0,297.149,359.475,184.16,300.59,82.172Z" transform="translate(0 70.66)" fill="#ab6108"/>
@@ -104,7 +104,7 @@ Administradores TI." transform="translate(876.5 6076.578)" fill="#12263f" font-s
           <text id="_03" data-name="03" transform="translate(197.854 332.101)" fill="#12263f" font-size="27" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">03</tspan></text>
         </g>
       </g>
-      <g id="servidor_4_" data-name="servidor (4)" transform="translate(1176.097 6175.969)">
+      <g id="servidor_4_" data-name="servidor (4)" transform="translate(1175.484 6049.854)">
         <path id="Trazado_818201" data-name="Trazado 818201" d="M82.791,232a2.791,2.791,0,1,0,2.791,2.791A2.791,2.791,0,0,0,82.791,232Zm0,3.721a.93.93,0,1,1,.93-.93A.93.93,0,0,1,82.791,235.721Z" transform="translate(-21.209 -197.951)" fill="#12263f"/>
         <path id="Trazado_818202" data-name="Trazado 818202" d="M138.791,232a2.791,2.791,0,1,0,2.791,2.791A2.791,2.791,0,0,0,138.791,232Zm0,3.721a.93.93,0,1,1,.93-.93A.93.93,0,0,1,138.791,235.721Z" transform="translate(-70.697 -197.951)" fill="#12263f"/>
         <path id="Trazado_818203" data-name="Trazado 818203" d="M194.791,232a2.791,2.791,0,1,0,2.791,2.791A2.791,2.791,0,0,0,194.791,232Zm0,3.721a.93.93,0,1,1,.93-.93A.93.93,0,0,1,194.791,235.721Z" transform="translate(-120.185 -197.951)" fill="#12263f"/>
@@ -119,7 +119,7 @@ Administradores TI." transform="translate(876.5 6076.578)" fill="#12263f" font-s
         <path id="Trazado_818212" data-name="Trazado 818212" d="M194.791,85.582A2.791,2.791,0,1,0,192,82.791,2.791,2.791,0,0,0,194.791,85.582Zm0-3.721a.93.93,0,1,1-.93.93A.93.93,0,0,1,194.791,81.861Z" transform="translate(-120.185 -63.627)" fill="#12263f"/>
         <path id="Trazado_818213" data-name="Trazado 818213" d="M304.93,85.582h13.024a.93.93,0,0,0,.93-.93V80.93a.93.93,0,0,0-.93-.93H304.93a.93.93,0,0,0-.93.93v3.721A.93.93,0,0,0,304.93,85.582Zm.93-3.721h11.164v1.861H305.861Z" transform="translate(-219.16 -63.627)" fill="#12263f"/>
       </g>
-      <g id="desarrollo-de-aplicaciones" transform="translate(1226.401 6056.904)">
+      <g id="desarrollo-de-aplicaciones" transform="translate(1225.789 5930.789)">
         <path id="Trazado_818214" data-name="Trazado 818214" d="M54.692,1H3.73A2.73,2.73,0,0,0,1,3.73V43.771A2.73,2.73,0,0,0,3.73,46.5H22.585l-1.365,5.46H16.685a2.715,2.715,0,0,0-2.442,1.509l-1.318,2.635a.91.91,0,0,0,.814,1.317H44.681a.91.91,0,0,0,.819-1.317l-1.318-2.635a2.715,2.715,0,0,0-2.446-1.509H37.2L35.837,46.5H54.692a2.73,2.73,0,0,0,2.73-2.73V3.73A2.73,2.73,0,0,0,54.692,1ZM3.73,2.82H54.692a.91.91,0,0,1,.91.91V8.28H2.82V3.73A.91.91,0,0,1,3.73,2.82ZM55.6,10.1V37.4H2.82V10.1ZM42.55,54.285l.659,1.317h-28l.659-1.317a.9.9,0,0,1,.814-.5H41.737a.9.9,0,0,1,.814.5Zm-7.225-2.323H23.1l1.365-5.46h9.5Zm19.366-7.28H3.73a.91.91,0,0,1-.91-.91v-4.55H55.6v4.55A.91.91,0,0,1,54.692,44.681Z"/>
         <path id="Trazado_818215" data-name="Trazado 818215" d="M30,5h3.64V6.82H30Z" transform="translate(-2.609 -0.36)"/>
         <path id="Trazado_818216" data-name="Trazado 818216" d="M36,5h1.82V6.82H36Z" transform="translate(-3.149 -0.36)"/>
@@ -129,7 +129,7 @@ Administradores TI." transform="translate(876.5 6076.578)" fill="#12263f" font-s
         <path id="Trazado_818220" data-name="Trazado 818220" d="M5.91,27.56H7.3a8.432,8.432,0,0,0,.329.794l-.979.98a.91.91,0,0,0,0,1.287L9.219,33.2a.91.91,0,0,0,1.287,0l.98-.979a8.432,8.432,0,0,0,.794.329v1.385a.91.91,0,0,0,.91.91h3.64a.91.91,0,0,0,.91-.91V32.546a8.432,8.432,0,0,0,.794-.329l.98.979a.91.91,0,0,0,1.287,0l2.574-2.574a.91.91,0,0,0,0-1.287l-.979-.98a8.433,8.433,0,0,0,.329-.794h1.385a.91.91,0,0,0,.91-.91v-.91h3.64v7.28a.91.91,0,0,0,.91.91h6.37v1.82a.91.91,0,0,0,.91.91H53.232a.91.91,0,0,0,.91-.91v-5.46a.91.91,0,0,0-.91-.91H36.851a.91.91,0,0,0-.91.91v1.82h-5.46V25.74h5.46v.91a.91.91,0,0,0,.91.91H53.232a.91.91,0,0,0,.91-.91V23.01a.91.91,0,0,0-.91-.91H36.851a.91.91,0,0,0-.91.91v.91h-5.46V17.55h5.46v1.82a.91.91,0,0,0,.91.91H53.232a.91.91,0,0,0,.91-.91V13.91a.91.91,0,0,0-.91-.91H36.851a.91.91,0,0,0-.91.91v1.82h-6.37a.91.91,0,0,0-.91.91v7.28h-3.64v-.91a.91.91,0,0,0-.91-.91H22.726a8.433,8.433,0,0,0-.329-.794l.979-.98a.91.91,0,0,0,0-1.287L20.8,16.465a.91.91,0,0,0-1.287,0l-.98.979a8.431,8.431,0,0,0-.794-.329V15.73a.91.91,0,0,0-.91-.91H13.19a.91.91,0,0,0-.91.91v1.385a8.432,8.432,0,0,0-.794.329l-.98-.979a.91.91,0,0,0-1.287,0L6.645,19.039a.91.91,0,0,0,0,1.287l.979.98A8.432,8.432,0,0,0,7.3,22.1H5.91a.91.91,0,0,0-.91.91v3.64A.91.91,0,0,0,5.91,27.56ZM37.761,31.2h14.56v3.64H37.761Zm0-7.28h14.56v1.82H37.761Zm0-9.1h14.56v3.64H37.761ZM6.82,23.92H7.969a.91.91,0,0,0,.881-.683A6.37,6.37,0,0,1,9.527,21.6a.91.91,0,0,0-.14-1.107l-.812-.812,1.287-1.287.812.812a.91.91,0,0,0,1.107.14,6.37,6.37,0,0,1,1.638-.678.91.91,0,0,0,.683-.881V16.64h1.82v1.148a.91.91,0,0,0,.683.881,6.37,6.37,0,0,1,1.638.678.91.91,0,0,0,1.107-.14l.812-.812,1.287,1.287-.812.812A.91.91,0,0,0,20.5,21.6a6.37,6.37,0,0,1,.678,1.638.91.91,0,0,0,.881.683H23.2v1.82H22.052a.91.91,0,0,0-.881.683,6.37,6.37,0,0,1-.678,1.638.91.91,0,0,0,.14,1.107l.812.812-1.287,1.287-.812-.812a.91.91,0,0,0-1.107-.14,6.37,6.37,0,0,1-1.638.678.91.91,0,0,0-.683.881v1.147H14.1V31.872a.91.91,0,0,0-.683-.881,6.37,6.37,0,0,1-1.638-.678.91.91,0,0,0-1.107.14l-.812.812L8.576,29.978l.812-.812a.91.91,0,0,0,.14-1.107,6.37,6.37,0,0,1-.678-1.638.91.91,0,0,0-.881-.682H6.82Z" transform="translate(-0.36 -1.08)"/>
         <path id="Trazado_818221" data-name="Trazado 818221" d="M15.55,30.1A4.55,4.55,0,1,0,11,25.55a4.55,4.55,0,0,0,4.55,4.55Zm0-7.28a2.73,2.73,0,1,1-2.73,2.73A2.73,2.73,0,0,1,15.55,22.82Z" transform="translate(-0.9 -1.799)"/>
       </g>
-      <g id="clasificacion_1_" data-name="clasificacion (1)" transform="translate(1228.837 5932.646)">
+      <g id="clasificacion_1_" data-name="clasificacion (1)" transform="translate(1228.225 5806.53)">
         <g id="g639" transform="translate(0 0.002)">
           <g id="g641" transform="translate(0 0)">
             <g id="g643" transform="translate(-5.909 -9.762)" clip-path="url(#clip-path-10)">

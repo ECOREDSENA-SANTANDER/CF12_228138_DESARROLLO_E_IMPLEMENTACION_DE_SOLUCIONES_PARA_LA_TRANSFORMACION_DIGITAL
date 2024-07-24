@@ -53,13 +53,13 @@
       .row.align-items-top.justify-content-center
         .col-lg-6.col-12-md-12
           h4.mb-4 #[em Mainframe]
-          p Se considera como la primera supercomputadora moderna, creada por #[em IBM] en los años 60, consistía en una máquina de cómputo central donde se llevaban todos los datos a manera de tarjetas perforadas para su procesamiento. 
+          p Se considera como la primera supercomputadora moderna, creada por IBM en los años 60, consistía en una máquina de cómputo central donde se llevaban todos los datos a manera de tarjetas perforadas para su procesamiento. 
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.png', alt='')
       .row.align-items-top.justify-content-center
         .col-lg-6.col-md-12
           h4.mb-4 Tomas Watson
-          p Lanzó el modelo #[em IBM]/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
+          p Lanzó el modelo IBM/360, el 7 de abril de 1964 quien fuera la sucesora de los #[em Mainframes], consistió en lanzar varias referencias.
         .col-lg-6.col-md-10
           img.img-a.img-t(src='@/assets/curso/temas/tema1/img4.1.png', alt='')
       .row.align-items-top.justify-content-center
@@ -197,7 +197,7 @@
         h4.mb-4.colored #[em On-premise]
         p.mb-4 (En local), (en local), significa que el recurso informático, ya sea #[em Hardware, software], comunicación, etc; se encuentra en la empresa, es propiedad de ella misma. Por lo general, los planes de compra se ejecutan bajo un presupuesto de inversión inicial alto.
         p.mb-5 Los equipos, servidores o aplicaciones hacen parte de los activos corporativos, pero en adelante no tendrá que pagar por el uso de estos recursos. Su dominio es total, al igual que su operación y mantenimiento, se podría configurar una nube privada.
-        h4.mb-4.colored #[em IaaS] (Infraestructura como servicio)
+        h4.mb-4.colored IaaS (Infraestructura como servicio)
         p.mb-4 En términos generales, se refiere a la contratación de máquinas (#[em hardware]). Se contratan por lo general, equipos servidores, o si es política de la empresa, asignarle a cada empleado su computadora donde trabajará y guardará su información. 
         p.mb-0 La infraestructura incluye máquinas de comunicación como #[em routers], #[em firewall], servidores y computadoras personales. Se tiene la opción de elegir las características #[em hardware] de los dispositivos. 
 
@@ -206,12 +206,12 @@
     .row.align-items-center.justify-content-center.mb-0(data-aos="zoom-in-left")
       .col-lg-6.col-md-12.col-12
         .bg5.p-5.mb-4
-          p.mb-3 #[em #[b PaaS ]]#[b (Plataformas como Servicio):]
-          p.mb-0 Está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura #[em PaaS] los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
+          p.mb-3 #[b PaaS ]#[b (Plataformas como Servicio):]
+          p.mb-0 Está orientado a la adquisición de un ambiente de desarrollo, al utilizar infraestructura PaaS los entornos vienen ya listos y solo deberían concentrarse en el desarrollo de la aplicación. 
       .col-lg-6.col-md-9.col-9
         img.mb-5.d-none.d-lg-block(data-aos="zoom-in")(src='@/assets/curso/temas/tema1/img9.png', alt='')
     
-    p.mb-4  #[b #[em SaaS] (#[em Software] como Servicio):] son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el Office, si bien por ejemplo Word podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
+    p.mb-4  #[b SaaS (#[em Software] como Servicio):] son aquellas aplicaciones que se encuentran en la nube, un ejemplo de este tipo de servicios es el Office, si bien por ejemplo Word podría estar instalado en la máquina local, también se puede trabar con la aplicación que se accede a través del navegador y todo sincronizado entre lo local y la nube.  En la figura 3 se representa el modelo de servicios escalables en la nube:
     
     .row.mb-4
       .col-lg-12-sm-10.col-md-12.col-lg-12.m-auto    
@@ -230,8 +230,8 @@
     p.mb-4 Los gigantes de la nube están expandiendo rápidamente sus operaciones para capitalizar el crecimiento de demanda que acompañará a la aceleración de la transformación digital. Los más populares y líderes en el mercado so n los siguientes:
     
     TabsA.color-acento-botones.mb-4
-      .tarjeta.bg145.p-5(titulo="Amazon <em>Web</em> Services")
-        h4 #[em Amazon Web Services]
+      .tarjeta.bg145.p-5(titulo="Amazon Web Services")
+        h4 Amazon Web Services
         .row 
           .col-sm-12.col-md-8
             p Modelo de computación en la nube flexible, con concepto autoescalable según su uso, cuenta con herramientas para el procesamiento de soluciones analíticas e inteligencia artificial.
@@ -241,7 +241,9 @@
         h4 Azure
         .row
           .col-sm-12.col-md-8
-            p Trabajar bajo el ecosistema de Microsoft es trabajar con las herramientas más usadas en el mundo bajo el esquema de Windows, herramientas Office y la infraestructura de Azure.
+            p Trabajar bajo el ecosistema 
+            
+            de Microsoft es trabajar con las herramientas más usadas en el mundo bajo el esquema de Windows, herramientas Office y la infraestructura de Azure.
           .col-sm-12.col-md-4
             img.img-t(src='@/assets/curso/temas/tema1/img11.1.png')
       .tarjeta.bg145.p-5(titulo="Google Cloud")

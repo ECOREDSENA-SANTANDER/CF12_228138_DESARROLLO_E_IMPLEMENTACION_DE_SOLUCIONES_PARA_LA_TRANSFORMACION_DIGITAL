@@ -75,7 +75,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Software de virtualización ',
+        titulo: '<em>Software</em> de virtualización ',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -103,7 +103,7 @@ export default {
         subMenu: [
           {
             numero: '4.1',
-            titulo: ' Contenedores de software ',
+            titulo: ' Contenedores de <em>software</em>',
             hash: 't_4_1',
           },
           {
@@ -113,7 +113,7 @@ export default {
           },
           {
             numero: '4.3',
-            titulo: ' Docker',
+            titulo: '<em>Docker</em>',
             hash: 't_4_3',
           },
         ],
@@ -278,7 +278,7 @@ export default {
     {
       termino: '<em>Web</em> 2.0',
       significado:
-        'Concepto que nace a partir del surgimiento de un conjunto de tecnologías que facilitó, como nunca antes, la publicación y colaboración de usuarios en Internet. (redes sociales, streamings, Blogs, Wikis, Podcast, etc.). ',
+        'Concepto que nace a partir del surgimiento de un conjunto de tecnologías que facilitó, como nunca antes, la publicación y colaboración de usuarios en Internet. (redes sociales, <em>streamings</em>, Blogs, Wikis, <em>Podcast</em>, etc.). ',
     },
     {
       termino: '<em>SSD</em>',
@@ -333,68 +333,50 @@ export default {
   ],
   referencias: [
     {
-      referencia: 'Amazon (2021). AWS Directory Service ',
-      link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1  ',
+      referencia: 'Amazon (2021). AWS Directory Service.',
+      link: 'https://aws.amazon.com/es/directoryservice/?nc=sn&loc=1',
     },
     {
-      referencia: 'Allcode.com (2021). 10 Top Cloud Providers in 2021. ',
-      link: 'https://allcode.com/cloud-providers/ ',
+      referencia: 'Allcode.com (2021). 10 Top Cloud Providers in 2021.',
+      link: 'https://allcode.com/cloud-providers/',
     },
     {
       referencia:
         'Claranet.es (2021). 6 enfoques para afrontar la migración a la nube.',
       link:
-        ' https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube  ',
+        'https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
     },
     {
       referencia:
-        'Cloud computing.Blog. (8 de julio de 2016). Cloud computing. Obtenido de Entendiendo a la nube informática:',
+        'Cloud computing.Blog. (8 de julio de 2016). Cloud computing.',
       link:
-        'http://cloud-computing-bcs.blogspot.com/2016/07/evolucion-del-cloud-computing.html ',
+        'http://cloud-computing-bcs.blogspot.com/2016/07/evolucion-del-cloud-computing.html',
     },
     {
       referencia:
-        'Demlow, D. (1 de septiembre de 2020). Snapshots vs. Backups, Why You Need Both. Obtenido de scalecomputing.com.',
+        'Demlow, D. (1 de septiembre de 2020). Snapshots vs. Backups, Why You Need Both.',
       link:
-        'https://www.scalecomputing.com/blog/the-differences-between-snapshots-and-backups-and-why-you-need-both ',
+        'https://www.scalecomputing.com/blog/the-differences-between-snapshots-and-backups-and-why-you-need-both',
     },
     {
       referencia:
-        'Electro personalizados. (6 de octubre de 2020). Electro personalizados. Obtenido de ¿Quién inventó la unidad flash USB o Pendrive? ',
+        'Electro personalizados. (6 de octubre de 2020). Electro personalizados.',
       link:
-        'https://www.electropersonalizados.com/quien-invento-la-unidad-flash-usb-o-pendrive/ ',
+        'https://www.electropersonalizados.com/quien-invento-la-unidad-flash-usb-o-pendrive/',
     },
     {
       referencia:
-        'Islámica, L. (4 de marzo de 2020). SAAS, PAAS O IAAS: ¿QUÉ SIGNIFICAN Y CÓMO ELEGIR? Obtenido de',
-      link: 'https://www.dstny.se/en/blog/saas-paas-iaas/ ',
+        'Islámica, L. (4 de marzo de 2020). SAAS, PAAS O IAAS: ¿QUÉ SIGNIFICAN Y CÓMO ELEGIR?.',
+      link: 'https://www.dstny.se/en/blog/saas-paas-iaas/',
     },
     {
-      referencia: 'MinTIC (2016). Seguridad en la Nube.  ',
-      link:
-        'https://mintic.gov.co/gestionti/615/articles-5482_G12_Seguridad_Nube.pdf  ',
-    },
-    {
-      referencia:
-        'Olivares, J. G., Caparrós Ramírez, j., & Cubero Luque, L. (2019). devOps y seguridad cloud. Brcelona: Editorial UOC. Obtenido de  ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/128889  ',
-    },
-    {
-      referencia:
-        'Oracle. (s.f.). Oracle help center. Obtenido de Copia de seguridad de los datos locales en la nube:',
+      referencia: 'Oracle. (s.f.). Oracle help center.',
       link:
         'https://docs.oracle.com/es/solutions/onprem-to-cloud-backup/index.html#GUID-D8E2ABE2-1CDB-47FE-87BF-214FF9D9CE6C ',
     },
     {
       referencia:
-        'Páez, I., Sabrina, M., Umaña, V., Méndez, R., & Rivera, L. (2022). Transformación digital en las organizaciones. Bogotá:  ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/219878.  ',
-    },
-    {
-      referencia:
-        'UNIÓN SINDICAL DE CCOO DE CASTILLA Y LEÓN. (s. f.). La Industria 4.0 es imparable y, de no adaptarnos, tendrá efectos muy graves sobre el empleo. http://docpublicos.ccoo.es/.',
+        'UNIÓN SINDICAL DE CCOO DE CASTILLA Y LEÓN. (s. f.). La Industria 4.0 es imparable y, de no adaptarnos, tendrá efectos muy graves sobre el empleo.',
       link: 'http://docpublicos.ccoo.es/cendoc/049437Industria40Imparable.pdf',
     },
   ],
@@ -441,7 +423,7 @@ export default {
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Regional Distrito Capital - Centro de Diseño y Metrología',
         },
         {
@@ -469,6 +451,11 @@ export default {
           cargo: 'Animadora y Productora Multimedia',
           centro: 'Regional Santander - Centro Agroturístico',
         },
+        {
+          nombre: 'Lucenith Pinilla Moreno',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
       ],
     },
     {
@@ -481,7 +468,7 @@ export default {
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Validación de Contenidos Accesibles',
+          cargo: 'Validadora para Contenidos Inclusivos y Accesibles',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],

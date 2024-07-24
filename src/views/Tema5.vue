@@ -24,7 +24,7 @@
 
     .row.align-items-center.justify-content-center(data-aos="zoom-in-left")
       .col-lg-8
-        p.bg10.p-4.mb-3 #[b Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración] la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
+        p.bg10.p-4.mb-3 #[b Todo proyecto de implementación de servicios en la nube debe estar orientado o dirigido por una estrategia definida de migración,] la cual varía según múltiples factores, por lo que no hay una única estrategia para una cartera de productos TI.
         .d-flex.align-items-center.justify-content-center
           img.img-a.img-t.d-none.d-lg-block.mb-5(src='@/assets/curso/temas/tema5/img2.svg', alt='')
           p.ml-1-custom No obstante, una de las ventajas de la infraestructura #[em cloud ]es permitir combinar servicios que consoliden las necesidades de la organización. En el #[em cloud computing] se suele utilizar la fórmula de ‘las 6 Rs’ para identificar distintas estrategias de migración a aplicar en función de las características del proyecto TI, como puede apreciarse en la figura que se encuentra a continuación.

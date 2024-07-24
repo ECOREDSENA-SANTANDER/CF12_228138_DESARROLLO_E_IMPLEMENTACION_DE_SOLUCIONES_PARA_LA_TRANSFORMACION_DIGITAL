@@ -13,7 +13,7 @@
           .row 
             .col-lg-8.md-lg-10.col-12
               .bg-whiter-r.p-2.mx-2.mb-4
-                p.mb-0.p-2 #[em Cloud Storage] (almacenamiento en la nube), uno de los servicios del #[em computing cloud,] es importante conocer el pasado para entender mejor el nivel de avance y mejoramiento que han traído los servicios en la nube. #[b Las maneras de salvar los datos han tenido múltiples tecnologías y medios físicos, como: ]
+                p.mb-0.p-2 #[em Cloud Storage] (almacenamiento en la nube), uno de los servicios del #[em cloud computing,] es importante conocer el pasado para entender mejor el nivel de avance y mejoramiento que han traído los servicios en la nube. #[b Las maneras de salvar los datos han tenido múltiples tecnologías y medios físicos, como: ]
               ul.lista-ul--color.mx-1
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
@@ -35,7 +35,7 @@
                   p.mb-0 Los servicios de almacenamiento de archivos en línea han sido de los primeros servicios para internet. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
-                  p.mb-0 La nube es una funcionalidad evolucionada de los tradicionales sistemas ftp y otros para la transferencia y sincronización de archivos. 
+                  p.mb-0 La nube es una funcionalidad evolucionada de los tradicionales sistemas FTP y otros para la transferencia y sincronización de archivos. 
                 li.mb-0.pb-1 
                   i.fas.fa-chevron-right.mx-2
                   p.mb-0 Actualmente, las unidades de almacenamiento de estado sólido (a veces mal llamados como discos de estado sólido) han sido la evolución y mejoramiento de la tecnología inventada por Masuoka.
@@ -97,7 +97,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Centros de datos de AWS 
-                  p.mb-0 Estimado aprendiz, para conocer más sobre centros de datos (data centers) de AWS ingresa al siguiente enlace: 
+                  p.mb-0 Estimado aprendiz, para conocer más sobre centros de datos (#[em data centers]) de AWS ingresa al siguiente enlace: 
                 .col-sm-auto
                   a.boton.color-acento-botones(href="https://aws.amazon.com/es/compliance/data-center/controls" target="_blank")
                     span Ir al sitio
@@ -132,7 +132,7 @@
                   img.end.d-none.d-lg-block.my-0(src='@/assets/curso/temas/tema2/img5.2.svg', alt='')
 
 
-    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación, en la figura 5 se presenta un ejemplo de un sistema de almacenamiento elástico creado por IBM:
+    p.mb-4 Estos dispositivos son usados en los servidores de almacenamiento que vienen provistos de su propio #[em software] para simplificar el proceso, además de administrar la elasticidad de almacenamiento, ya sea por servicios o por usuarios, tiene la posibilidad de ampliar capacidad global adicionando más unidades de almacenamiento. A continuación, en la figura 5 se presenta un ejemplo de un sistema de almacenamiento elástico creado por IBM:
 
     .row.mb-2
       .col-lg-10-sm-10.col-md-12.col-lg-12.m-auto    
@@ -252,7 +252,7 @@
         .cajon 
           p.mb-1.mx-2.p-3 La arquitectura anterior es un ejemplo implementado por Oracle con su servicio Oracle Cloud #[em Infrastructure]. Cada profesional en TI o empresa determina la topología y flujos para la gestión de copias de respaldo. En este caso, se establece el almacenamiento bajo el dominio de disponibilidad, que no es más que la localización de los centros de datos donde se encuentran los nodos que contienen las unidades de almacenamiento.
           p.mb-2.mx-4 Luego se encuentra el almacenamiento de objetos, corresponde a la plataforma de almacenamiento de alto rendimiento con características elásticas. Cuenta con gestión de identidad y acceso que controla el ingreso a los recursos #[em cloud]. Controla niveles de accesos según permisos asignados a los usuarios.  
-          p.mb-3.mx-4 La conexión veloz, es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de Oracle cloud, la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. (Oracle, s.f.).
+          p.mb-3.mx-4 La conexión veloz es el puente de comunicación entre la infraestructura del dominio de disponibilidad con los equipos locales #[em (On-premises)] de las organizaciones a través de plataformas del servicio, en este ejemplo puede ser con las puertas de enlace de Oracle cloud, la herramienta de un tercero que gestione #[em backups] y sincronización de archivos locales, y/o conexión a las bases de datos. (Oracle, s.f.).
             .col-lg-6.md-lg-10.col-12 
             img.mb-0(data-aos="zoom-in")(src='@/assets/curso/temas/tema2/abaj.png',)
       figcaption Nota. https://docs.oracle.com/es/solutions/onprem-to-cloud-backup/index.html

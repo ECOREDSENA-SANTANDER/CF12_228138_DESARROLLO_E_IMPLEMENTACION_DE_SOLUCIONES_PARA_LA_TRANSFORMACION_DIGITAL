@@ -20,8 +20,8 @@
                 .col-lg-10
                   .row.justify-content-between.align-items-center
                     .col-auto
-                      p.mb-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma #[em Docker] la cual es ampliamente utilizada por #[b la industria de desarrollo de #[em software.]]
-            p Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de #[em Docker], construir y ejecutar contenedores #[em Docker] a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube #[em Docker Hub.]
+                      p.mb-0 Una vez revisadas los conceptos y características del servicio de directorio y la virtualización, nos adentramos un poco más en los modelos de virtualización a nivel de sistema operativo y adicionalmente se desarrollarán varios ejercicios que nos introducen a la plataforma #[em Docker,] la cual es ampliamente utilizada por #[b la industria de desarrollo de #[em software.]]
+            p Al finalizar este componente formativo, el aprendiz estará en la capacidad de crear imágenes de #[em Docker], construir y ejecutar contenedores #[em Docker] a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editado a una imagen y compartir una imagen local en el repositorio en la nube #[em Docker Hub.]
 
 
     Separador
@@ -47,7 +47,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Disminución de gastos") Requieren menos recursos del sistema comparado con sistema de virtualización tradicionales.
+          p(numero="1" titulo="Disminución de gastos") Requieren menos recursos del sistema comparado con sistema de virtualización tradicional.
           p(numero="2" titulo="Mayor portabilidad") Se pueden implementar fácilmente en diferentes plataformas y sistemas operativos.
           p(numero="3" titulo="Funcionamiento coherente") Siempre se ejecutan de la misma manera independientemente del lugar donde se implementen. 
           p(numero="4" titulo="Mayor eficiencia") Permiten la implementación de modificaciones y/o escalamiento de funcionalidades con mayor rapidez. 
@@ -111,7 +111,7 @@
         .bg10.p-4.mb-1(data-aos="fade-left") 
             .row
               .col-lg-12
-                p.mb-2.mb-3 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con Visual Studio .Net es necesario también montar en la máquina virtual el sistema operativo Windows, si la aplicación a ejecutar en la máquina virtual fue construida en Swift requiere entonces la instalación del sistema operativo MacOS y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las #[em App] a utilizar. 
+                p.mb-2.mb-3 En las máquinas virtuales para poder ejecutar una aplicación específica se requiere de librerías y códigos binarios de los cuales depende y adicionalmente requiere el montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con Visual Studio .Net es necesario también montar en la máquina virtual el sistema operativo Windows, si la aplicación a ejecutar en la máquina virtual fue construida en Swift requiere entonces la instalación del sistema operativo MacOS y así sucesivamente en todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las #[em apps] a utilizar. 
                 .align-self-end 
                   img.deree.img-t.img-a.mx-5(src='@/assets/curso/temas/tema4/puntos.svg', alt='')
     

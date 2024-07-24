@@ -21,7 +21,7 @@
                 p.text-center.mb-4 #[b Linux]
               .col-lg-3.col-md-3.mx-3.cajaaas.my-3
                 img.img-a.img-t.px-1.py-2.mt-2(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img1.2.svg', alt='')
-                p.text-center.mb-4 #[b Ubunto]
+                p.text-center.mb-4 #[b Ubuntu]
       .col-lg-4.col-md-9.col-9
         img.img-a.img-t.mb-3(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img1.3.png', alt='')
     
@@ -47,7 +47,7 @@
       .col-lg-8.md-lg-10.col-12
         p.mb-3 Normalmente un conjunto de recursos infraestructura como discos, memorias, procesadores, etc. que están presentes en un equipo o grupo de servidores son ocupados únicamente por el sistema operativo y las aplicaciones que se ejecutan sobre este, y no siempre se usa todo su potencial al 100% provocando desperdicios en el uso de recursos, con la virtualización podemos hacer que estos recursos ejecuten una o varias máquinas virtuales al mismo tiempo y cada una de estas máquinas podrá ejecutar su propio conjunto de aplicaciones con sistemas operativos totalmente independientes como se representa en la figura 7.
         .bg10.mb-4.p-4(data-aos="fade-left") 
-          p.mb-0 Una máquina virtual (MV) es un #[em software] especial que funciona como un contenedor de #[em software] donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como #[em host.]
+          p.mb-0 Una máquina virtual (MV) es un #[em software] especial que funciona como un contenedor de #[em software] donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales, cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como #[em host.]
       .col-lg-4.col-md-9.col-9
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/tema3/img4.png', alt='')
     
@@ -129,7 +129,7 @@
               .col-lg-6.col-md-12.col-12.mb-2
                 .tarjetassss.my-4.he-4-cuii.px-4.pt-2
                   h4.mb-3.mt-4 Para virtualización
-                  p.mb-3 En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y en algunos casos se pueden presentar problemas de compatibilidad de #[em hardware.]
+                  p.mb-3 En este esquema cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros, por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos, adicionalmente se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan para virtualización y en algunos casos se pueden presentar problemas de compatibilidad de #[em hardware.]
                     .d-flex.justify-content-center
                       .col-lg-8
                         img.img-t.img-a.mb-5(src="@/assets/curso/temas/tema3/img7.1.png",alt='La imagen muestra un esquema de la para virtualización, donde cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los demás, lo que permite al hipervisor (Hypervisor) liberar parte de su carga de gestión. Esto facilita la creación de copias de seguridad, hace las migraciones más rápidas, mejora la utilización del sistema y ahorra energía. Sin embargo, no todos los sistemas operativos soportan la para virtualización, lo que puede causar problemas de compatibilidad de hardware. En la estructura, se ve el hardware en la base, el hipervisor sobre el hardware, y encima de este, los sistemas operativos invitados modificados (Modified Guest OS) con sus aplicaciones (Apps), junto a una sección de gestión (Mgmt) para la administración. ')
