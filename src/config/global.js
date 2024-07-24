@@ -379,6 +379,11 @@ export default {
         'UNIÓN SINDICAL DE CCOO DE CASTILLA Y LEÓN. (s. f.). La Industria 4.0 es imparable y, de no adaptarnos, tendrá efectos muy graves sobre el empleo.',
       link: 'http://docpublicos.ccoo.es/cendoc/049437Industria40Imparable.pdf',
     },
+    {
+      referencia: '¿Qué es la seguridad en la nube? (2023, 27 noviembre).',
+      link:
+        'https://www.kaspersky.es/resource-center/definitions/what-is-cloud-security',
+    },
   ],
   creditos: [
     {
