@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="385" viewBox="0 0 820 385">
+  <g id="Grupo_1076393" data-name="Grupo 1076393" transform="translate(-600 -6546)">
+    <path id="Trazado_824831" data-name="Trazado 824831" d="M0,0H820V385H0Z" transform="translate(600 6546)" fill="#e9f0f3"/>
+    <rect id="Rectángulo_46207" data-name="Rectángulo 46207" width="182" height="44" transform="translate(715 6569)" fill="#ffc8bf"/>
+    <rect id="Rectángulo_46210" data-name="Rectángulo 46210" width="182" height="44" transform="translate(714.591 6628)" fill="#ffc8bf"/>
+    <rect id="Rectángulo_46214" data-name="Rectángulo 46214" width="182" height="44" transform="translate(714.591 6687)" fill="#ffc8bf"/>
+    <rect id="Rectángulo_46208" data-name="Rectángulo 46208" width="182" height="44" transform="translate(920 6569)" fill="#3e747f"/>
+    <rect id="Rectángulo_46211" data-name="Rectángulo 46211" width="182" height="44" transform="translate(919.591 6628)" fill="#3e747f"/>
+    <rect id="Rectángulo_46213" data-name="Rectángulo 46213" width="182" height="44" transform="translate(919.591 6687)" fill="#3e747f"/>
+    <rect id="Rectángulo_46209" data-name="Rectángulo 46209" width="182" height="44" transform="translate(1131 6569)" fill="#ff6148"/>
+    <rect id="Rectángulo_46212" data-name="Rectángulo 46212" width="182" height="44" transform="translate(1130.591 6628)" fill="#ff6148"/>
+    <rect id="Rectángulo_46215" data-name="Rectángulo 46215" width="182" height="44" transform="translate(1130.591 6687)" fill="#ff6148"/>
+    <text id="Aplicación_1" data-name="Aplicación 1" transform="translate(750 6600)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Aplicación 1</tspan></text>
+    <text id="Bibliotecas_" data-name="Bibliotecas /" transform="translate(750 6658)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Bibliotecas /</tspan></text>
+    <text id="Sistemas" transform="translate(764 6717)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Sistemas</tspan></text>
+    <text id="Aplicación_2" data-name="Aplicación 2" transform="translate(955 6600)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Aplicación 2</tspan></text>
+    <text id="Bibliotecas_2" data-name="Bibliotecas /" transform="translate(955 6658)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Bibliotecas /</tspan></text>
+    <text id="Sistemas-2" data-name="Sistemas" transform="translate(969 6717)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Sistemas</tspan></text>
+    <text id="Aplicación_3" data-name="Aplicación 3" transform="translate(1166 6600)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Aplicación 3</tspan></text>
+    <rect id="Rectángulo_46216" data-name="Rectángulo 46216" width="598" height="44" transform="translate(715 6746.5)" fill="#ff6148"/>
+    <rect id="Rectángulo_46217" data-name="Rectángulo 46217" width="598" height="44" transform="translate(715 6805.5)" fill="#12263f"/>
+    <rect id="Rectángulo_46218" data-name="Rectángulo 46218" width="598" height="44" transform="translate(715 6864.5)" fill="#a3dce7"/>
+    <text id="Hipervisor" transform="translate(967 6776.5)" fill="#12263f" font-size="20" font-family="SegoeUIBlack-Italic, Segoe UI" font-style="italic"><tspan x="0" y="0">Hipervisor</tspan></text>
+    <text id="Sistema_operativo_host" data-name="Sistema operativo host" transform="translate(909 6836.5)" fill="#fff" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Sistema operativo</tspan><tspan y="0" xml:space="preserve" font-family="SegoeUIBlack-Italic, Segoe UI" font-style="italic"> host</tspan></text>
+    <text id="Hardware" transform="translate(970 6894.5)" fill="#12263f" font-size="20" font-family="SegoeUIBlack-Italic, Segoe UI" font-style="italic"><tspan x="0" y="0">Hardware</tspan></text>
+    <text id="Bibliotecas_3" data-name="Bibliotecas /" transform="translate(1165 6658)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Bibliotecas /</tspan></text>
+    <text id="Sistemas-3" data-name="Sistemas" transform="translate(1180 6717)" fill="#12263f" font-size="20" font-family="SegoeUIBlack, Segoe UI"><tspan x="0" y="0">Sistemas</tspan></text>
+  </g>
+</svg>
